@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Emap.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Emap.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='emaps'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/emap/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_emap_create();
+				Naxx.Models.Emap.bind('created', function(ev, emap){
+					$('<div>').html("<h3>"+emap.name+"</h3><p>"+emap.description+"</p>")
+					        .appendTo( $('#emaps') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

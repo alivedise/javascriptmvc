@@ -1,0 +1,5 @@
+<%for(var i = 0; i < this.length ; i++){%>
+	<li <%= this[i]%>>
+		<%== $.View('//naxx/system_log/list/views/system_log.ejs', this[i] )%>
+	</li>
+<%}%>

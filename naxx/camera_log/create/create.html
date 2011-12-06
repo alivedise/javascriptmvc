@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.CameraLog.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.CameraLog.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='camera_logs'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/camera_log/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_camera_log_create();
+				Naxx.Models.CameraLog.bind('created', function(ev, camera_log){
+					$('<div>').html("<h3>"+camera_log.name+"</h3><p>"+camera_log.description+"</p>")
+					        .appendTo( $('#camera_logs') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Recording.List Demo</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Recording.List Demo</h1>
+		<ul id='recordings'></ul>
+		<a href='javascript://' id='create'>Create Recording</a>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/recording/list','naxx/fixtures',function(){
+				
+				$('#recordings').naxx_recording_list();
+				
+				$('#create').click(function(){
+					new Naxx.Models.Recording({
+						name: "Grilled Cheese",
+						description: "Bread and Cheese"
+					}).save();
+				})
+			})
+		</script>
+	</body>
+</html>

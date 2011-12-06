@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Recording.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Recording.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='recordings'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/recording/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_recording_create();
+				Naxx.Models.Recording.bind('created', function(ev, recording){
+					$('<div>').html("<h3>"+recording.name+"</h3><p>"+recording.description+"</p>")
+					        .appendTo( $('#recordings') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

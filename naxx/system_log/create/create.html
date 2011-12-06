@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.SystemLog.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.SystemLog.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='system_logs'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/system_log/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_system_log_create();
+				Naxx.Models.SystemLog.bind('created', function(ev, system_log){
+					$('<div>').html("<h3>"+system_log.name+"</h3><p>"+system_log.description+"</p>")
+					        .appendTo( $('#system_logs') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

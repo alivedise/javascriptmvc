@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Bookmark.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Bookmark.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='bookmarks'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/bookmark/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_bookmark_create();
+				Naxx.Models.Bookmark.bind('created', function(ev, bookmark){
+					$('<div>').html("<h3>"+bookmark.name+"</h3><p>"+bookmark.description+"</p>")
+					        .appendTo( $('#bookmarks') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

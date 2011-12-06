@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Disk.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Disk.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='disks'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/disk/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_disk_create();
+				Naxx.Models.Disk.bind('created', function(ev, disk){
+					$('<div>').html("<h3>"+disk.name+"</h3><p>"+disk.description+"</p>")
+					        .appendTo( $('#disks') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

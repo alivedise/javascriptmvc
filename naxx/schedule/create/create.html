@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Schedule.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Schedule.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='schedules'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/schedule/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_schedule_create();
+				Naxx.Models.Schedule.bind('created', function(ev, schedule){
+					$('<div>').html("<h3>"+schedule.name+"</h3><p>"+schedule.description+"</p>")
+					        .appendTo( $('#schedules') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

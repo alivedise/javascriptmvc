@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Encoder.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Encoder.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='encoders'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/encoder/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_encoder_create();
+				Naxx.Models.Encoder.bind('created', function(ev, encoder){
+					$('<div>').html("<h3>"+encoder.name+"</h3><p>"+encoder.description+"</p>")
+					        .appendTo( $('#encoders') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

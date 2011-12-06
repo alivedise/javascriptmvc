@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Tcpip.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Tcpip.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='tcpips'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/tcpip/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_tcpip_create();
+				Naxx.Models.Tcpip.bind('created', function(ev, tcpip){
+					$('<div>').html("<h3>"+tcpip.name+"</h3><p>"+tcpip.description+"</p>")
+					        .appendTo( $('#tcpips') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

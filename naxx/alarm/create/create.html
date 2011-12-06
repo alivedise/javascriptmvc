@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Alarm.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Alarm.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='alarms'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/alarm/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_alarm_create();
+				Naxx.Models.Alarm.bind('created', function(ev, alarm){
+					$('<div>').html("<h3>"+alarm.name+"</h3><p>"+alarm.description+"</p>")
+					        .appendTo( $('#alarms') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.UserLog.List Demo</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.UserLog.List Demo</h1>
+		<ul id='user_logs'></ul>
+		<a href='javascript://' id='create'>Create UserLog</a>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/user_log/list','naxx/fixtures',function(){
+				
+				$('#user_logs').naxx_user_log_list();
+				
+				$('#create').click(function(){
+					new Naxx.Models.UserLog({
+						name: "Grilled Cheese",
+						description: "Bread and Cheese"
+					}).save();
+				})
+			})
+		</script>
+	</body>
+</html>

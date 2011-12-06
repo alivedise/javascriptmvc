@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Profile.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Profile.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='profiles'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/profile/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_profile_create();
+				Naxx.Models.Profile.bind('created', function(ev, profile){
+					$('<div>').html("<h3>"+profile.name+"</h3><p>"+profile.description+"</p>")
+					        .appendTo( $('#profiles') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

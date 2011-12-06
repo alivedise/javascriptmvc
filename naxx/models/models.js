@@ -1,0 +1,2 @@
+// steal model files
+steal("jquery/model", './encoder.js', './volume.js', './disk.js', './user.js', './tcpip.js', './protocol.js', './iptable.js', './ddn_service.js', './profile.js', './schedule.js', './alarm.js', './alarm_data.js', './bookmark.js', './recording.js', './log.js', './log.js', './system_log.js', './camera_log.js', './user_log.js', './vision.js', './emap.js')

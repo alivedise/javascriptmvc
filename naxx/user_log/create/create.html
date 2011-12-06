@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.UserLog.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.UserLog.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='user_logs'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/user_log/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_user_log_create();
+				Naxx.Models.UserLog.bind('created', function(ev, user_log){
+					$('<div>').html("<h3>"+user_log.name+"</h3><p>"+user_log.description+"</p>")
+					        .appendTo( $('#user_logs') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

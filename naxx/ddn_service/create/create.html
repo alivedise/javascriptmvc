@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.DDNService.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.DDNService.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='ddn_services'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/ddn_service/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_ddn_service_create();
+				Naxx.Models.DDNService.bind('created', function(ev, ddn_service){
+					$('<div>').html("<h3>"+ddn_service.name+"</h3><p>"+ddn_service.description+"</p>")
+					        .appendTo( $('#ddn_services') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

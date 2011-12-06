@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Vision.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Vision.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='visions'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/vision/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_vision_create();
+				Naxx.Models.Vision.bind('created', function(ev, vision){
+					$('<div>').html("<h3>"+vision.name+"</h3><p>"+vision.description+"</p>")
+					        .appendTo( $('#visions') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>
