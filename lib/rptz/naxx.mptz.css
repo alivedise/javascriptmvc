@@ -1,0 +1,72 @@
+
+/*style for ptz panels*/
+
+.ptzcontrol {
+	height: 100%;
+	width: 100%;
+	background: url('../images/CameraListbg.jpg');
+	color: white;
+}
+
+.ptzcontrol div.control{
+	text-align: center;
+	position: absolute;
+	width: 38%;
+	height: 100%;
+	right: 10px;
+	top: 40px;
+}
+
+.ptzcontrol div.meter {
+	width: 48%;
+	margin-left: 6%;
+	height: 0.6em;
+}
+
+.ptzcontrol div.control input {
+	vertical-align: middle;
+}
+
+.ptzcontrol .left_up,.right_up,.left_down,.right_down{
+	height: 30px;
+}
+
+.ptzcontrol .up,.ptzcontrol .down,.ptzcontrol .home {
+	width: 25px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.ptzcontrol .left,.ptzcontrol .right {
+	width: 30px;
+	height: 25px;
+}
+
+.ptzcontrol .ptzer {
+	width: 50%;
+	height: 20px;
+	min-height: 20px;
+	line-height: 20px;
+	margin-left: 5%;
+}
+
+.ptzer * {
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+.ptzcontrol select {
+	width: 50%;
+	height: 100%;
+}
+
+.ptzcontrol button {
+	width: 80%;
+	height: 100%;
+	font-size: 10px;
+}
+
+.meter .ui-slider-handle {
+	height:0.6em;
+	top: 0;
+}

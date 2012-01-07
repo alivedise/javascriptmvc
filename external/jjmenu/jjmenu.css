@@ -1,0 +1,51 @@
+
+/* jjmenu styles */
+.ItemRed { color: red; }
+.ItemBlue { color:blue; }
+div.jjmenu {
+	
+	position:absolute;
+	background:#fffef0;
+	border-bottom:2px solid gray;
+	border-right:1px solid gray;
+	padding:0px;
+	z-index: 100000;
+}
+
+div.jj_menu_item {
+	color:black;
+	border-bottom:none;
+	background: no-repeat white;
+	cursor:pointer;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+div.jj_menu_item span {
+	display:inline-block;
+	padding-left:4px;
+	padding-right:4px;
+	height: 23px;
+	line-height: 23px;
+}
+
+div.jj_menu_item * {
+	vertical-align: middle;
+}
+
+div.jj_menu_item_more span {
+	background:url(more.gif)  right no-repeat;	
+}
+div.jj_menu_item_more span {
+	padding-right:20px;
+}
+
+div.jj_menu_item_hover {
+	background:#0186D1;
+	color: white;
+	
+}
+
+.jj_menu_language {
+	width: 135px;
+}

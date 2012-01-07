@@ -1,0 +1,45 @@
+<div class="widget-head">
+	<h3>TCP/IP setting</h3>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset>
+			<div>
+				<label for="max_size">Maximum length of each recording file:</label>
+				<input id="max_size" name="max_size" type="text" value="5" /> Minute(s)
+			</div>
+			<div>
+				<label for="recycle_size">When the available storage is less than</label>
+				<input type="text" value="4" id="recycle_size" name="recycle_size"> GB:
+				<ul>
+					<li><input type="radio" name="overwrite" id="overwrite" />
+					<label for="overwrite">overwrite the oldest recordings<label>
+					</li>
+					<li><input type="radio" name="stop" id="stop" />
+					<label for="stop">stop writing recordings</label>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<label for="enable_event_keep">Keep alarm recordings for at least
+					<input id="event_keep_time" name="event_keep_time" type="text" value="10"> Days
+				</label>
+				<input type="checkbox" id="enable_event_keep" name="enable_event_keep" />
+			</div>
+			<div>
+				<label for="enable_remove_time">Remove recordings after
+					<input id="remove_time" name="remove_time" type="text" value="10"> Days
+				</label>
+				<input type="checkbox" id="enable_remove_time" name="enable_remove_time" />
+			</div>
+			<div>
+				<label for="event_before_time">Start recording video (at minimum) second(s) before the event occurs. </label>
+				<input id="evnet_before_time" name="evnet_before_time" type="text" value="10"> seconds
+			</div>
+			<div>
+				<label for="event_after_time">Stop video recording second(s) after the event ends.</label>
+				<input id="event_after_time" name="event_after_time" type="text" value="10"> seconds
+			</div>
+		</fieldset>
+	</form>
+</div>

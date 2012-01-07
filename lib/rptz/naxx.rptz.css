@@ -1,0 +1,109 @@
+
+/*style for ptz panels*/
+
+.ptzcontrol {
+	height: 100%;
+	width: 100%;
+	background: #2f2f2f;
+	color: white;
+	position: relative;
+}
+
+.ptzcontrol div * {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ptzcontrol div {
+}
+
+.ptzcontrol div.zoom {
+	position: absolute;
+	left: 22px;
+	top: 188px;
+}
+
+.ptzcontrol div.focus {
+	position: absolute;
+	left: 98px;
+	top: 217px;
+}
+
+
+.ptzcontrol div.pan_patrol {
+	position: absolute;
+	left: 174px;
+	top: 188px;
+}
+
+div.bigo {
+	position: absolute;
+	top: 37px;
+	left: 45px; /*(270-181)/2*/
+}
+
+#preset {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+
+div.preset_location {
+	color: black;
+	background: white;
+	height: 25px;
+	line-height: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	vertical-align: middle;
+	text-overflow:ellipsis; 
+	white-space: nowrap;
+}
+
+div.preset_location:hover {
+	color: white;
+	background: #0186D1;
+}
+
+#preset_list {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background: white;
+	width: 145px;
+	z-index: 10000;
+	overflow-x: hidden;
+}
+
+div.rptz span.arrow, div.eventlist span.arrow, div.nvrtoggler span.arrow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+/*firefox image map issue*/
+area, area:active, area:focus {
+    border: 0 none;
+    color: #D8BAA4;
+    outline: medium none;
+	cursor:pointer;
+}
+
+img#move {
+	width: 181px;
+}
+img#zoom,img#focus,img#pan_patrol {
+	width: 78px;
+}
+img#preset{
+	width: 41px;
+}
+
+.ui-layout-resizer {
+	background: #222222;
+}
+
+div.settings .ui-layout-resizer {
+	background: #e5e5e5;
+}

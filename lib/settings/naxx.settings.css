@@ -1,0 +1,245 @@
+div.settings.ui-layout-center {
+	background: white;
+	color: black;
+	border-left: solid 1px #d5d5d5;
+	z-index: 0;
+}
+
+div.settings.ui-layout-west {
+	z-index: 11;
+}
+
+div.left-column, div.right-column {
+	width: 49%;
+	float: left;
+	display: inline-block;
+}
+
+div.settingCell {
+	text-align: center;
+}
+
+div.settings div.settingNav {
+	background: none;
+	color: #b9b9b9
+	height: 59px;
+	line-height: 59px;
+	border: none;
+	text-align: left;
+}
+
+div.settingNav div {
+	padding-left: 30px;
+}
+
+div.settingNav span {
+	font-size: 2em;
+}
+
+div.settingNav span.active {
+	color: #0072b3;
+}
+
+div.settingNav * {
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+div.settings div.weapon {
+	position: relative;
+	text-align: left;
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	width: 80%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 100px;
+}
+
+div.settings div.weapon:hover {
+	border-color: #0186D1;
+}
+
+div.weapon div.class {
+	font-weight: bold;
+	color: #424242;
+}
+
+div.weapon div.description {
+	color: #6e6e6e;
+}
+
+div.weapon span.setter {
+	position: absolute;
+	left: 18px;
+	top: 12px;
+}
+
+span.icon {
+	width: 20px;
+}
+
+div.eventlist.settingtree {
+}
+
+div.eventlist.settingtree.ui-accordion {
+	background: white;
+	color: black;
+}
+
+.ui-accordion a {
+	color: black;
+}
+
+.ui-accordion .ui-state-default {
+	background: white;
+	color: black;
+}
+
+.ui-accordion .ui-state-active {
+	background: none;
+	border: none;
+}
+.ui-accordion-header.ui-state-default,.ui-accordion-header.ui-state-active {
+	color: black;
+	background: none;
+	border: none;
+}
+.ui-accordion-header.ui-state-default a>span {
+	color: black;
+	border: none;
+}
+.ui-accordion-header.ui-state-active a>span {
+	color: black;
+	border: none;
+}
+
+.ui-accordion-content.ui-widget-content.ui-accordion-content-active {
+	padding-right: 0;
+	border: none;
+	padding-left: 20px;
+	padding-top: 0;
+	padding-bottom: 0;
+	color: black;
+	background: none;
+	overflow: hidden;
+}
+
+.ui-accordion h3 {
+	height: 30px;
+}
+
+.ui-accordion-content {
+	background: #2b2b2b;
+	color: white;
+}
+
+div.ability {
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 55px;
+	color: #6e6e6e;
+	font-size: 0.8em;
+	position: relative;
+}
+
+div.ability.casting {
+	color: white;
+	border: none;
+	background-color: #0186D1;
+}
+
+.link {
+	color: #0186D1;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+div.settingCell {
+	height: 100%;
+}
+
+div.settings div.ability span.arrow, h3 span.arrow {
+	background: url('../images/widget/setting/arrow.png') no-repeat right top;
+	height: 16px;
+	width: 13px;
+	float: right;
+	position: absolute;
+	margin: 7px -2px 0 0;
+	top: 0px;
+	right: -2px;
+	z-index: 20000;
+}
+
+div.ability.casting span.arrow {
+	display: inline-block;
+}
+
+h3#settings_overview.ui-state-active span.arrow {
+	display: inline-block;
+}
+
+.ui-accordion-icons .ui-accordion-header a {
+	height: 30px;
+	padding: 0;
+}
+h3#settings_overview {
+	position: relative;
+}
+h3#settings_overview.ui-state-active a {
+	background: #0186D1;
+}
+h3#settings_overview.ui-state-active a>span {
+	margin-left: 15px;
+	color: white;
+	height: 30px;
+	line-height: 30px;
+}
+h3#settings_overview.ui-state-default a>span {
+	margin-left: 15px;
+	color: #0186d1;
+	height: 30px;
+	line-height: 30px;
+}
+h3.ui-state-default a>span {
+	font-weight: bold;
+	margin-left: 15px;
+	height: 30px;
+	line-height: 30px;
+}
+h3.ui-state-active a>span {
+	font-weight: bold;
+	margin-left: 15px;
+	height: 30px;
+	line-height: 30px;
+}
+h3.ui-accordion-header {
+	margin-top: 0px;
+	padding-left: 20px;
+}
+
+div.weapon>div {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	min-height: 40px;
+}
+div.weapon div.left-shield {
+	width: 20%;
+	max-width: 40px;
+}
+div.weapon div.right-sword {
+	width: 80%;
+}
+
+
+.ui-accordion .ui-accordion-header {
+	margin-top: 0px;
+}
+

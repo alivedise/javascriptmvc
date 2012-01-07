@@ -1,0 +1,145 @@
+
+
+div.eventlist {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+div.alarm_container {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+div.eventlist div.event_record {
+	color: white;
+	text-align: left;
+	max-width: 270px;
+	overflow: hidden;
+	font-size: 0.9em;
+	padding-top: .3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	height: 1.6em;
+	pointer:cursor;
+}
+
+div.event_record span {
+	margin-left: .2em;
+}
+div.event_record span.event_source {
+	max-length: 50px;
+	overflow: hidden;
+}
+
+
+div.eventlist div.event_record.new_alarm {
+	color: white;
+	text-align: left;
+	max-width: 100%;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+div.event_record span.alarm_index {
+	font-size: 0.7em;
+	font-weight: bold;
+	background: white;
+	color:#222;
+}
+
+div.nvrtoggler span.new_alarm
+{
+	margin: auto;
+	border: white 1px solid;
+	color: white;
+	background: red;
+	height: 14px;
+	width: auto;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	line-height: 14px;
+	font-size: 0.8em;
+}
+
+div.event_record.new_alarm span.alarm_index {
+	background: red;
+	color: white;
+}
+
+div.event_record:hover {
+	background: #0186d1;
+}
+
+
+.eventtable ,.statustable{
+	width: 100%;
+	height: 100%;
+	font-size: 9px;
+	color: #aad2ec;
+	position: relative;
+	text-shadow:1px 1px 0.5px black;
+}
+
+.eventtable *, .statustable *{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/*回波影像截圖大小*/
+.EventShot {
+	width: 80px;
+	height: 50px;
+	border: solid 1px white;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	opacity: 0.5;
+}
+
+.eventtable span.title,.sessiontable span.title {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+div.toolbar {
+	height: 35px;
+}
+
+div#alarm_tip
+{
+	display: none;
+	z-index: 10000;
+	width: 327px;
+	height: 187px;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: url('../images/tooltip/tooltips_alarm_details.png') no-repeat left top;
+	color: white;
+}
+
+div#alarm_tip button.block {
+	width: 120px;
+}
+div#alarm_tip div.buttons {
+	position: absolute;
+	bottom: 40px;
+	left: 15px;
+}
+
+button.block .ui-button-text {
+	line-height: 20px;
+	height: 20px;
+	padding-top: .1em;
+}
+.ui-icon.naxx-icon-playback {
+	background: url('../images/widget/alarm/playback.png');
+}
+div.description {
+	position: absolute;
+	left: 110px;
+	top: 25px;
+}

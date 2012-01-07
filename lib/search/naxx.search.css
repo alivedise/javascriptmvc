@@ -1,0 +1,120 @@
+
+
+div.search {
+	background: #282828;
+	text-align: center;
+}
+
+div.search div.top {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 48px;
+	height: 110px;
+	text-align: center;
+}
+
+div.searchbar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 410px;
+}
+
+form#searchForm {
+	width: 412px;
+	height: 55px;
+	background: url('../images/searchbar_bg.png');
+}
+
+div.searchbar #searchBtn {
+	float: right;
+	margin-right: 12px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	margin-top: 16px;
+	width: 26px;
+	height: 27px;
+	background: url('../images/search_btn.png');
+}
+
+div.top input#keyword {
+	width: 330px;
+	margin-top: 18px;
+	margin-left: 15px;
+	background: transparent;
+	color: white;
+	border: none;
+}
+
+div.search div.base {
+	margin-left: auto;
+	margin-right: auto;
+	width: 970px;
+	height: 100%;
+	color: white;
+}
+
+div.left_col {
+	float: left;
+	width: 300px;
+	text-align: left;
+	margin-right: 20px;
+}
+
+div.right_col {
+	float: left;
+	width: 640px;
+	text-align: left;
+}
+
+div.right_row {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+div.rare_item {
+	width: 260px;
+	height: 79px;
+	float: left;
+	font-size: .6em;
+	margin-right: 20px;
+}
+
+div.screenshot span.id {
+	background: #222;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+}
+
+div.rare_item img {
+	width: 84px;
+	height: 60px;
+}
+
+div.rare_item>div{
+	display: inline-block;
+	float: left;
+}
+
+div.rare_item span {
+	margin: .5em;
+}
+
+div.rare_item span[symbol]{
+	font-weight: bold;
+}
+
+div.search .title {
+	color: #00d2ff;
+	font-weight: bold;
+}
+
+div.searchfilter.ui-layout-west {
+	background: #2f2f2f;
+	color: white;
+	text-align: left;
+}

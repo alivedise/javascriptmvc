@@ -1,0 +1,83 @@
+<div class="widget-head">
+	<h3 symbol="text:tcp_ip_settings">TCP/IP Setting</h3>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset>
+			<legend symbol="text:bonding_settings">Bonding setting</legend>
+			<div>
+				<input id="failover" type="radio" name="bonding_type" value="failover"></input><label for="failover" symbol="text:failover">Failover</label>
+			</div>
+			<div>
+				<input id="loadbalance" type="radio" name="bonding_type" value="loadbalance"></input><label for="loadbalance" symbol="text:load_balance">Load Balance</label>
+			</div>
+			<div>
+				<input id="dual" type="radio" name="bonding_type" value="dual"></input><label for="dual" symbol="text:dual_network">Dual</label>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend name="eth0" symbol="text:general_settings">General</legend>
+			<div>
+				<input type="radio" id="dhcp_client" name="type" value="dynamic"/>
+				<label for="dhcp_client" symbol="text:get_ip_address_automatically">Obtain IP address settings automatically via DHCP</label>
+			</div>
+			<div>
+				<input type="radio" id="static_client" name="type" value="static"/>
+				<label for="static_client" symbol="text:use_fixed_ip_address">Use a static IP address</label>
+				<div class="eth0_static">
+				<div>
+					<label for="address" symbol="text:static_ip">Fixed IP address</label>
+					<input class="ip eth0" type="text" id="address" name="address" value="0.0.0.0" />
+				</div>
+				<div>						
+					<label for="netmask" symbol="text:subnet_mask">Subnet mask</label>
+					<input class="ip eth0" type="text" id="netmask" name="netmask" />
+				</div>
+				<div>
+					<label for="gateway" symbol="text:gateway">Default gateway</label>
+					<input class="ip eth0" type="text" id="gateway" name="gateway" />
+				</div>
+				<div>
+					<label for="primary_dns" symbol="text:primary_dns">Primary DNS</label>
+					<input class="ip eth0" type="text" id="primary_dns" name="primary_dns" />
+				</div>
+				<div>
+					<label for="secondary_dns" symbol="text:secondary_dns">Secondary DNS</label>
+					<input class="ip eth0" type="text" name="secondary_dns" id="secondary_dns" />
+				</div>
+				</div>
+			</div>
+		</fieldset>
+		<fieldset id="eth1">
+			<legend symbol="text:lan_2">LAN 2</legend>
+			<div>
+				<input type="radio" id="eth1_dhcp_client" name="eth1_type" value="dynamic"/>
+				<label for="eth1_dhcp_client" symbol="text:get_ip_address_automatically">Obtain IP address settings automatically via DHCP</label>
+			</div>
+			<div>
+				<input type="radio" id="eth1_static_client" name="eth1_type" value="static"/>
+				<label for="eth1_static_client" symbol="text:use_fixed_ip_address">Use a static IP address</label>
+				<div>
+					<label for="eth1_address" symbol="text:static_ip">Fixed IP address</label>
+					<input class="ip eth1" type="text" id="eth1_address" name="eth1_address" />
+				</div>
+				<div>						
+					<label for="eth1_netmask" symbol="text:subnet_mask">Subnet mask</label>
+					<input class="ip eth1" type="text" id="eth1_netmask" name="eth1_netmask" />
+				</div>
+				<div>
+					<label for="eth1_gateway" symbol="text:gateway">Default gateway</label>
+					<input class="ip eth1" type="text" id="eth1_gateway" name="eth1_gateway" />
+				</div>
+				<div>
+					<label for="eth1_primary_dns" symbol="text:primary_dns">Primary DNS</label>
+					<input class="ip eth1" type="text" id="eth1_primary_dns" name="eth1_primary_dns" />
+				</div>
+				<div>
+					<label for="eth1_secondary_dns" symbol="text:secondary_dns">Secondary DNS</label>
+					<input class="ip eth1" type="text" name="eth1_secondary_dns" id="eth1_secondary_dns" />
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>

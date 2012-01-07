@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Grooveshark &mdash; Advertising</title>
+    <meta name="description" content="Grooveshark is the easiest way to listen to free music online, with millions of songs to search for and play instantly." />
+    <meta name="keywords" content="download music, mp3 download, download music mp3, download music online, listen to music, listen to free music, listen to music for free, listen to online music, legal music download, legal p2p" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/webincludes/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="/webincludes/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="/webincludes/css/autocomplete.css" type="text/css" />
+    <link rel="stylesheet" href="/webincludes/css/jqModal.css" type="text/css" />
+    <link rel="stylesheet" href="/webincludes/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" />
+    <link rel="stylesheet" href="/webincludes/css/themes/default/skeleton.css" type="text/css" />
+    <link rel="stylesheet" href="/webincludes/css/themes/default/organs.css" type="text/css" />
+    
+            
+    <script type="text/javascript">var isIE = false; var isIE6 = false;</script>
+    <!--[if IE]>
+            <script type="text/javascript">isIE = true;/*@cc_on _d=document;eval('var document=_d')@*/</script>
+    <![endif]-->
+    <!--[if lte IE 6]>
+            <script type="text/javascript">isIE6 = true;</script>
+    <![endif]-->
+    
+<script>
+var RecaptchaOptions = {
+   theme : 'white',
+};
+</script>
+
+</head>
+
+<body >
+        
+<div id="headerWrapper">
+    <div id="header">
+        
+        <h1><a id="logo" href="/"><span class="img_replace">Grooveshark</span></a></h1>
+        
+                <ul id="navigation">
+                        <li class="about"><a href="/about"  class="active"><span>About</span></a></li>
+            <li class="careers"><a href="/careers" ><span>Careers</span></a></li>
+            <li class="artists"><a href="/artists" ><span>Artists</span></a></li>
+            <li class="press"><a href="/press" ><span>Press</span></a></li>
+            <li class="causes"><a href="/causes" ><span>Causes</span></a></li>
+            <li class="legal"><a href="/legal" ><span>Legal</span></a></li>
+                        <li class="help"><a href="/help" ><span>Help</span></a></li>
+            <li class="listen"><a href="http://listen.grooveshark.com"><span>Listen Now</span></a></li>
+        </ul>
+                
+    </div>
+    
+    <div id="loginWrapper">
+        <div id="login">
+                <form method="post" action="/login" id="signIn">
+                <input type="hidden" name="next" value="" />
+                <input type="hidden" name="do_login" value="" />
+                <ul id="form"> 
+                    <li>
+                        <div class="elementWrapper">
+                            <label for="username" class="overlabel">USERNAME</label>
+                            <input id="username" type="text" value="" name="username" tabindex="1" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="elementWrapper">
+                            <label for="password" class="overlabel">PASSWORD</label>
+                            <input id="password" type="password" value="" name="password" tabindex="2" />
+                        </div>
+                    </li>
+                </ul>
+                <button type="submit" id="loginButton" name="Login" value="Login"></button>
+            </form>
+                <div class="hr_grey"></div>
+            <ul id="links">
+                <li>Don't have an account? <a href="/join">Join Now</a></li>
+                <li>Lost your password? <a href="/join?lost_password=1">Get it</a></li>
+            </ul>
+            
+        </div>
+    </div>  
+</div>
+
+<div id="subHeaderWrapper">
+    <div id="subHeader">
+        <h2>Advertising</h2>
+        <h3>
+            Want to advertise on Grooveshark? Contact us.
+        </h3>
+    </div>
+</div>
+        
+<div id="mainContainer">
+                
+            
+<div id="mainContent" class="content">
+
+    <div class="wide">
+                
+        
+    <div class="first">
+        <p><strong>Grooveshark is the fastest, easiest way to listen to any song in the world for free.</strong></p>
+        <p>Each month, Grooveshark receives:</p>
+        <ul class="bullets">
+            <li>30 million unique visitors worldwide</li>
+            <li>600 million minutes of streaming</li>
+            <li>60 minutes average time spent per visitor</li>
+        </ul>
+        <p><strong>For advertisers,</strong> Grooveshark offers compelling ways to reach and engage with our audience:</p>
+        <ul class="bullets">
+            <li>Custom site homepage takeovers</li>
+            <li>Static or animated banner ads (160x600, 300x250, and 200x200)</li>
+            <li>Artist sponsorships</li>
+            <li>Geographical, listening habits, gender and age-based targeting</li>
+        </ul>
+        
+        
+        <p><a target="_blank" href="http://www.iab.net/iab_products_and_industry_services/508676/compliance/509534"><img src="webincludes/images/advertising/0000345880-iab-memberseal-white.gif" alt="IAB Rich Media Creative Member Seal" width="100" height="96" border="0" /></a></p><br>
+        
+        <p>Get started right away advertising standard banners on our self-serve ad platform.  Choose the ad unit sizes you want, pick the dates, and upload creatives.  It's that easy.  To get started, <a href="https://www.buyads.com/website/grooveshark" target="_blank">click here</a>.</p>
+        
+        <p>For site skin campaigns, artist promotions, and budgets over $5,000, please use the form below to contact one of our reps.</p>
+        
+        <p><strong>* Required</strong></p>
+    </div>
+    <a name="adResponse"></a>
+    <ul id="questionResponse" class="middle"></ul>
+        <form action="formHandler/askmarketing.php" method="post" class="last" id="formQuestion">
+        <h3>Contact Us</h3>
+            <ul>
+                <li class="selectBox">
+                    <label for="method">Contact Method:</label>
+                    <div class="selectBox_custom method">
+                        <span class="selectedAnswer">&mdash;</span>
+                        <select name="method" id="subject">
+                            <option value="">&mdash;</span>
+                            <option value="Call">Call Me</option>
+                            <option value="Email">Email Me</option>
+                        </select>
+                    </div>                       
+                </li>                   
+                <li class="selectBox">
+                    <label for="identity">I Am A(n):</label>
+                    <div class="selectBox_custom identity">
+                        <span class="selectedAnswer">&mdash;</span>
+                        <select name="identity" id="identity">
+                            <option value="">&mdash;</span>
+                            <option value="AdvertiserAgency">Advertiser / Agency</option>
+                            <option value="AdNetwork">Ad Network</option>
+                            <option value=" ArtistRecord Label/Management"> Artist / Record Label / Management</option>
+                            <option value="Other">Other</option>
+                        </select> 
+                    </div>                      
+                </li>
+                <li class="selectBox">
+                    <label for="interest">*Area of Interest:</label>
+                    <div class="selectBox_custom interest">
+                        <span class="selectedAnswer">&mdash;</span>
+                        <select name="interest" id="interest">
+                            <option value="">&mdash;</span>
+                            <option value="AdvertisingUSCanada">Advertising - U.S. / Canada</option>
+                            <option value="AdvertisingInternational">Advertising - International</option>
+                            <option value="AdNetworkBuy">Ad Network Buy</option>
+                            <option value="BusinessDevelopmentPartnerships">Business Development & Partnerships</option>
+                            <option value="ArtistRecordLabelPromotions">Artist & Record Label Promotions</option>
+                        </select>
+                    </div>
+                </li>
+                <li><label for="email">Budget Range:</label> <input type="text" name="budget" id="budget" value=""  /></li>                   
+                <li><label for="company" id="companyBand">*Company:</label> <input type="text" name="company" id="company" value=""  /></li>
+                <li id="titleItem"><label for="title">Title:</label> <input type="text" name="title" id="title" value=""  /></li>
+                <li><label for="name">*Name:</label> <input type="text" name="name" id="name" value=""  /></li>
+                <li><label for="email">*Email:</label> <input type="text" name="email" id="email" value=""  /></li>
+                <li><label for="phone">*Phone:</label> <input type="text" name="phone" id="phone" value=""  /></li>
+                <li class="area">
+                    <label for="question">*What I Have in Mind for Grooveshark:</label> 
+                    <textarea cols="70" rows="3" id="goal" name="goal"></textarea>
+                    <div class="bottom"></div>
+                </li>
+                <li style='height:145px;' class='selectBox'><label for="recaptcha_response_field">*Captcha:</label><div style='float:left;'><script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6LeS37kSAAAAAMHpzJ0D8QJL5OV55cx-JhthbQqC"></script>
+
+	<noscript>
+  		<iframe src="http://api.recaptcha.net/noscript?k=6LeS37kSAAAAAMHpzJ0D8QJL5OV55cx-JhthbQqC" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript></div></li>
+            </ul>
+          
+        <div class="clear"><a href="#adResponse"><button class="submit" type="submit"><span>Submit</span></button></a></div>
+    </form>
+    
+        
+    </div>
+    
+    <div class="side">
+
+        <ul id="featuresNav" class="subNav first">
+                <li class="features"><a href="/about" ><span>About Us</span></a></li>
+            <li class="videos"><a href="/contact" ><span>Contact Us</span></a></li>
+            <li class="advertising"><a href="/advertising"  class="active"><span>Advertising</span></a></li>
+            <li class="api"><a href="/api" ><span>Grooveshark API</span></a></li>
+            <!-- <li class="wordpress"><a href="/wordpress" ><span>WordPress Plugin</span></a></li> -->
+        </ul>
+        
+                    <div class="middle">
+                <a href="http://listen.grooveshark.com"><img src="/webincludes/ads/liteAdSideBar.png" alt="Introducing Grooveshark: Launch Now" /></a>
+            </div>
+                
+            <div id="trust" class="last sidebar">
+	<ul id="quotes_list" class="quotes">  		
+		<li class="active">
+			<div class="topquote"><span>&quot;</span></div>
+			<table>
+				<tr>
+					<td>
+						...the social networking aspect of <span class="us">Grooveshark</span> keeps the conversation about music going, and promotes more song sales (labels profit)...
+					</td>
+				</tr>
+			</table>
+			<div class="bottomquote">
+				<span>&quot;</span>
+				<p class="person"><img src="/webincludes/images/trust/pcw.png" alt="PC World" /></p>
+			</div>
+		</li>  
+        
+        <li>
+			<div class="topquote"><span>&quot;</span></div>
+			<table>
+				<tr>
+					<td>
+						...In the turbulent, choppy waters where P2P networks and copyright law chomp at each other's fins for dominance, there's at least one beast that thinks it has a solution to keep everyone happy. Its name: <span class="us">Grooveshark</span>.
+					</td>
+				</tr>
+			</table>
+			<div class="bottomquote">
+				<span>&quot;</span>
+				<p class="person"><img src="/webincludes/images/trust/cnet.png" alt="Cnet" /></p>
+			</div>
+		</li>  
+        
+        <li>
+			<div class="topquote"><span>&quot;</span></div>
+			<table>
+				<tr>
+					<td>
+						I can honestly say it's even better than Pandora. The service is called <span class="us">Grooveshark</span>, and from what I experienced they have as much music on their library as the others.
+					</td>
+				</tr>
+			</table>
+			<div class="bottomquote">
+				<span>&quot;</span>
+				<p class="person"><img src="/webincludes/images/trust/hubpages.png" alt="Hubpages" /></p>
+			</div>
+		</li>  
+        
+        <li>
+			<div class="topquote"><span>&quot;</span></div>
+			<table>
+				<tr>
+					<td>
+						<span class="us">Grooveshark</span> tracks the best users so you know who can be trusted to deliver quality content.
+					</td>
+				</tr>
+			</table>
+			<div class="bottomquote">
+				<span>&quot;</span>
+				<p class="person"><img src="/webincludes/images/trust/mashable.png" alt="Mashable" /></p>
+			</div>
+		</li>  
+        
+		<li>
+			<div class="topquote"><span>&quot;</span></div>
+			<table>
+				<tr>
+					<td>
+						In the turbulent, choppy waters where P2P networks and copyright law chomp at each other's fins for dominance, 
+						there's at least one beast that thinks it has a solution to keep everybody happy. Its name: <span class="us">Grooveshark</span>.
+					</td>
+				</tr>
+			</table>
+			<div class="bottomquote">
+				<span>&quot;</span>
+				<p class="person"><img src="/webincludes/images/trust/cnet.png" alt="Cnet" /></p>
+			</div>
+		</li>
+        
+		<li>
+			<div class="topquote"><span>&quot;</span></div>
+			<table>
+				<tr>
+					<td>
+						If you're looking for a way to grab music from peer-to-peer networks without that nagging feeling that you're depriving 
+						a starving artist of her next meal (or a label exec of that Learjet upgrade), <span class="us">Grooveshark</span> might
+						help.
+					</td>
+				</tr>
+			</table>
+			<div class="bottomquote">
+				<span>&quot;</span>
+				<p class="person"><img src="/webincludes/images/trust/wired.png" alt="Wired" /></p>
+			</div>
+		</li>
+        
+		<li>
+			<div class="topquote"><span>&quot;</span></div>
+			<table>
+				<tr>
+					<td>
+						<span class="us">Grooveshark</span>: a new music service that I can see a lot of potential in.
+					</td>
+				</tr>
+			</table>
+			<div class="bottomquote">
+				<span>&quot;</span>
+				<p class="person"><img src="/webincludes/images/trust/crunchGear.png" alt="CrunchGear" /></p>
+			</div>
+		</li>
+        
+        <li>
+            <div class="topquote"><span>&quot;</span></div>
+            <table>
+                <tr>
+                    <td>
+                        Finally a way to have access to millions of songs, without feeling guilty.
+                    </td>
+                </tr>
+            </table>
+            <div class="bottomquote">
+                <span>&quot;</span>
+                <p class="person"><img src="/webincludes/images/trust/fayerwayer.png" alt="Fayerwayer" /></p>
+            </div>
+        </li>        
+        
+	</ul>
+</div>
+<div class="clear megaphone"></div>        
+    </div>
+    <img style="display:none;" src="http://t.fuziontech.net/tp/landing.gif">
+        
+        <div class='clear'></div>
+    </div>
+        
+</div>
+    
+<div id="footerWrapper">
+    <div id="footer">
+        <ul class="features">
+            <li class="listen"><h3>Happiness</h3>
+            <h4>Find any song in the world and listen to it instantly.</h4>
+            </li>
+            
+            <li class="discover"><h3>Discovery</h3>
+            <h4>Get introduced to new music and new friends.</h4>
+            </li>
+            
+            <li class="manage"><h3>Freedom</h3>
+            <h4>Add your tunes to Grooveshark and access them from anywhere.</h4>
+            </li>
+            
+                    </ul>
+                                
+                                    
+        <ul class="places">
+                                                            <li><a href="http://help.grooveshark.com">Help</a></li>
+            <li><a href="http://blog.grooveshark.com">Blog</a></li>
+            <li><a href="/artists">Artists</a></li>
+                                    <li><a href="/careers">Careers</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/privacy">Privacy</a></li>
+        </ul>
+            
+        <p id="legalCrap">
+            <span class="emgIcon"></span>Copyright &copy; <a href="http://escapemg.com">Escape Media Group</a> 2007-2012. All Rights Reserved. <br />
+            Powered by <a href="http://grooveshark.com">Grooveshark</a>
+        </p>
+    </div>
+</div>
+    
+<script type="text/javascript" src="/webincludes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="/webincludes/js/jquery/jquery-ui-1.5.2.js"></script>
+<script type="text/javascript" src="/webincludes/js/jquery/plugins/jquery.form.js"></script>
+<script type="text/javascript" src="/webincludes/js/jquery/plugins/jqModal.js"></script>
+
+<script type="text/javascript" src="/webincludes/js/jquery/plugins/fancybox/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/webincludes/js/jquery/plugins/fancybox/jquery.fancybox-1.2.0.js"></script>
+<script type="text/javascript" src="/webincludes/js/jquery/plugins/bgiframe.js"></script>
+<script type="text/javascript" src="/webincludes/js/jquery/plugins/autocomplete.js"></script>
+<script type="text/javascript" src="/webincludes/js/ModalBoxFactory.js"></script>
+<script type="text/javascript" src="/webincludes/js/formlabels.js"></script>
+<script type="text/javascript" src="/webincludes/js/formspans.js"></script>
+<script type="text/javascript" src="/webincludes/js/main.js"></script>
+<script type="text/javascript" src="/webincludes/js/x.js"></script>
+
+<script type="text/javascript">if(!window.console || !window.console.log) { window.console={}; window.console.log=function(){}}</script><script type="text/javascript" src="/webincludes/js/adForm.js"></script>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  
+var qcJsHost = (("https:" == document.location.protocol) ? "//secure." : "http://edge.");
+document.write(unescape("%3Cscript src='" + qcJsHost + "quantserve.com/quant.js' type='text/javascript'%3E%3C/script%3E"));
+document.write(unescape("%3Cnoscript%3E%3Ca href='http://www.quantcast.com/p-ddi5MNsstELmE' target='_blank'%3E%3Cimg src='//secure.quantserve.com/pixel/p-ddi5MNsstELmE.gif' style='display: none;' border='0' height='1' width='1' alt='Quantcast'/%3E%3C/a%3E%3C/noscript%3E"));
+</script>
+<script type="text/javascript">
+   var pageTracker = _gat._getTracker("UA-1894124-1");
+   pageTracker._initData();
+   pageTracker._trackPageview();
+</script>
+<!-- Start Quantcast tag -->
+
+<script type="text/javascript">
+        _qoptions={
+        qacct:"p-ddi5MNsstELmE"
+        };
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<a href="http://www.quantcast.com/p-ddi5MNsstELmE" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-ddi5MNsstELmE.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+
+<!-- End Quantcast tag -->
+</body>
+</html>

@@ -1,0 +1,87 @@
+<div class="widget-head">
+	<h3>Hardware Settings</h3>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset class="left">
+			<legend>General</legend>
+			<div>
+				<label>Enable configuration reset switch</label>
+				<input type="checkbox" id="enable_reset" name="enable_reset"/>
+			</div>
+			<div>
+				<label>Auto power on when power resumes after power loss </label>
+				<input type="checkbox" id="auto_poweron" name="auto_poweron"/>
+			</div>
+			<div>
+				<label>Enable front video backup button 
+					Back up the recordings on the latest <input type="text" value=3 /> day(s) to the connected USB device when the button is pressed.</label>
+				<input type="checkbox" id="enable_backup" name="enable_backup"/>
+			</div>
+			<div>
+				<label>Enable light signal alert when the free size of SATA disk is less than the value:  <input type="text" value=3072 /> MB</label>
+				<input type="checkbox" id="enable_free_alert" name="enable_free_alert"/>
+			</div>
+			<div>
+				<label>Enable alarm buzzer (beep sound for error and warning alert) </label>
+				<input type="checkbox" id="enable_alarm_buzzer" name="enable_alarm_buzzer" />
+			</div>
+		</fieldset>
+		<fieldset class="right">
+			<legend>Fan Settings</legend>
+			<div>
+				<label>Fan rotation speed setting:</label>
+				<select name="fan_type" id="fan_type">
+					<OPTION Value=1 selected>Enable Smart Fan(recommended)</OPTION>			
+					<OPTION Value=2 >Set Fan Rotation Speed Manually</OPTION>
+				</select>
+			</div>
+			<div>
+				<div>
+					<label>When the system temperature is lower than 47℃, rotate at low speed. When the system temperature is higher than 52℃, rotate at high speed.</label>
+					<input type="radio" name="auto" id="auto"/>
+				</div>
+				<div>
+					<label>Self-defined temperature: </label>
+					When the system temperature is lower than 
+					<select name="sys_temp_stop" id="sys_temp_stop">
+						<option value=25>25</option>
+						<option value=26>26</option>
+						<option value=27>27</option>
+						<option value=28>28</option>
+						<option value=29>29</option>
+						<option value=30>30</option>
+						<option value=31>31</option>
+						<option value=32>32</option>
+						<option value=33>33</option>
+						<option value=34>34</option>
+					</select>
+					<select name="sys_temp_type_stop" id="sys_temp_type_stop">
+						<option value=0>&deg;C</option>
+						<option value=1>&deg;F</option>
+					</select>,stop fan rotation.<br/>
+					When the system temperature is lower than
+					<select name="sys_temp_c_low" id="sys_temp_c_low">
+						<option value=35>35</option>
+						<option value=36>36</option>
+						<option value=37>37</option>
+						<option value=38>38</option>
+						<option value=39>39</option>
+						<option value=40>40</option>
+						<option value=41>41</option>
+						<option value=42>42</option>
+						<option value=43>43</option>
+						<option value=44>44</option>
+					</select>
+					<select name="sys_temp_type_low" id="sys_temp_type_low">
+						<option value=0>&deg;C</option>
+						<option value=1>&deg;F</option>
+						,rotate at low speed. <br/>
+						When the system temperature is higher than <br/>
+					</select>
+					<input type="radio" name="auto2" id="auto2"/>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>

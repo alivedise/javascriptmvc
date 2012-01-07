@@ -1,0 +1,33 @@
+<div class="widget-head">
+	<h3 symbol="text:firmware">System</h3>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset>
+			<legend symbol="text:system_configuration">system</legend>
+			<div>
+				<label for="hostname" symbol="text:host_name">System name</label>
+				<input type="text" name="hostname" id="hostname"></input>
+			</div>
+			<div>
+				<label for="hostname" symbol="text:current_version">Firmwar version</label>
+				<input type="text" name="version" id="version" value="0.0.0.1" readonly="readonly"></input>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>VAST</legend>
+			<div>
+				<input type="checkbox" name="vast_enable" id="vast_enable"></input>
+				<label for="vast_enable" symbol="text:enabled">enable</label>
+				<div>
+					<label for="relay_port" symbol="text:relay_port">Relay port</label>
+					<input type="text" name="relay_port" id="relay_port" size="5" maxlength="5"></input>
+				</div>
+				<div>
+					<label for="relay_password" symbol="text:relay_password">Relay password</label>
+					<input type="password" name="relay_password" id="relay_password"></input>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>

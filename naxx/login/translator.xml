@@ -1,0 +1,2363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!--The keyword "system", "info", "language" and "count" must not be used as multi-language element. The "count" define the number of webpage multi-language. The "i<0~(     count-1)>" define the options of language of homepage. Its index must match the order of <lang>.-->
+	<system>
+		<info>
+			<language>
+				<count>9</count>
+				<i0>English</i0>
+				<i1>Deutsch</i1>
+				<i2>Español</i2>
+				<i3>Français</i3>
+				<i4>Italiano</i4>
+				<i5>日本語</i5>
+				<i6>Português</i6>
+				<i7>简体中文</i7>
+				<i8>繁體中文</i8>
+			</language>
+		</info>
+	</system>
+	<lang>
+		<!--English-->
+		<FR>Fri</FR>
+		<Filter>Filter</Filter>
+		<HDD1_temperature>Disk1 temperature</HDD1_temperature>
+		<HDD2_temperature>Disk2 temperature</HDD2_temperature>
+		<HDD3_temperature>Disk3 temperature</HDD3_temperature>
+		<HDD4_temperature>Disk4 temperature</HDD4_temperature>
+		<Invalid_operation>Invalid operation</Invalid_operation>
+		<MO>Mon</MO>
+		<SA>Sat</SA>
+		<SU>Sun</SU>
+		<TH>Thu</TH>
+		<TU>Tue</TU>
+		<WE>Wed</WE>
+		<_10min>10min</_10min>
+		<_10s>10s</_10s>
+		<_1_3_for_16_9>1+3</_1_3_for_16_9>
+		<_1_3_for_4_3>1_3</_1_3_for_4_3>
+		<_1_5>1_5</_1_5>
+		<_1min>1min</_1min>
+		<_1x1>1x1</_1x1>
+		<_2x2>2x2</_2x2>
+		<_30min>30min</_30min>
+		<_30s>30s</_30s>
+		<_4x4>4x4</_4x4>
+		<_5min>5min</_5min>
+		<_5s>5s</_5s>
+		<ac_fail_1>AC fail1</ac_fail_1>
+		<ac_fail_2>AC fail2</ac_fail_2>
+		<ac_fail_3>AC fail3</ac_fail_3>
+		<accept>Accept</accept>
+		<access_list>Access list</access_list>
+		<action>Action</action>
+		<action_type>Action type</action_type>
+		<add_a_new_trigger>Add a new trigger</add_a_new_trigger>
+		<add_a_rule>Add a rule</add_a_rule>
+		<add_disk>Add disk</add_disk>
+		<add_entry>Add Entry</add_entry>
+		<add_remove_manage_your_cameras>Add remove manage your cameras</add_remove_manage_your_cameras>
+		<add_remove_manage_your_user_account>Add remove manage your user account</add_remove_manage_your_user_account>
+		<add_to_action_list>Add to action list</add_to_action_list>
+		<add_to_schedule_list>Add to schedule list</add_to_schedule_list>
+		<add_to_trigger_list>Add to trigger list</add_to_trigger_list>
+		<address>Address</address>
+		<adjust_the_date_time_and_time_zone_of_this_server>Adjust the date time and time zone of this server</adjust_the_date_time_and_time_zone_of_this_server>
+		<administrator>Administrator</administrator>
+		<africa_abidjan>(GMT+0:00) Africa/Abidjan (Greenwich Mean Time)</africa_abidjan>
+		<africa_accra>(GMT+0:00) Africa/Accra (Ghana Mean Time)</africa_accra>
+		<africa_addis_ababa>(GMT+3:00) Africa/Addis_Ababa (Eastern African Time)</africa_addis_ababa>
+		<africa_algiers>(GMT+1:00) Africa/Algiers (Central European Time)</africa_algiers>
+		<africa_asmara>(GMT+3:00) Africa/Asmara (Eastern African Time)</africa_asmara>
+		<africa_asmera>(GMT+3:00) Africa/Asmera (Eastern African Time)</africa_asmera>
+		<africa_bamako>(GMT+0:00) Africa/Bamako (Greenwich Mean Time)</africa_bamako>
+		<africa_bangui>(GMT+1:00) Africa/Bangui (Western African Time)</africa_bangui>
+		<africa_banjul>(GMT+0:00) Africa/Banjul (Greenwich Mean Time)</africa_banjul>
+		<africa_bissau>(GMT+0:00) Africa/Bissau (Greenwich Mean Time)</africa_bissau>
+		<africa_blantyre>(GMT+2:00) Africa/Blantyre (Central African Time)</africa_blantyre>
+		<africa_brazzaville>(GMT+1:00) Africa/Brazzaville (Western African Time)</africa_brazzaville>
+		<africa_bujumbura>(GMT+2:00) Africa/Bujumbura (Central African Time)</africa_bujumbura>
+		<africa_cairo>(GMT+2:00) Africa/Cairo (Eastern European Time)</africa_cairo>
+		<africa_casablanca>(GMT+0:00) Africa/Casablanca (Western European Time)</africa_casablanca>
+		<africa_ceuta>(GMT+1:00) Africa/Ceuta (Central European Time)</africa_ceuta>
+		<africa_conakry>(GMT+0:00) Africa/Conakry (Greenwich Mean Time)</africa_conakry>
+		<africa_dakar>(GMT+0:00) Africa/Dakar (Greenwich Mean Time)</africa_dakar>
+		<africa_dar_es_salaam>(GMT+3:00) Africa/Dar_es_Salaam (Eastern African Time)</africa_dar_es_salaam>
+		<africa_djibouti>(GMT+3:00) Africa/Djibouti (Eastern African Time)</africa_djibouti>
+		<africa_douala>(GMT+1:00) Africa/Douala (Western African Time)</africa_douala>
+		<africa_el_aaiun>(GMT+0:00) Africa/El_Aaiun (Western European Time)</africa_el_aaiun>
+		<africa_freetown>(GMT+0:00) Africa/Freetown (Greenwich Mean Time)</africa_freetown>
+		<africa_gaborone>(GMT+2:00) Africa/Gaborone (Central African Time)</africa_gaborone>
+		<africa_harare>(GMT+2:00) Africa/Harare (Central African Time)</africa_harare>
+		<africa_johannesburg>(GMT+2:00) Africa/Johannesburg (South Africa Standard Time)</africa_johannesburg>
+		<africa_kampala>(GMT+3:00) Africa/Kampala (Eastern African Time)</africa_kampala>
+		<africa_khartoum>(GMT+3:00) Africa/Khartoum (Eastern African Time)</africa_khartoum>
+		<africa_kigali>(GMT+2:00) Africa/Kigali (Central African Time)</africa_kigali>
+		<africa_kinshasa>(GMT+1:00) Africa/Kinshasa (Western African Time)</africa_kinshasa>
+		<africa_lagos>(GMT+1:00) Africa/Lagos (Western African Time)</africa_lagos>
+		<africa_libreville>(GMT+1:00) Africa/Libreville (Western African Time)</africa_libreville>
+		<africa_lome>(GMT+0:00) Africa/Lome (Greenwich Mean Time)</africa_lome>
+		<africa_luanda>(GMT+1:00) Africa/Luanda (Western African Time)</africa_luanda>
+		<africa_lubumbashi>(GMT+2:00) Africa/Lubumbashi (Central African Time)</africa_lubumbashi>
+		<africa_lusaka>(GMT+2:00) Africa/Lusaka (Central African Time)</africa_lusaka>
+		<africa_malabo>(GMT+1:00) Africa/Malabo (Western African Time)</africa_malabo>
+		<africa_maputo>(GMT+2:00) Africa/Maputo (Central African Time)</africa_maputo>
+		<africa_maseru>(GMT+2:00) Africa/Maseru (South Africa Standard Time)</africa_maseru>
+		<africa_mbabane>(GMT+2:00) Africa/Mbabane (South Africa Standard Time)</africa_mbabane>
+		<africa_mogadishu>(GMT+3:00) Africa/Mogadishu (Eastern African Time)</africa_mogadishu>
+		<africa_monrovia>(GMT+0:00) Africa/Monrovia (Greenwich Mean Time)</africa_monrovia>
+		<africa_nairobi>(GMT+3:00) Africa/Nairobi (Eastern African Time)</africa_nairobi>
+		<africa_ndjamena>(GMT+1:00) Africa/Ndjamena (Western African Time)</africa_ndjamena>
+		<africa_niamey>(GMT+1:00) Africa/Niamey (Western African Time)</africa_niamey>
+		<africa_nouakchott>(GMT+0:00) Africa/Nouakchott (Greenwich Mean Time)</africa_nouakchott>
+		<africa_ouagadougou>(GMT+0:00) Africa/Ouagadougou (Greenwich Mean Time)</africa_ouagadougou>
+		<africa_porto-novo>(GMT+1:00) Africa/Porto-Novo (Western African Time)</africa_porto-novo>
+		<africa_sao_tome>(GMT+0:00) Africa/Sao_Tome (Greenwich Mean Time)</africa_sao_tome>
+		<africa_timbuktu>(GMT+0:00) Africa/Timbuktu (Greenwich Mean Time)</africa_timbuktu>
+		<africa_tripoli>(GMT+2:00) Africa/Tripoli (Eastern European Time)</africa_tripoli>
+		<africa_tunis>(GMT+1:00) Africa/Tunis (Central European Time)</africa_tunis>
+		<africa_windhoek>(GMT+1:00) Africa/Windhoek (Western African Time)</africa_windhoek>
+		<alarm>Alarm</alarm>
+		<alarm_enable>Alarm enable</alarm_enable>
+		<alarm_settings>Alarm settings</alarm_settings>
+		<alarm_summary>Alarm summary</alarm_summary>
+		<alarm_trigger_interval>Alarm trigger interval</alarm_trigger_interval>
+		<all_day>All day</all_day>
+		<allow_all>Allow all</allow_all>
+		<allow_only>Allow only</allow_only>
+		<america_adak>(GMT-10:00) America/Adak (Hawaii-Aleutian Standard Time)</america_adak>
+		<america_anchorage>(GMT-9:00) America/Anchorage (Alaska Standard Time)</america_anchorage>
+		<america_anguilla>(GMT-4:00) America/Anguilla (Atlantic Standard Time)</america_anguilla>
+		<america_antigua>(GMT-4:00) America/Antigua (Atlantic Standard Time)</america_antigua>
+		<america_araguaina>(GMT-3:00) America/Araguaina (Brasilia Time)</america_araguaina>
+		<america_aruba>(GMT-4:00) America/Aruba (Atlantic Standard Time)</america_aruba>
+		<america_asuncion>(GMT-4:00) America/Asuncion (Paraguay Time)</america_asuncion>
+		<america_atikokan>(GMT-5:00) America/Atikokan (Eastern Standard Time)</america_atikokan>
+		<america_atka>(GMT-10:00) America/Atka (Hawaii-Aleutian Standard Time)</america_atka>
+		<america_bahia>(GMT-3:00) America/Bahia (Brasilia Time)</america_bahia>
+		<america_barbados>(GMT-4:00) America/Barbados (Atlantic Standard Time)</america_barbados>
+		<america_belem>(GMT-3:00) America/Belem (Brasilia Time)</america_belem>
+		<america_belize>(GMT-6:00) America/Belize (Central Standard Time)</america_belize>
+		<america_blanc-sablon>(GMT-4:00) America/Blanc-Sablon (Atlantic Standard Time)</america_blanc-sablon>
+		<america_boa_vista>(GMT-4:00) America/Boa_Vista (Amazon Time)</america_boa_vista>
+		<america_bogota>(GMT-5:00) America/Bogota (Colombia Time)</america_bogota>
+		<america_boise>(GMT-7:00) America/Boise (Mountain Standard Time)</america_boise>
+		<america_buenos_aires>(GMT-3:00) America/Buenos_Aires (Argentine Time)</america_buenos_aires>
+		<america_cambridge_bay>(GMT-7:00) America/Cambridge_Bay (Mountain Standard Time)</america_cambridge_bay>
+		<america_campo_grande>(GMT-4:00) America/Campo_Grande (Amazon Time)</america_campo_grande>
+		<america_cancun>(GMT-6:00) America/Cancun (Central Standard Time)</america_cancun>
+		<america_caracas>(GMT-4:-30) America/Caracas (Venezuela Time)</america_caracas>
+		<america_catamarca>(GMT-3:00) America/Catamarca (Argentine Time)</america_catamarca>
+		<america_cayenne>(GMT-3:00) America/Cayenne (French Guiana Time)</america_cayenne>
+		<america_cayman>(GMT-5:00) America/Cayman (Eastern Standard Time)</america_cayman>
+		<america_chicago>(GMT-6:00) America/Chicago (Central Standard Time)</america_chicago>
+		<america_chihuahua>(GMT-7:00) America/Chihuahua (Mountain Standard Time)</america_chihuahua>
+		<america_coral_harbour>(GMT-5:00) America/Coral_Harbour (Eastern Standard Time)</america_coral_harbour>
+		<america_cordoba>(GMT-3:00) America/Cordoba (Argentine Time)</america_cordoba>
+		<america_costa_rica>(GMT-6:00) America/Costa_Rica (Central Standard Time)</america_costa_rica>
+		<america_cuiaba>(GMT-4:00) America/Cuiaba (Amazon Time)</america_cuiaba>
+		<america_curacao>(GMT-4:00) America/Curacao (Atlantic Standard Time)</america_curacao>
+		<america_danmarkshavn>(GMT+0:00) America/Danmarkshavn (Greenwich Mean Time)</america_danmarkshavn>
+		<america_dawson>(GMT-8:00) America/Dawson (Pacific Standard Time)</america_dawson>
+		<america_dawson_creek>(GMT-7:00) America/Dawson_Creek (Mountain Standard Time)</america_dawson_creek>
+		<america_denver>(GMT-7:00) America/Denver (Mountain Standard Time)</america_denver>
+		<america_detroit>(GMT-5:00) America/Detroit (Eastern Standard Time)</america_detroit>
+		<america_dominica>(GMT-4:00) America/Dominica (Atlantic Standard Time)</america_dominica>
+		<america_edmonton>(GMT-7:00) America/Edmonton (Mountain Standard Time)</america_edmonton>
+		<america_eirunepe>(GMT-4:00) America/Eirunepe (Amazon Time)</america_eirunepe>
+		<america_el_salvador>(GMT-6:00) America/El_Salvador (Central Standard Time)</america_el_salvador>
+		<america_ensenada>(GMT-8:00) America/Ensenada (Pacific Standard Time)</america_ensenada>
+		<america_fort_wayne>(GMT-5:00) America/Fort_Wayne (Eastern Standard Time)</america_fort_wayne>
+		<america_fortaleza>(GMT-3:00) America/Fortaleza (Brasilia Time)</america_fortaleza>
+		<america_glace_bay>(GMT-4:00) America/Glace_Bay (Atlantic Standard Time)</america_glace_bay>
+		<america_godthab>(GMT-3:00) America/Godthab (Western Greenland Time)</america_godthab>
+		<america_goose_bay>(GMT-4:00) America/Goose_Bay (Atlantic Standard Time)</america_goose_bay>
+		<america_grand_turk>(GMT-5:00) America/Grand_Turk (Eastern Standard Time)</america_grand_turk>
+		<america_grenada>(GMT-4:00) America/Grenada (Atlantic Standard Time)</america_grenada>
+		<america_guadeloupe>(GMT-4:00) America/Guadeloupe (Atlantic Standard Time)</america_guadeloupe>
+		<america_guatemala>(GMT-6:00) America/Guatemala (Central Standard Time)</america_guatemala>
+		<america_guayaquil>(GMT-5:00) America/Guayaquil (Ecuador Time)</america_guayaquil>
+		<america_guyana>(GMT-4:00) America/Guyana (Guyana Time)</america_guyana>
+		<america_halifax>(GMT-4:00) America/Halifax (Atlantic Standard Time)</america_halifax>
+		<america_havana>(GMT-5:00) America/Havana (Cuba Standard Time)</america_havana>
+		<america_hermosillo>(GMT-7:00) America/Hermosillo (Mountain Standard Time)</america_hermosillo>
+		<america_indianapolis>(GMT-5:00) America/Indianapolis (Eastern Standard Time)</america_indianapolis>
+		<america_inuvik>(GMT-7:00) America/Inuvik (Mountain Standard Time)</america_inuvik>
+		<america_iqaluit>(GMT-5:00) America/Iqaluit (Eastern Standard Time)</america_iqaluit>
+		<america_jamaica>(GMT-5:00) America/Jamaica (Eastern Standard Time)</america_jamaica>
+		<america_jujuy>(GMT-3:00) America/Jujuy (Argentine Time)</america_jujuy>
+		<america_juneau>(GMT-9:00) America/Juneau (Alaska Standard Time)</america_juneau>
+		<america_knox_in>(GMT-6:00) America/Knox_IN (Central Standard Time)</america_knox_in>
+		<america_la_paz>(GMT-4:00) America/La_Paz (Bolivia Time)</america_la_paz>
+		<america_lima>(GMT-5:00) America/Lima (Peru Time)</america_lima>
+		<america_los_angeles>(GMT-8:00) America/Los_Angeles (Pacific Standard Time)</america_los_angeles>
+		<america_louisville>(GMT-5:00) America/Louisville (Eastern Standard Time)</america_louisville>
+		<america_maceio>(GMT-3:00) America/Maceio (Brasilia Time)</america_maceio>
+		<america_managua>(GMT-6:00) America/Managua (Central Standard Time)</america_managua>
+		<america_manaus>(GMT-4:00) America/Manaus (Amazon Time)</america_manaus>
+		<america_marigot>(GMT-4:00) America/Marigot (Atlantic Standard Time)</america_marigot>
+		<america_martinique>(GMT-4:00) America/Martinique (Atlantic Standard Time)</america_martinique>
+		<america_mazatlan>(GMT-7:00) America/Mazatlan (Mountain Standard Time)</america_mazatlan>
+		<america_mendoza>(GMT-3:00) America/Mendoza (Argentine Time)</america_mendoza>
+		<america_menominee>(GMT-6:00) America/Menominee (Central Standard Time)</america_menominee>
+		<america_merida>(GMT-6:00) America/Merida (Central Standard Time)</america_merida>
+		<america_mexico_city>(GMT-6:00) America/Mexico_City (Central Standard Time)</america_mexico_city>
+		<america_miquelon>(GMT-3:00) America/Miquelon (Pierre &amp; Miquelon Standard Time)</america_miquelon>
+		<america_moncton>(GMT-4:00) America/Moncton (Atlantic Standard Time)</america_moncton>
+		<america_monterrey>(GMT-6:00) America/Monterrey (Central Standard Time)</america_monterrey>
+		<america_montevideo>(GMT-3:00) America/Montevideo (Uruguay Time)</america_montevideo>
+		<america_montreal>(GMT-5:00) America/Montreal (Eastern Standard Time)</america_montreal>
+		<america_montserrat>(GMT-4:00) America/Montserrat (Atlantic Standard Time)</america_montserrat>
+		<america_nassau>(GMT-5:00) America/Nassau (Eastern Standard Time)</america_nassau>
+		<america_new_york>(GMT-5:00) America/New_York (Eastern Standard Time)</america_new_york>
+		<america_nipigon>(GMT-5:00) America/Nipigon (Eastern Standard Time)</america_nipigon>
+		<america_nome>(GMT-9:00) America/Nome (Alaska Standard Time)</america_nome>
+		<america_noronha>(GMT-2:00) America/Noronha (Fernando de Noronha Time)</america_noronha>
+		<america_panama>(GMT-5:00) America/Panama (Eastern Standard Time)</america_panama>
+		<america_pangnirtung>(GMT-5:00) America/Pangnirtung (Eastern Standard Time)</america_pangnirtung>
+		<america_paramaribo>(GMT-3:00) America/Paramaribo (Suriname Time)</america_paramaribo>
+		<america_phoenix>(GMT-7:00) America/Phoenix (Mountain Standard Time)</america_phoenix>
+		<america_port-au-prince>(GMT-5:00) America/Port-au-Prince (Eastern Standard Time)</america_port-au-prince>
+		<america_port_of_spain>(GMT-4:00) America/Port_of_Spain (Atlantic Standard Time)</america_port_of_spain>
+		<america_porto_acre>(GMT-4:00) America/Porto_Acre (Amazon Time)</america_porto_acre>
+		<america_porto_velho>(GMT-4:00) America/Porto_Velho (Amazon Time)</america_porto_velho>
+		<america_puerto_rico>(GMT-4:00) America/Puerto_Rico (Atlantic Standard Time)</america_puerto_rico>
+		<america_rainy_river>(GMT-6:00) America/Rainy_River (Central Standard Time)</america_rainy_river>
+		<america_rankin_inlet>(GMT-6:00) America/Rankin_Inlet (Central Standard Time)</america_rankin_inlet>
+		<america_recife>(GMT-3:00) America/Recife (Brasilia Time)</america_recife>
+		<america_regina>(GMT-6:00) America/Regina (Central Standard Time)</america_regina>
+		<america_resolute>(GMT-5:00) America/Resolute (Eastern Standard Time)</america_resolute>
+		<america_rio_branco>(GMT-4:00) America/Rio_Branco (Amazon Time)</america_rio_branco>
+		<america_rosario>(GMT-3:00) America/Rosario (Argentine Time)</america_rosario>
+		<america_santarem>(GMT-3:00) America/Santarem (Brasilia Time)</america_santarem>
+		<america_santiago>(GMT-4:00) America/Santiago (Chile Time)</america_santiago>
+		<america_santo_domingo>(GMT-4:00) America/Santo_Domingo (Atlantic Standard Time)</america_santo_domingo>
+		<america_sao_paulo>(GMT-3:00) America/Sao_Paulo (Brasilia Time)</america_sao_paulo>
+		<america_scoresbysund>(GMT-1:00) America/Scoresbysund (Eastern Greenland Time)</america_scoresbysund>
+		<america_shiprock>(GMT-7:00) America/Shiprock (Mountain Standard Time)</america_shiprock>
+		<america_st_barthelemy>(GMT-4:00) America/St_Barthelemy (Atlantic Standard Time)</america_st_barthelemy>
+		<america_st_johns>(GMT-3:-30) America/St_Johns (Newfoundland Standard Time)</america_st_johns>
+		<america_st_kitts>(GMT-4:00) America/St_Kitts (Atlantic Standard Time)</america_st_kitts>
+		<america_st_lucia>(GMT-4:00) America/St_Lucia (Atlantic Standard Time)</america_st_lucia>
+		<america_st_thomas>(GMT-4:00) America/St_Thomas (Atlantic Standard Time)</america_st_thomas>
+		<america_st_vincent>(GMT-4:00) America/St_Vincent (Atlantic Standard Time)</america_st_vincent>
+		<america_swift_current>(GMT-6:00) America/Swift_Current (Central Standard Time)</america_swift_current>
+		<america_tegucigalpa>(GMT-6:00) America/Tegucigalpa (Central Standard Time)</america_tegucigalpa>
+		<america_thule>(GMT-4:00) America/Thule (Atlantic Standard Time)</america_thule>
+		<america_thunder_bay>(GMT-5:00) America/Thunder_Bay (Eastern Standard Time)</america_thunder_bay>
+		<america_tijuana>(GMT-8:00) America/Tijuana (Pacific Standard Time)</america_tijuana>
+		<america_toronto>(GMT-5:00) America/Toronto (Eastern Standard Time)</america_toronto>
+		<america_tortola>(GMT-4:00) America/Tortola (Atlantic Standard Time)</america_tortola>
+		<america_vancouver>(GMT-8:00) America/Vancouver (Pacific Standard Time)</america_vancouver>
+		<america_virgin>(GMT-4:00) America/Virgin (Atlantic Standard Time)</america_virgin>
+		<america_whitehorse>(GMT-8:00) America/Whitehorse (Pacific Standard Time)</america_whitehorse>
+		<america_winnipeg>(GMT-6:00) America/Winnipeg (Central Standard Time)</america_winnipeg>
+		<america_yakutat>(GMT-9:00) America/Yakutat (Alaska Standard Time)</america_yakutat>
+		<america_yellowknife>(GMT-7:00) America/Yellowknife (Mountain Standard Time)</america_yellowknife>
+		<antarctica_casey>(GMT+8:00) Antarctica/Casey (Western Standard Time (Australia))</antarctica_casey>
+		<antarctica_davis>(GMT+7:00) Antarctica/Davis (Davis Time)</antarctica_davis>
+		<antarctica_dumontdurville>(GMT+10:00) Antarctica/DumontDUrville (Dumont-d'Urville Time)</antarctica_dumontdurville>
+		<antarctica_mawson>(GMT+6:00) Antarctica/Mawson (Mawson Time)</antarctica_mawson>
+		<antarctica_mcmurdo>(GMT+12:00) Antarctica/McMurdo (New Zealand Standard Time)</antarctica_mcmurdo>
+		<antarctica_palmer>(GMT-4:00) Antarctica/Palmer (Chile Time)</antarctica_palmer>
+		<antarctica_rothera>(GMT-3:00) Antarctica/Rothera (Rothera Time)</antarctica_rothera>
+		<antarctica_south_pole>(GMT+12:00) Antarctica/South_Pole (New Zealand Standard Time)</antarctica_south_pole>
+		<antarctica_syowa>(GMT+3:00) Antarctica/Syowa (Syowa Time)</antarctica_syowa>
+		<antarctica_vostok>(GMT+6:00) Antarctica/Vostok (Vostok Time)</antarctica_vostok>
+		<apply_complete>Apply complete</apply_complete>
+		<arctic_longyearbyen>(GMT+1:00) Arctic/Longyearbyen (Central European Time)</arctic_longyearbyen>
+		<asia_aden>(GMT+3:00) Asia/Aden (Arabia Standard Time)</asia_aden>
+		<asia_almaty>(GMT+6:00) Asia/Almaty (Alma-Ata Time)</asia_almaty>
+		<asia_amman>(GMT+2:00) Asia/Amman (Eastern European Time)</asia_amman>
+		<asia_anadyr>(GMT+12:00) Asia/Anadyr (Anadyr Time)</asia_anadyr>
+		<asia_aqtau>(GMT+5:00) Asia/Aqtau (Aqtau Time)</asia_aqtau>
+		<asia_aqtobe>(GMT+5:00) Asia/Aqtobe (Aqtobe Time)</asia_aqtobe>
+		<asia_ashgabat>(GMT+5:00) Asia/Ashgabat (Turkmenistan Time)</asia_ashgabat>
+		<asia_ashkhabad>(GMT+5:00) Asia/Ashkhabad (Turkmenistan Time)</asia_ashkhabad>
+		<asia_baghdad>(GMT+3:00) Asia/Baghdad (Arabia Standard Time)</asia_baghdad>
+		<asia_bahrain>(GMT+3:00) Asia/Bahrain (Arabia Standard Time)</asia_bahrain>
+		<asia_baku>(GMT+4:00) Asia/Baku (Azerbaijan Time)</asia_baku>
+		<asia_bangkok>(GMT+7:00) Asia/Bangkok (Indochina Time)</asia_bangkok>
+		<asia_beirut>(GMT+2:00) Asia/Beirut (Eastern European Time)</asia_beirut>
+		<asia_bishkek>(GMT+6:00) Asia/Bishkek (Kirgizstan Time)</asia_bishkek>
+		<asia_brunei>(GMT+8:00) Asia/Brunei (Brunei Time)</asia_brunei>
+		<asia_calcutta>(GMT+5:30) Asia/Calcutta (India Standard Time)</asia_calcutta>
+		<asia_choibalsan>(GMT+8:00) Asia/Choibalsan (Choibalsan Time)</asia_choibalsan>
+		<asia_chongqing>(GMT+8:00) Asia/Chongqing (China Standard Time)</asia_chongqing>
+		<asia_chungking>(GMT+8:00) Asia/Chungking (China Standard Time)</asia_chungking>
+		<asia_colombo>(GMT+5:30) Asia/Colombo (India Standard Time)</asia_colombo>
+		<asia_dacca>(GMT+6:00) Asia/Dacca (Bangladesh Time)</asia_dacca>
+		<asia_damascus>(GMT+2:00) Asia/Damascus (Eastern European Time)</asia_damascus>
+		<asia_dhaka>(GMT+6:00) Asia/Dhaka (Bangladesh Time)</asia_dhaka>
+		<asia_dili>(GMT+9:00) Asia/Dili (Timor-Leste Time)</asia_dili>
+		<asia_dubai>(GMT+4:00) Asia/Dubai (Gulf Standard Time)</asia_dubai>
+		<asia_dushanbe>(GMT+5:00) Asia/Dushanbe (Tajikistan Time)</asia_dushanbe>
+		<asia_gaza>(GMT+2:00) Asia/Gaza (Eastern European Time)</asia_gaza>
+		<asia_harbin>(GMT+8:00) Asia/Harbin (China Standard Time)</asia_harbin>
+		<asia_ho_chi_minh>(GMT+7:00) Asia/Ho_Chi_Minh (Indochina Time)</asia_ho_chi_minh>
+		<asia_hong_kong>(GMT+8:00) Asia/Hong_Kong (Hong Kong Time)</asia_hong_kong>
+		<asia_hovd>(GMT+7:00) Asia/Hovd (Hovd Time)</asia_hovd>
+		<asia_irkutsk>(GMT+8:00) Asia/Irkutsk (Irkutsk Time)</asia_irkutsk>
+		<asia_istanbul>(GMT+2:00) Asia/Istanbul (Eastern European Time)</asia_istanbul>
+		<asia_jakarta>(GMT+7:00) Asia/Jakarta (West Indonesia Time)</asia_jakarta>
+		<asia_jayapura>(GMT+9:00) Asia/Jayapura (East Indonesia Time)</asia_jayapura>
+		<asia_jerusalem>(GMT+2:00) Asia/Jerusalem (Israel Standard Time)</asia_jerusalem>
+		<asia_kabul>(GMT+4:30) Asia/Kabul (Afghanistan Time)</asia_kabul>
+		<asia_kamchatka>(GMT+12:00) Asia/Kamchatka (Petropavlovsk-Kamchatski Time)</asia_kamchatka>
+		<asia_karachi>(GMT+5:00) Asia/Karachi (Pakistan Time)</asia_karachi>
+		<asia_kashgar>(GMT+8:00) Asia/Kashgar (China Standard Time)</asia_kashgar>
+		<asia_katmandu>(GMT+5:45) Asia/Katmandu (Nepal Time)</asia_katmandu>
+		<asia_kolkata>(GMT+5:30) Asia/Kolkata (India Standard Time)</asia_kolkata>
+		<asia_krasnoyarsk>(GMT+7:00) Asia/Krasnoyarsk (Krasnoyarsk Time)</asia_krasnoyarsk>
+		<asia_kuala_lumpur>(GMT+8:00) Asia/Kuala_Lumpur (Malaysia Time)</asia_kuala_lumpur>
+		<asia_kuching>(GMT+8:00) Asia/Kuching (Malaysia Time)</asia_kuching>
+		<asia_kuwait>(GMT+3:00) Asia/Kuwait (Arabia Standard Time)</asia_kuwait>
+		<asia_macao>(GMT+8:00) Asia/Macao (China Standard Time)</asia_macao>
+		<asia_macau>(GMT+8:00) Asia/Macau (China Standard Time)</asia_macau>
+		<asia_magadan>(GMT+11:00) Asia/Magadan (Magadan Time)</asia_magadan>
+		<asia_makassar>(GMT+8:00) Asia/Makassar (Central Indonesia Time)</asia_makassar>
+		<asia_manila>(GMT+8:00) Asia/Manila (Philippines Time)</asia_manila>
+		<asia_muscat>(GMT+4:00) Asia/Muscat (Gulf Standard Time)</asia_muscat>
+		<asia_nicosia>(GMT+2:00) Asia/Nicosia (Eastern European Time)</asia_nicosia>
+		<asia_novosibirsk>(GMT+6:00) Asia/Novosibirsk (Novosibirsk Time)</asia_novosibirsk>
+		<asia_omsk>(GMT+6:00) Asia/Omsk (Omsk Time)</asia_omsk>
+		<asia_oral>(GMT+5:00) Asia/Oral (Oral Time)</asia_oral>
+		<asia_phnom_penh>(GMT+7:00) Asia/Phnom_Penh (Indochina Time)</asia_phnom_penh>
+		<asia_pontianak>(GMT+7:00) Asia/Pontianak (West Indonesia Time)</asia_pontianak>
+		<asia_pyongyang>(GMT+9:00) Asia/Pyongyang (Korea Standard Time)</asia_pyongyang>
+		<asia_qatar>(GMT+3:00) Asia/Qatar (Arabia Standard Time)</asia_qatar>
+		<asia_qyzylorda>(GMT+6:00) Asia/Qyzylorda (Qyzylorda Time)</asia_qyzylorda>
+		<asia_rangoon>(GMT+6:30) Asia/Rangoon (Myanmar Time)</asia_rangoon>
+		<asia_saigon>(GMT+7:00) Asia/Saigon (Indochina Time)</asia_saigon>
+		<asia_sakhalin>(GMT+10:00) Asia/Sakhalin (Sakhalin Time)</asia_sakhalin>
+		<asia_samarkand>(GMT+5:00) Asia/Samarkand (Uzbekistan Time)</asia_samarkand>
+		<asia_seoul>(GMT+9:00) Asia/Seoul (Korea Standard Time)</asia_seoul>
+		<asia_shanghai>(GMT+8:00) Asia/Shanghai (China Standard Time)</asia_shanghai>
+		<asia_singapore>(GMT+8:00) Asia/Singapore (Singapore Time)</asia_singapore>
+		<asia_taipei>(GMT+8:00) Asia/Taipei (China Standard Time)</asia_taipei>
+		<asia_tashkent>(GMT+5:00) Asia/Tashkent (Uzbekistan Time)</asia_tashkent>
+		<asia_tbilisi>(GMT+4:00) Asia/Tbilisi (Georgia Time)</asia_tbilisi>
+		<asia_tehran>(GMT+3:30) Asia/Tehran (Iran Standard Time)</asia_tehran>
+		<asia_tel_aviv>(GMT+2:00) Asia/Tel_Aviv (Israel Standard Time)</asia_tel_aviv>
+		<asia_thimbu>(GMT+6:00) Asia/Thimbu (Bhutan Time)</asia_thimbu>
+		<asia_thimphu>(GMT+6:00) Asia/Thimphu (Bhutan Time)</asia_thimphu>
+		<asia_tokyo>(GMT+9:00) Asia/Tokyo (Japan Standard Time)</asia_tokyo>
+		<asia_ujung_pandang>(GMT+8:00) Asia/Ujung_Pandang (Central Indonesia Time)</asia_ujung_pandang>
+		<asia_ulaanbaatar>(GMT+8:00) Asia/Ulaanbaatar (Ulaanbaatar Time)</asia_ulaanbaatar>
+		<asia_ulan_bator>(GMT+8:00) Asia/Ulan_Bator (Ulaanbaatar Time)</asia_ulan_bator>
+		<asia_urumqi>(GMT+8:00) Asia/Urumqi (China Standard Time)</asia_urumqi>
+		<asia_vientiane>(GMT+7:00) Asia/Vientiane (Indochina Time)</asia_vientiane>
+		<asia_vladivostok>(GMT+10:00) Asia/Vladivostok (Vladivostok Time)</asia_vladivostok>
+		<asia_yakutsk>(GMT+9:00) Asia/Yakutsk (Yakutsk Time)</asia_yakutsk>
+		<asia_yekaterinburg>(GMT+5:00) Asia/Yekaterinburg (Yekaterinburg Time)</asia_yekaterinburg>
+		<asia_yerevan>(GMT+4:00) Asia/Yerevan (Armenia Time)</asia_yerevan>
+		<assign_a_new_action>Assign a new action</assign_a_new_action>
+		<assigned_actions>Assigned actions</assigned_actions>
+		<ata_standard>ATA standard</ata_standard>
+		<ata_version>ATA version</ata_version>
+		<atlantic_azores>(GMT-1:00) Atlantic/Azores (Azores Time)</atlantic_azores>
+		<atlantic_bermuda>(GMT-4:00) Atlantic/Bermuda (Atlantic Standard Time)</atlantic_bermuda>
+		<atlantic_canary>(GMT+0:00) Atlantic/Canary (Western European Time)</atlantic_canary>
+		<atlantic_cape_verde>(GMT-1:00) Atlantic/Cape_Verde (Cape Verde Time)</atlantic_cape_verde>
+		<atlantic_faeroe>(GMT+0:00) Atlantic/Faeroe (Western European Time)</atlantic_faeroe>
+		<atlantic_faroe>(GMT+0:00) Atlantic/Faroe (Western European Time)</atlantic_faroe>
+		<atlantic_jan_mayen>(GMT+1:00) Atlantic/Jan_Mayen (Central European Time)</atlantic_jan_mayen>
+		<atlantic_madeira>(GMT+0:00) Atlantic/Madeira (Western European Time)</atlantic_madeira>
+		<atlantic_reykjavik>(GMT+0:00) Atlantic/Reykjavik (Greenwich Mean Time)</atlantic_reykjavik>
+		<atlantic_south_georgia>(GMT-2:00) Atlantic/South_Georgia (South Georgia Standard Time)</atlantic_south_georgia>
+		<atlantic_st_helena>(GMT+0:00) Atlantic/St_Helena (Greenwich Mean Time)</atlantic_st_helena>
+		<atlantic_stanley>(GMT-4:00) Atlantic/Stanley (Falkland Is. Time)</atlantic_stanley>
+		<audio_recording>Audio Recording</audio_recording>
+		<australia_act>(GMT+10:00) Australia/ACT (Eastern Standard Time (New South Wales))</australia_act>
+		<australia_adelaide>(GMT+9:30) Australia/Adelaide (Central Standard Time (South Australia))</australia_adelaide>
+		<australia_brisbane>(GMT+10:00) Australia/Brisbane (Eastern Standard Time (Queensland))</australia_brisbane>
+		<australia_broken_hill>(GMT+9:30) Australia/Broken_Hill (Central Standard Time (South Australia/New South Wales))</australia_broken_hill>
+		<australia_canberra>(GMT+10:00) Australia/Canberra (Eastern Standard Time (New South Wales))</australia_canberra>
+		<australia_currie>(GMT+10:00) Australia/Currie (Eastern Standard Time (New South Wales))</australia_currie>
+		<australia_darwin>(GMT+9:30) Australia/Darwin (Central Standard Time (Northern Territory))</australia_darwin>
+		<australia_eucla>(GMT+8:45) Australia/Eucla (Central Western Standard Time (Australia))</australia_eucla>
+		<australia_hobart>(GMT+10:00) Australia/Hobart (Eastern Standard Time (Tasmania))</australia_hobart>
+		<australia_lhi>(GMT+10:30) Australia/LHI (Lord Howe Standard Time)</australia_lhi>
+		<australia_lindeman>(GMT+10:00) Australia/Lindeman (Eastern Standard Time (Queensland))</australia_lindeman>
+		<australia_lord_howe>(GMT+10:30) Australia/Lord_Howe (Lord Howe Standard Time)</australia_lord_howe>
+		<australia_melbourne>(GMT+10:00) Australia/Melbourne (Eastern Standard Time (Victoria))</australia_melbourne>
+		<australia_north>(GMT+9:30) Australia/North (Central Standard Time (Northern Territory))</australia_north>
+		<australia_nsw>(GMT+10:00) Australia/NSW (Eastern Standard Time (New South Wales))</australia_nsw>
+		<australia_perth>(GMT+8:00) Australia/Perth (Western Standard Time (Australia))</australia_perth>
+		<australia_queensland>(GMT+10:00) Australia/Queensland (Eastern Standard Time (Queensland))</australia_queensland>
+		<australia_south>(GMT+9:30) Australia/South (Central Standard Time (South Australia))</australia_south>
+		<australia_sydney>(GMT+10:00) Australia/Sydney (Eastern Standard Time (New South Wales))</australia_sydney>
+		<australia_tasmania>(GMT+10:00) Australia/Tasmania (Eastern Standard Time (Tasmania))</australia_tasmania>
+		<australia_victoria>(GMT+10:00) Australia/Victoria (Eastern Standard Time (Victoria))</australia_victoria>
+		<australia_west>(GMT+8:00) Australia/West (Western Standard Time (Australia))</australia_west>
+		<australia_yancowinna>(GMT+9:30) Australia/Yancowinna (Central Standard Time (South Australia/New South Wales))</australia_yancowinna>
+		<back_to_liveview>Back to liveview</back_to_liveview>
+		<backup>Backup</backup>
+		<backup_restore>Backup/restore</backup_restore>
+		<bonding_error_packets>Bonding error packets</bonding_error_packets>
+		<bonding_packets_recieved>Bonding packets recieved</bonding_packets_recieved>
+		<bonding_packets_sent>Bonding packets sent</bonding_packets_sent>
+		<bonding_settings>Bonding settings</bonding_settings>
+		<bookmark>Bookmark</bookmark>
+		<brazil_acre>(GMT-4:00) Brazil/Acre (Amazon Time)</brazil_acre>
+		<brazil_denoronha>(GMT-2:00) Brazil/DeNoronha (Fernando de Noronha Time)</brazil_denoronha>
+		<brazil_east>(GMT-3:00) Brazil/East (Brasilia Time)</brazil_east>
+		<brazil_west>(GMT-4:00) Brazil/West (Amazon Time)</brazil_west>
+		<build_raid_0>Build RAID0</build_raid_0>
+		<build_raid_1>Build RAID1</build_raid_1>
+		<build_raid_5>Build RAID5</build_raid_5>
+		<buzzer>Buzzer</buzzer>
+		<by_day>By day</by_day>
+		<by_month>By month</by_month>
+		<by_week>By week</by_week>
+		<by_year>By year</by_year>
+		<calendar_selector>Calendar selector</calendar_selector>
+		<camera>Camera</camera>
+		<camera_access>Camera access</camera_access>
+		<camera_brand>Camera brand</camera_brand>
+		<camera_configuration>Camera configuration</camera_configuration>
+		<camera_control>Camera control</camera_control>
+		<camera_list>Camera list</camera_list>
+		<camera_model>Camera model</camera_model>
+		<camera_time>Camera time</camera_time>
+		<canada_atlantic>(GMT-4:00) Canada/Atlantic (Atlantic Standard Time)</canada_atlantic>
+		<canada_central>(GMT-6:00) Canada/Central (Central Standard Time)</canada_central>
+		<canada_east-saskatchewan>(GMT-6:00) Canada/East-Saskatchewan (Central Standard Time)</canada_east-saskatchewan>
+		<canada_eastern>(GMT-5:00) Canada/Eastern (Eastern Standard Time)</canada_eastern>
+		<canada_mountain>(GMT-7:00) Canada/Mountain (Mountain Standard Time)</canada_mountain>
+		<canada_newfoundland>(GMT-3:-30) Canada/Newfoundland (Newfoundland Standard Time)</canada_newfoundland>
+		<canada_pacific>(GMT-8:00) Canada/Pacific (Pacific Standard Time)</canada_pacific>
+		<canada_saskatchewan>(GMT-6:00) Canada/Saskatchewan (Central Standard Time)</canada_saskatchewan>
+		<canada_yukon>(GMT-8:00) Canada/Yukon (Pacific Standard Time)</canada_yukon>
+		<cancel>Cancel</cancel>
+		<change_user_layout>Change user layout</change_user_layout>
+		<channel>Channel</channel>
+		<channel_count>Channel count</channel_count>
+		<channel_id>Channel id</channel_id>
+		<check>Check</check>
+		<chile_continental>(GMT-4:00) Chile/Continental (Chile Time)</chile_continental>
+		<chile_easterisland>(GMT-6:00) Chile/EasterIsland (Easter Is. Time)</chile_easterisland>
+		<cieling>Cieling</cieling>
+		<close>Close</close>
+		<close_ptz_pane>Close PTZ pane</close_ptz_pane>
+		<close_related_alarm_pane>Close related alarm pane</close_related_alarm_pane>
+		<close_side>Close side</close_side>
+		<close_side_panel>Close side panel</close_side_panel>
+		<configuration>Configuration</configuration>
+		<confirm_key>Confirm key</confirm_key>
+		<confirm_password>Confirm Password</confirm_password>
+		<connection_log>Connection log</connection_log>
+		<connection_test_result_fail>Connection test result fail</connection_test_result_fail>
+		<connection_test_result_success>Connection test result success</connection_test_result_success>
+		<connection_test_result_unstable>Connection test result unstable</connection_test_result_unstable>
+		<continuous_recording>Continuous Recording</continuous_recording>
+		<cpu_temperature>CPU temperature</cpu_temperature>
+		<cpu_usage>CPU usage</cpu_usage>
+		<create>Create</create>
+		<create_alarm>Create alarm</create_alarm>
+		<create_new_schedule>Create new schedule</create_new_schedule>
+		<create_rule>Create rule</create_rule>
+		<create_user>Create user</create_user>
+		<current_version>Current Version</current_version>
+		<daily>Daily</daily>
+		<date_time>Date time</date_time>
+		<day>Day</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>DDNS registration result</ddns_message>
+		<ddns_settings>DDNS Settings</ddns_settings>
+		<default_language>Default language</default_language>
+		<define_a_new_schedule>Define a new schedule</define_a_new_schedule>
+		<delete_rule>Delete rule</delete_rule>
+		<deny_only>Deny only</deny_only>
+		<detailed>Detailed</detailed>
+		<detect>Detect</detect>
+		<device_channel>Device channel</device_channel>
+		<device_model>Device model</device_model>
+		<device_name>Device Name</device_name>
+		<di>Digital input</di>
+		<disable_pip>Disable PIP</disable_pip>
+		<disabled>Disabled</disabled>
+		<discard>Discard</discard>
+		<disk>Disk</disk>
+		<disk_1_temperature>Disk1 temperature</disk_1_temperature>
+		<disk_2_temperature>Disk2 temperature</disk_2_temperature>
+		<disk_3_temperature>Disk3 temperature</disk_3_temperature>
+		<disk_4_temperature>Disk4 temperature</disk_4_temperature>
+		<disk_5_temperature>Disk5 temperature</disk_5_temperature>
+		<disk_6_temperature>Disk6 temperature</disk_6_temperature>
+		<disk_health>Disk health</disk_health>
+		<disk_info>Disk information</disk_info>
+		<disk_last_test_result>Disk last test result</disk_last_test_result>
+		<disk_last_test_time>Disk last test time</disk_last_test_time>
+		<disk_long_test_result>Disk long test result</disk_long_test_result>
+		<disk_short_test_result>Disk short test result</disk_short_test_result>
+		<disk_temperature>Disk temperature</disk_temperature>
+		<do>DO</do>
+		<do_you_really_want_to_logout>Do you really want to logout</do_you_really_want_to_logout>
+		<do_you_really_want_to_reboot_the_nvr>Do you really want to reboot the NVR</do_you_really_want_to_reboot_the_nvr>
+		<done>Done</done>
+		<drag_emap_view>Drag emap view</drag_emap_view>
+		<dual_network>Dual network</dual_network>
+		<email>Email</email>
+		<email_subject>Email subject</email_subject>
+		<emap>Emap</emap>
+		<emap_select_image_to_upload>Emap select image to upload</emap_select_image_to_upload>
+		<enable_pip>Enable PIP</enable_pip>
+		<enable_settings_access>Enable settings access</enable_settings_access>
+		<enabled>Enabled</enabled>
+		<error_packets>Error packets</error_packets>
+		<europe_amsterdam>(GMT+1:00) Europe/Amsterdam (Central European Time)</europe_amsterdam>
+		<europe_andorra>(GMT+1:00) Europe/Andorra (Central European Time)</europe_andorra>
+		<europe_athens>(GMT+2:00) Europe/Athens (Eastern European Time)</europe_athens>
+		<europe_belfast>(GMT+0:00) Europe/Belfast (Greenwich Mean Time)</europe_belfast>
+		<europe_belgrade>(GMT+1:00) Europe/Belgrade (Central European Time)</europe_belgrade>
+		<europe_berlin>(GMT+1:00) Europe/Berlin (Central European Time)</europe_berlin>
+		<europe_bratislava>(GMT+1:00) Europe/Bratislava (Central European Time)</europe_bratislava>
+		<europe_brussels>(GMT+1:00) Europe/Brussels (Central European Time)</europe_brussels>
+		<europe_bucharest>(GMT+2:00) Europe/Bucharest (Eastern European Time)</europe_bucharest>
+		<europe_budapest>(GMT+1:00) Europe/Budapest (Central European Time)</europe_budapest>
+		<europe_chisinau>(GMT+2:00) Europe/Chisinau (Eastern European Time)</europe_chisinau>
+		<europe_copenhagen>(GMT+1:00) Europe/Copenhagen (Central European Time)</europe_copenhagen>
+		<europe_dublin>(GMT+0:00) Europe/Dublin (Greenwich Mean Time)</europe_dublin>
+		<europe_gibraltar>(GMT+1:00) Europe/Gibraltar (Central European Time)</europe_gibraltar>
+		<europe_guernsey>(GMT+0:00) Europe/Guernsey (Greenwich Mean Time)</europe_guernsey>
+		<europe_helsinki>(GMT+2:00) Europe/Helsinki (Eastern European Time)</europe_helsinki>
+		<europe_isle_of_man>(GMT+0:00) Europe/Isle_of_Man (Greenwich Mean Time)</europe_isle_of_man>
+		<europe_istanbul>(GMT+2:00) Europe/Istanbul (Eastern European Time)</europe_istanbul>
+		<europe_jersey>(GMT+0:00) Europe/Jersey (Greenwich Mean Time)</europe_jersey>
+		<europe_kaliningrad>(GMT+2:00) Europe/Kaliningrad (Eastern European Time)</europe_kaliningrad>
+		<europe_kiev>(GMT+2:00) Europe/Kiev (Eastern European Time)</europe_kiev>
+		<europe_lisbon>(GMT+0:00) Europe/Lisbon (Western European Time)</europe_lisbon>
+		<europe_ljubljana>(GMT+1:00) Europe/Ljubljana (Central European Time)</europe_ljubljana>
+		<europe_london>(GMT+0:00) Europe/London (Greenwich Mean Time)</europe_london>
+		<europe_luxembourg>(GMT+1:00) Europe/Luxembourg (Central European Time)</europe_luxembourg>
+		<europe_madrid>(GMT+1:00) Europe/Madrid (Central European Time)</europe_madrid>
+		<europe_malta>(GMT+1:00) Europe/Malta (Central European Time)</europe_malta>
+		<europe_mariehamn>(GMT+2:00) Europe/Mariehamn (Eastern European Time)</europe_mariehamn>
+		<europe_minsk>(GMT+2:00) Europe/Minsk (Eastern European Time)</europe_minsk>
+		<europe_monaco>(GMT+1:00) Europe/Monaco (Central European Time)</europe_monaco>
+		<europe_moscow>(GMT+3:00) Europe/Moscow (Moscow Standard Time)</europe_moscow>
+		<europe_nicosia>(GMT+2:00) Europe/Nicosia (Eastern European Time)</europe_nicosia>
+		<europe_oslo>(GMT+1:00) Europe/Oslo (Central European Time)</europe_oslo>
+		<europe_paris>(GMT+1:00) Europe/Paris (Central European Time)</europe_paris>
+		<europe_podgorica>(GMT+1:00) Europe/Podgorica (Central European Time)</europe_podgorica>
+		<europe_prague>(GMT+1:00) Europe/Prague (Central European Time)</europe_prague>
+		<europe_riga>(GMT+2:00) Europe/Riga (Eastern European Time)</europe_riga>
+		<europe_rome>(GMT+1:00) Europe/Rome (Central European Time)</europe_rome>
+		<europe_samara>(GMT+4:00) Europe/Samara (Samara Time)</europe_samara>
+		<europe_san_marino>(GMT+1:00) Europe/San_Marino (Central European Time)</europe_san_marino>
+		<europe_sarajevo>(GMT+1:00) Europe/Sarajevo (Central European Time)</europe_sarajevo>
+		<europe_simferopol>(GMT+2:00) Europe/Simferopol (Eastern European Time)</europe_simferopol>
+		<europe_skopje>(GMT+1:00) Europe/Skopje (Central European Time)</europe_skopje>
+		<europe_sofia>(GMT+2:00) Europe/Sofia (Eastern European Time)</europe_sofia>
+		<europe_stockholm>(GMT+1:00) Europe/Stockholm (Central European Time)</europe_stockholm>
+		<europe_tallinn>(GMT+2:00) Europe/Tallinn (Eastern European Time)</europe_tallinn>
+		<europe_tirane>(GMT+1:00) Europe/Tirane (Central European Time)</europe_tirane>
+		<europe_tiraspol>(GMT+2:00) Europe/Tiraspol (Eastern European Time)</europe_tiraspol>
+		<europe_uzhgorod>(GMT+2:00) Europe/Uzhgorod (Eastern European Time)</europe_uzhgorod>
+		<europe_vaduz>(GMT+1:00) Europe/Vaduz (Central European Time)</europe_vaduz>
+		<europe_vatican>(GMT+1:00) Europe/Vatican (Central European Time)</europe_vatican>
+		<europe_vienna>(GMT+1:00) Europe/Vienna (Central European Time)</europe_vienna>
+		<europe_vilnius>(GMT+2:00) Europe/Vilnius (Eastern European Time)</europe_vilnius>
+		<europe_volgograd>(GMT+3:00) Europe/Volgograd (Volgograd Time)</europe_volgograd>
+		<europe_warsaw>(GMT+1:00) Europe/Warsaw (Central European Time)</europe_warsaw>
+		<europe_zagreb>(GMT+1:00) Europe/Zagreb (Central European Time)</europe_zagreb>
+		<europe_zaporozhye>(GMT+2:00) Europe/Zaporozhye (Eastern European Time)</europe_zaporozhye>
+		<europe_zurich>(GMT+1:00) Europe/Zurich (Central European Time)</europe_zurich>
+		<event>Event</event>
+		<event_recording>Event recording</event_recording>
+		<event_schedule>Event schedule</event_schedule>
+		<event_type>Event type</event_type>
+		<excellent>Excellent</excellent>
+		<expand_raid>Expand RAID</expand_raid>
+		<expand_this_volume_needs_step_by_step_disk_swap>Expand this volume needs step by step disk swap</expand_this_volume_needs_step_by_step_disk_swap>
+		<export>Export</export>
+		<failover>Failover</failover>
+		<finish>Finish</finish>
+		<firmware>Firmware</firmware>
+		<firmware_version>Firmware version</firmware_version>
+		<floor>Floor</floor>
+		<focus>Focus</focus>
+		<forgot_key>Forgot key</forgot_key>
+		<format>Format</format>
+		<format_will_kill_any_data_on_this_volume>Format will kill any data on this volume</format_will_kill_any_data_on_this_volume>
+		<frame_rate>Frame rate</frame_rate>
+		<free_memory>Free memory</free_memory>
+		<fri>Fri</fri>
+		<from>From</from>
+		<ftp>FTP</ftp>
+		<ftp_server>FTP Server</ftp_server>
+		<gateway>Gateway</gateway>
+		<general>General</general>
+		<general_settings>General settings</general_settings>
+		<get_ip_address_automatically>Get IP address automatically</get_ip_address_automatically>
+		<good>Good</good>
+		<goto>Go to</goto>
+		<group>Group</group>
+		<hide_minimap>Hide minimap</hide_minimap>
+		<hide_playqueue>Hide playqueue</hide_playqueue>
+		<host_access_control>Host access control</host_access_control>
+		<host_name>Host Name</host_name>
+		<hour>Hour</hour>
+		<http>HTTP</http>
+		<http_port>HTTP Port</http_port>
+		<indian_antananarivo>(GMT+3:00) Indian/Antananarivo (Eastern African Time)</indian_antananarivo>
+		<indian_chagos>(GMT+6:00) Indian/Chagos (Indian Ocean Territory Time)</indian_chagos>
+		<indian_christmas>(GMT+7:00) Indian/Christmas (Christmas Island Time)</indian_christmas>
+		<indian_cocos>(GMT+6:30) Indian/Cocos (Cocos Islands Time)</indian_cocos>
+		<indian_comoro>(GMT+3:00) Indian/Comoro (Eastern African Time)</indian_comoro>
+		<indian_kerguelen>(GMT+5:00) Indian/Kerguelen (French Southern &amp; Antarctic Lands Time)</indian_kerguelen>
+		<indian_mahe>(GMT+4:00) Indian/Mahe (Seychelles Time)</indian_mahe>
+		<indian_maldives>(GMT+5:00) Indian/Maldives (Maldives Time)</indian_maldives>
+		<indian_mauritius>(GMT+4:00) Indian/Mauritius (Mauritius Time)</indian_mauritius>
+		<indian_mayotte>(GMT+3:00) Indian/Mayotte (Eastern African Time)</indian_mayotte>
+		<indian_reunion>(GMT+4:00) Indian/Reunion (Reunion Time)</indian_reunion>
+		<insert_to_playqueue>Insert to playqueue</insert_to_playqueue>
+		<instant_playback>Instant playback</instant_playback>
+		<ip_address>IP Address</ip_address>
+		<keep_current_date_and_time>Keep current date and time</keep_current_date_and_time>
+		<keep_repeat_camera_in_current_camera_list>Keep repeat camera in current camera list</keep_repeat_camera_in_current_camera_list>
+		<key>Key</key>
+		<lan1_error_packets>LAN1 error packets</lan1_error_packets>
+		<lan1_packets_recieved>LAN1 packets recieved</lan1_packets_recieved>
+		<lan1_packets_sent>LAN1 packets sent</lan1_packets_sent>
+		<lan2_error_packets>LAN2 error packets</lan2_error_packets>
+		<lan2_packets_recieved>LAN2 packets recieved</lan2_packets_recieved>
+		<lan2_packets_sent>LAN2 packets sent</lan2_packets_sent>
+		<lan_1>LAN1</lan_1>
+		<lan_2>LAN2</lan_2>
+		<layout>Layout</layout>
+		<layout_content_has_been_changed_do_you_want_to_save_into_user_layout_1>Layout content has been changed do you want to save into user layout1</layout_content_has_been_changed_do_you_want_to_save_into_user_layout_1>
+		<layout_content_has_been_changed_do_you_want_to_save_into_user_layout_2>Layout content has been changed do you want to save into user layout2</layout_content_has_been_changed_do_you_want_to_save_into_user_layout_2>
+		<layout_content_has_been_changed_do_you_want_to_save_into_user_layout_3>Layout content has been changed do you want to save into user layout3</layout_content_has_been_changed_do_you_want_to_save_into_user_layout_3>
+		<layout_content_has_been_changed_do_you_want_to_save_into_user_layout_4>Layout content has been changed do you want to save into user layout4</layout_content_has_been_changed_do_you_want_to_save_into_user_layout_4>
+		<layout_page_left>Layout page left</layout_page_left>
+		<layout_page_right>Layout page right</layout_page_right>
+		<legal_agreement>Legal agreement</legal_agreement>
+		<live>Live</live>
+		<live_streaming>Live streaming</live_streaming>
+		<liveview>Liveview</liveview>
+		<load_balance>Load balance</load_balance>
+		<login>Login</login>
+		<login_error>Login error</login_error>
+		<login_successfully>Login successfully</login_successfully>
+		<logout>Logout</logout>
+		<logs>Logs</logs>
+		<long_test>Long test</long_test>
+		<mac_address>MAC Address</mac_address>
+		<maintenance>Maintenance</maintenance>
+		<manage_your_harddisk_or_usbdisks_Setting_RAID>Manage your harddisk or usbdisks setting RAID</manage_your_harddisk_or_usbdisks_Setting_RAID>
+		<manual>Manual</manual>
+		<manual_recording_disabled>Manual recording disabled</manual_recording_disabled>
+		<manual_test>Manual test</manual_test>
+		<maximum_alarm_exceed>Maximum alarm exceed</maximum_alarm_exceed>
+		<maximum_rules_exceed>Maximum rules exceed</maximum_rules_exceed>
+		<medium>Medium</medium>
+		<mexico_bajanorte>(GMT-8:00) Mexico/BajaNorte (Pacific Standard Time)</mexico_bajanorte>
+		<mexico_bajasur>(GMT-7:00) Mexico/BajaSur (Mountain Standard Time)</mexico_bajasur>
+		<mexico_general>(GMT-6:00) Mexico/General (Central Standard Time)</mexico_general>
+		<migrate_to_RAID5>Migrate to RAID5</migrate_to_RAID5>
+		<minute>Minute</minute>
+		<model>Model</model>
+		<model_family>Model family</model_family>
+		<modify_done>Modify done</modify_done>
+		<mon>Mon</mon>
+		<monthly>Monthly</monthly>
+		<motion>Motion</motion>
+		<mute>Mute</mute>
+		<network>Network</network>
+		<network_address>Network address</network_address>
+		<network_error>Network error</network_error>
+		<network_is_reseting_please_wait_a_while_and_use_IW2_to_search_this_server_again>Network is reseting please wait a while and use IW2 to search this server again</network_is_reseting_please_wait_a_while_and_use_IW2_to_search_this_server_again>
+		<network_is_reseting_you_will_be_redirected_to_web_page_after_120_sec>Network is reseting you will be redirected to web page after 120 sec</network_is_reseting_you_will_be_redirected_to_web_page_after_120_sec>
+		<network_is_reseting_you_will_be_redirected_to_web_page_after_30_sec>Network is reseting you will be redirected to web page after 30 sec</network_is_reseting_you_will_be_redirected_to_web_page_after_30_sec>
+		<next>Next</next>
+		<no>No</no>
+		<no_action_assigned_please_assign>No action assigned please assign</no_action_assigned_please_assign>
+		<no_permission>No permission</no_permission>
+		<no_raid_task_now>No RAID task now</no_raid_task_now>
+		<no_schedule_default_is_all_the_day>No schedule default is all the day</no_schedule_default_is_all_the_day>
+		<no_streaming>No streaming</no_streaming>
+		<no_test_recently>No test recently</no_test_recently>
+		<no_trigger_please_create>No trigger please create</no_trigger_please_create>
+		<not_available_operation>Not available operation</not_available_operation>
+		<ntp_enabled>NTP Enabled</ntp_enabled>
+		<ntp_server>NTP Server</ntp_server>
+		<ok>OK</ok>
+		<online_user>Online user</online_user>
+		<open_ptz_pane>Open PTZ pane</open_ptz_pane>
+		<open_related_alarm_pane>Open related alarm pane</open_related_alarm_pane>
+		<open_side_panel>Open side panel</open_side_panel>
+		<operation_fail>Operation fail</operation_fail>
+		<operator>Operator</operator>
+		<optional>Optional</optional>
+		<overview>Overview</overview>
+		<packet>Packet</packet>
+		<packets_recieved>Packets recieved</packets_recieved>
+		<packets_sent>Packets sent</packets_sent>
+		<page_down>Page down</page_down>
+		<page_up>Page up</page_up>
+		<password>Password</password>
+		<pause>Pause</pause>
+		<ping_test>Ping test</ping_test>
+		<pir>PIR</pir>
+		<play>Play</play>
+		<playback>Playback</playback>
+		<playback_control>Playback Control</playback_control>
+		<playback_next>Playback next</playback_next>
+		<playback_speeddown>Playback speeddown</playback_speeddown>
+		<playback_speedup>Playback speedup</playback_speedup>
+		<playback_sync>Playback sync</playback_sync>
+		<playqueue_exceed_maximum_items>Playqueue exceed maximum items</playqueue_exceed_maximum_items>
+		<please_insert_new_disk_now>Please insert new disk now</please_insert_new_disk_now>
+		<please_remove_this_disk_now>Please remove this disk now</please_remove_this_disk_now>
+		<please_select_a_firmware_file_first>Please select a firmware file first</please_select_a_firmware_file_first>
+		<please_select_an_alarm_first>Please select an alarm first</please_select_an_alarm_first>
+		<port>Port</port>
+		<previous>Previous</previous>
+		<primary_dns>Primary DNS Server</primary_dns>
+		<process>Process</process>
+		<processing>Processing</processing>
+		<progressing_raid_task>Progressing RAID task</progressing_raid_task>
+		<protocol_settings>Protocol settings</protocol_settings>
+		<ptz_pane>PTZ pane</ptz_pane>
+		<quality>Quality</quality>
+		<raid_management>RAID management</raid_management>
+		<reboot>Reboot</reboot>
+		<recipient_email_address>Recipient Email Address</recipient_email_address>
+		<recording>Recording</recording>
+		<recording_manual>Manual</recording_manual>
+		<recording_policy>Recording Policy</recording_policy>
+		<recording_settings>Recording settings</recording_settings>
+		<recording_type>Recording Type</recording_type>
+		<recursive_type>Recursive type</recursive_type>
+		<recycle_settings>Recycle settings</recycle_settings>
+		<register>Register</register>
+		<related_alarm>Related alarm</related_alarm>
+		<relay_password>Relay password</relay_password>
+		<relay_port>Relay port</relay_port>
+		<release_spare>Release spare</release_spare>
+		<reload>Reload</reload>
+		<remember_me>Remember me</remember_me>
+		<remove>Remove</remove>
+		<remove_alarm>Remove alarm</remove_alarm>
+		<remove_all>Remove all</remove_all>
+		<remove_all_cameras_from_emap>Remove all cameras from Emap</remove_all_cameras_from_emap>
+		<remove_all_viewcells>Remove all viewcells</remove_all_viewcells>
+		<remove_raid>Remove RAID</remove_raid>
+		<remove_user>Remove user</remove_user>
+		<remove_will_disband_the_disks_under_this_volume>Remove will disband the disks under this volume</remove_will_disband_the_disks_under_this_volume>
+		<rename_emap>Rename Emap</rename_emap>
+		<replace>Replace</replace>
+		<replace_emap>Replace Emap</replace_emap>
+		<request_timeout>Request timeout</request_timeout>
+		<reserve_days>Reserve days</reserve_days>
+		<reset>Reset</reset>
+		<restore>Restore</restore>
+		<rotate>Rotate</rotate>
+		<rtp_port>RTP port</rtp_port>
+		<rtsp_port>RTSP Port</rtsp_port>
+		<sat>Sat</sat>
+		<sata_settings>SATA settings</sata_settings>
+		<save>Save</save>
+		<save_now>Save now</save_now>
+		<saving_error>Saving error</saving_error>
+		<scan_disk>Scan disk</scan_disk>
+		<schedule>Schedule</schedule>
+		<schedule_configuration>Schedule Configuration</schedule_configuration>
+		<schedule_settings>Schedule Settings</schedule_settings>
+		<search>Search</search>
+		<search_device>Search Device</search_device>
+		<second>Second</second>
+		<secondary_dns>Secondary DNS Server</secondary_dns>
+		<security>Security</security>
+		<select_1_or_more_disks_to_spare_this_volume>Select 1 or more disks to spare this volume</select_1_or_more_disks_to_spare_this_volume>
+		<select_ddns_service>Select DDNS Service</select_ddns_service>
+		<select_emap>Select Emap</select_emap>
+		<select_policy>Select Policy</select_policy>
+		<select_time_range_first>Select time range first</select_time_range_first>
+		<select_week_day>Select week day</select_week_day>
+		<select_your_emap>Select your Emap</select_your_emap>
+		<sender_email_address>Sender Email Address</sender_email_address>
+		<serial_number>Serial number</serial_number>
+		<server>Server</server>
+		<server_error>Server error</server_error>
+		<server_fail>Server fail</server_fail>
+		<server_is_down_now>Server is down now</server_is_down_now>
+		<service>Service</service>
+		<service_busy>Service busy</service_busy>
+		<set_>Set_</set_>
+		<set_1>Set 1</set_1>
+		<set_2>Set 2</set_2>
+		<set_3>Set 3</set_3>
+		<set_4>Set 4</set_4>
+		<set_nvrs_ip_address_and_other_network_settings>Set NVR's IP address and other network settings</set_nvrs_ip_address_and_other_network_settings>
+		<set_to_default>Set to Default</set_to_default>
+		<settings>Settings</settings>
+		<settings_control>Settings control</settings_control>
+		<settings_overview>Settings overview</settings_overview>
+		<short_test>Short test</short_test>
+		<show_minimap>Show minimap</show_minimap>
+		<smart>S.M.A.R.T</smart>
+		<smtp_authority_enabled>SMTP authority enabled</smtp_authority_enabled>
+		<smtp_enabled>SMTP enabled</smtp_enabled>
+		<smtp_port>SMTP port</smtp_port>
+		<snapshot>Snapshot</snapshot>
+		<snmp_ups>SNMP UPS</snmp_ups>
+		<some_attribute_setting_was_failed_please_check_them_in_the_table>Some attribute setting was failed please check them in the table</some_attribute_setting_was_failed_please_check_them_in_the_table>
+		<sort_with_di_triggered_camera>Sort with DI triggered camera</sort_with_di_triggered_camera>
+		<sort_with_do_triggered_camera>Sort with DO triggered camera</sort_with_do_triggered_camera>
+		<sort_with_offline_camera>Sort with offline camera</sort_with_offline_camera>
+		<sort_with_online_camera>Sort with online camera</sort_with_online_camera>
+		<sort_with_unconfigured_camera>Sort with unconfigured camera</sort_with_unconfigured_camera>
+		<source>Source</source>
+		<spare_raid>Spare RAID</spare_raid>
+		<standard>Standard</standard>
+		<start_manual_recording>Start manual recording</start_manual_recording>
+		<static_ip>Static IP</static_ip>
+		<stop>Stop</stop>
+		<stop_manual_recording>Stop manual recording</stop_manual_recording>
+		<storage>Storage</storage>
+		<storage_device_is_not_ready_configure_disks_firt>Storage device is not ready configure disks first</storage_device_is_not_ready_configure_disks_firt>
+		<subnet_mask>Subnet Mask</subnet_mask>
+		<sun>Sun</sun>
+		<switch_to_user_layout_>Switch to user layout</switch_to_user_layout_>
+		<switch_to_user_layout_1>Switch to user layout1</switch_to_user_layout_1>
+		<switch_to_user_layout_2>Switch to user layout2</switch_to_user_layout_2>
+		<switch_to_user_layout_3>Switch to user layout3</switch_to_user_layout_3>
+		<switch_to_user_layout_4>Switch to user layout4</switch_to_user_layout_4>
+		<sync_with_computer_time>Sync with computer time</sync_with_computer_time>
+		<system>System</system>
+		<system_allow_all_connection_income_now>System allow all connection income now</system_allow_all_connection_income_now>
+		<system_backup_restore_reset>System backup restore reset</system_backup_restore_reset>
+		<system_configuration>System Configuration</system_configuration>
+		<system_fan_speed>System fan speed</system_fan_speed>
+		<system_infomation>System infomation</system_infomation>
+		<system_is_busy>System is busy</system_is_busy>
+		<system_is_busy_now_please_try_after_10_sec>System is busy now please try after 10 sec</system_is_busy_now_please_try_after_10_sec>
+		<system_is_rebooting_you_will_be_redirected_to_web_page_after_120_sec>System is rebooting you will be redirected to web page after 120 sec</system_is_rebooting_you_will_be_redirected_to_web_page_after_120_sec>
+		<system_log>System Log</system_log>
+		<system_log_and_statistics.>System log and statistics.</system_log_and_statistics.>
+		<system_only_allow_connection_from_the_list_below_now>System only allow connection from the list below now</system_only_allow_connection_from_the_list_below_now>
+		<system_only_deny_connection_from_the_list_below_now>System only deny connection from the list below now</system_only_deny_connection_from_the_list_below_now>
+		<system_temperature>System temperature</system_temperature>
+		<system_tools_including_upgrade_restore_your_systems.>System tools including upgrade restore your systems.</system_tools_including_upgrade_restore_your_systems.>
+		<system_up_time>System up time</system_up_time>
+		<system_uptime>System uptime</system_uptime>
+		<tcp_ip_settings>TCP/IP settings</tcp_ip_settings>
+		<test>Test</test>
+		<test_processing>Test processing</test_processing>
+		<test_the_connection_to_specific_ip_address>Test the connection to specific IPaddress</test_the_connection_to_specific_ip_address>
+		<the_camera_di_is_triggered>The camera DI is triggered</the_camera_di_is_triggered>
+		<the_camera_do_is_triggered>The camera DO is triggered</the_camera_do_is_triggered>
+		<the_camera_is_loading>The camera is loading</the_camera_is_loading>
+		<the_camera_is_not_configured>The camera is not configured</the_camera_is_not_configured>
+		<the_camera_is_offline>The camera is offline</the_camera_is_offline>
+		<the_camera_is_online>The camera is online</the_camera_is_online>
+		<the_item_had_been_in_the_playqueue>The item had been in the playqueue</the_item_had_been_in_the_playqueue>
+		<the_task_will_perform_a_several_hours_do_you_want_to_do_it>The task will perform a several hours do you want to do it</the_task_will_perform_a_several_hours_do_you_want_to_do_it>
+		<the_viewcell_is_here_for_page_integrity_please_select_previous_other_viewcell_to_add_camera>The viewcell is here for page integrity please select previous other viewcell to add camera</the_viewcell_is_here_for_page_integrity_please_select_previous_other_viewcell_to_add_camera>
+		<there_is_something_wrong_in_the_form_please_check_it_again>There is something wrong in the form please check it again</there_is_something_wrong_in_the_form_please_check_it_again>
+		<thu>Thu</thu>
+		<time>Time</time>
+		<time_zone>Time zone</time_zone>
+		<timezone>Timezone</timezone>
+		<to>To</to>
+		<to_reset_all_settings_to_default_click_reset>To reset all settings to default click reset</to_reset_all_settings_to_default_click_reset>
+		<to_reset_all_settings_to_user_default_click_reset_user>To reset all settings to user default click reset user</to_reset_all_settings_to_user_default_click_reset_user>
+		<to_restart_the_server_click_restart>To restart the server click restart</to_restart_the_server_click_restart>
+		<to_restore_all_settings_click_browse_to_select_a_previously_saved_setting_file_and_click_restore_to_confirm>To restore all settings click browse to select a previously saved setting file and click restore to confirm</to_restore_all_settings_click_browse_to_select_a_previously_saved_setting_file_and_click_restore_to_confirm>
+		<toggle_di_event>Toggle DI event</toggle_di_event>
+		<toggle_do_event>Toggle DO event</toggle_do_event>
+		<toggle_emap_view>Toggle Emap view</toggle_emap_view>
+		<toggle_motion_event>Toggle motion event</toggle_motion_event>
+		<toggle_pir_event>Toggle PIR event</toggle_pir_event>
+		<toggle_the_playqueue>Toggle the playqueue</toggle_the_playqueue>
+		<total_memory>Total memory</total_memory>
+		<trigger>Trigger</trigger>
+		<trigger_camera_do>Trigger camera do</trigger_camera_do>
+		<trigger_editor>Trigger editor</trigger_editor>
+		<trigger_type>Trigger type</trigger_type>
+		<tue>Tue</tue>
+		<unmute>Unmute</unmute>
+		<update>Update</update>
+		<upgrade>Upgrade</upgrade>
+		<upload>Upload</upload>
+		<upload_emap>Upload Emap</upload_emap>
+		<ups_address>UPS address</ups_address>
+		<ups_configuration>UPS configuration</ups_configuration>
+		<ups_enable>UPS enable</ups_enable>
+		<ups_model>UPS model</ups_model>
+		<ups_settings>UPS settings</ups_settings>
+		<url>URL</url>
+		<usb_ups>USB UPS</usb_ups>
+		<use_fixed_ip_address>Use fixed IP address</use_fixed_ip_address>
+		<user>User</user>
+		<user_account>User account</user_account>
+		<user_capacity>User capacity</user_capacity>
+		<user_configuration>User Configuration</user_configuration>
+		<user_layout>User layout</user_layout>
+		<user_management>User</user_management>
+		<user_name>User Name</user_name>
+		<username>Username</username>
+		<username_password_mismatch>Username/password mismatch</username_password_mismatch>
+		<utility>Utility</utility>
+		<video>Video</video>
+		<video_compression>Video Compression</video_compression>
+		<video_resolution>Video Resolution</video_resolution>
+		<video_settings_of_liveview>Video settings of liveview</video_settings_of_liveview>
+		<video_settings_of_recording>Video settings of recording</video_settings_of_recording>
+		<viewcell_fullview>Viewcell fullview</viewcell_fullview>
+		<viewcell_resize>Viewcell resize</viewcell_resize>
+		<volume_>Volume</volume_>
+		<wall>Wall</wall>
+		<watch_later>Watch later</watch_later>
+		<wed>Wed</wed>
+		<weekdaily>Weekdaily</weekdaily>
+		<weekly>Weekly</weekly>
+		<wizard>Wizard</wizard>
+		<yearly>Yearly</yearly>
+		<yes>Yes</yes>
+		<you_can_not_remove_the_admin_account>You can not remove the admin account</you_can_not_remove_the_admin_account>
+		<you_cannot_add_camera_to_viewcell_while_rotating_stop_rotating_first>You cannot add camera to viewcell while rotating stop rotating first</you_cannot_add_camera_to_viewcell_while_rotating_stop_rotating_first>
+		<you_cannot_have_more_than_16_active_viewcells_in_the_same_time>You cannot have more than 16 active viewcells in the same time</you_cannot_have_more_than_16_active_viewcells_in_the_same_time>
+		<you_dont_have_permission_to_access_settings_redirect_to_liveview>You don’t have permission to access settings redirect to liveview</you_dont_have_permission_to_access_settings_redirect_to_liveview>
+		<you_had_selected_a_volume_do_you_want_to>You had selected a volume do you want to</you_had_selected_a_volume_do_you_want_to>
+		<you_have_not_save_change_do_you_want_to_leave>You have not save change do you want to leave</you_have_not_save_change_do_you_want_to_leave>
+		<you_have_unsaved_change_to_settings_do_you_really_want_to_leave>You have unsaved change to settings do you really want to leave</you_have_unsaved_change_to_settings_do_you_really_want_to_leave>
+		<you_need_can_select_1_or_more_disks_to_add_into_this_volume>You need can select 1 or more disks to add into this volume</you_need_can_select_1_or_more_disks_to_add_into_this_volume>
+		<you_need_can_select_1_or_more_disks_to_migrate_this_volume>You need can select 1 or more disks to migrate this volume</you_need_can_select_1_or_more_disks_to_migrate_this_volume>
+		<you_need_select_at_least_2_disks_to_build_a_raid0>You need select at least 2 disks to build a RAID0 volume</you_need_select_at_least_2_disks_to_build_a_raid0>
+		<you_need_select_at_least_2_disks_to_build_a_raid1>You need select at least 2 disks to build a RAID1 volume</you_need_select_at_least_2_disks_to_build_a_raid1>
+		<you_need_select_at_least_3_disks_to_build_a_raid2>You need select at least 3 disks to build a RAID2 volume</you_need_select_at_least_3_disks_to_build_a_raid2>
+		<you_will_lose_all_configurations_continue>You will lose all configurations. Continue?</you_will_lose_all_configurations_continue>
+		<zoom>Zoom</zoom>
+	</lang>
+	<lang>
+		<!--Deutsch-->
+		<FR>Fr</FR>
+		<MO>Mo</MO>
+		<SA>Sat</SA>
+		<SU>So</SU>
+		<TH>Do</TH>
+		<TU>Di</TU>
+		<WE>Mi</WE>
+		<access_list>Zugangsliste</access_list>
+		<action>Aktion</action>
+		<add_entry>Eintrag hinzufügen</add_entry>
+		<address>Adresse</address>
+		<administrator>Administrator</administrator>
+		<alarm>Alarm</alarm>
+		<assigned_actions>Zugewiesene Aktionen</assigned_actions>
+		<audio_recording>Audio Aufnahme</audio_recording>
+		<backup>Sicherung</backup>
+		<camera>Kamera</camera>
+		<camera_control>Kamerasteuerung</camera_control>
+		<cancel>Abbrechen</cancel>
+		<channel>Kanal</channel>
+		<close>Schließen</close>
+		<configuration>Konfiguration</configuration>
+		<confirm_key>Bestätigungscode</confirm_key>
+		<confirm_password>Bestätigungskennwort</confirm_password>
+		<continuous_recording>Kontinuierliche Aufnahme</continuous_recording>
+		<create>Erstellen</create>
+		<current_version>Aktuelle Version</current_version>
+		<day>Tag</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>DDNS-Nachricht</ddns_message>
+		<ddns_settings>DDNS Einstellungen</ddns_settings>
+		<detailed>Detailliert</detailed>
+		<device_name>Gerätename</device_name>
+		<di>Digitale Eingabe</di>
+		<disabled>Deaktivieren</disabled>
+		<disk>Scheibe</disk>
+		<do>Digitale Ausgabe</do>
+		<email>E-mail</email>
+		<enabled>Aktivieren</enabled>
+		<event>Ereignis</event>
+		<event_schedule>Ereignisplan</event_schedule>
+		<excellent>Hervorragend</excellent>
+		<export>Exportieren</export>
+		<firmware>Firmware</firmware>
+		<focus>Fokus</focus>
+		<format>Format</format>
+		<frame_rate>Framerate</frame_rate>
+		<fri>Fr</fri>
+		<from>Von</from>
+		<ftp>FTP</ftp>
+		<ftp_server>FTP Server</ftp_server>
+		<gateway>Gateway</gateway>
+		<general_settings>Allgemeine Einstellungen</general_settings>
+		<get_ip_address_automatically>Holen Sie sich die IP-Adresse automatisch</get_ip_address_automatically>
+		<good>Gut</good>
+		<goto>Gehe zu</goto>
+		<host_name>Hostname</host_name>
+		<hour>Stunde</hour>
+		<http>HTTP</http>
+		<http_port>HTTP Port</http_port>
+		<ip_address>IP-Adresse</ip_address>
+		<keep_current_date_and_time>Halten Sie aktuelle Datum und die Uhrzeit</keep_current_date_and_time>
+		<key>Code</key>
+		<layout>Layout</layout>
+		<legal_agreement>Vertrag</legal_agreement>
+		<live>Live</live>
+		<logout>Abmeldung</logout>
+		<mac_address>MAC-Adresse</mac_address>
+		<maintenance>Wartung</maintenance>
+		<manual>Manuell</manual>
+		<medium>Medium</medium>
+		<model>Modell</model>
+		<mon>Mo</mon>
+		<motion>Bewegung</motion>
+		<mute>Stumm</mute>
+		<network>Netzwerk</network>
+		<network_address>Netzwerkadresse</network_address>
+		<next>Weiter</next>
+		<no>Nein</no>
+		<ntp_enabled>NTP Aktiviert</ntp_enabled>
+		<ntp_server>NTP Server</ntp_server>
+		<ok>OK</ok>
+		<operator>Betreiber</operator>
+		<overview>Überblick</overview>
+		<password>Kennwort</password>
+		<pause>Pausieren</pause>
+		<pir>PIR</pir>
+		<play>Spielen</play>
+		<playback_control>Wiedergabesteuerung</playback_control>
+		<port>Port</port>
+		<previous>Vorherigen</previous>
+		<primary_dns>Primärer DNS Server</primary_dns>
+		<quality>Qualität</quality>
+		<reboot>Neu starten</reboot>
+		<recipient_email_address>E-Mail Empfängeradresse</recipient_email_address>
+		<recording>Aufnahme läuft</recording>
+		<recording_manual>Manuell</recording_manual>
+		<recording_policy>Aufnahmerichtlinie</recording_policy>
+		<recording_type>Aufnahmetyp</recording_type>
+		<register>Anmelden</register>
+		<reload>Neu laden</reload>
+		<remove>Entfernen</remove>
+		<reset>Zurücksetzen</reset>
+		<restore>Wiederherstellen</restore>
+		<rtsp_port>RTSP Port</rtsp_port>
+		<sat>Sat</sat>
+		<save>Speichern</save>
+		<schedule>Zeitplan</schedule>
+		<schedule_configuration>Plankonfiguration</schedule_configuration>
+		<schedule_settings>Planeinstellungen</schedule_settings>
+		<search>Suche</search>
+		<search_device>Suche Gerät</search_device>
+		<secondary_dns>Sekundärer DNS Server</secondary_dns>
+		<security>Sicherheit</security>
+		<select_ddns_service>DDNS Dienst wählen</select_ddns_service>
+		<select_policy>Richtlinie wählen</select_policy>
+		<sender_email_address>E-Mail Absenderadresse</sender_email_address>
+		<server>Server</server>
+		<set_to_default>Standard setzen</set_to_default>
+		<settings>Einstellungen</settings>
+		<snapshot>Schnappschuss</snapshot>
+		<source>Quelle</source>
+		<standard>Standard</standard>
+		<static_ip>Statische IP</static_ip>
+		<stop>Stoppen</stop>
+		<storage>Lagerung</storage>
+		<subnet_mask>Subnetzmaske</subnet_mask>
+		<sun>So</sun>
+		<sync_with_computer_time>Unisono mit dem Computer Zeit</sync_with_computer_time>
+		<system>System</system>
+		<system_configuration>Systemkonfiguration</system_configuration>
+		<system_log>Systemlog</system_log>
+		<test>Test</test>
+		<thu>Do</thu>
+		<time>Zeit</time>
+		<time_zone>Zeitzone</time_zone>
+		<to>Bis</to>
+		<trigger>Auslöser</trigger>
+		<trigger_type>Auslöser Art</trigger_type>
+		<tue>Di</tue>
+		<update>Aktualisierung</update>
+		<upgrade>Aktualisierung</upgrade>
+		<upload>Hochladen</upload>
+		<url>URL</url>
+		<use_fixed_ip_address>Verwenden Sie feste IP-Adresse</use_fixed_ip_address>
+		<user_configuration>Benutzerkonfiguration</user_configuration>
+		<user_management>Benutzer</user_management>
+		<user_name>Benutzername</user_name>
+		<username>Benutzername</username>
+		<video>Video</video>
+		<video_compression>Videokompression</video_compression>
+		<video_resolution>Videoauflösung</video_resolution>
+		<wed>Mi</wed>
+		<yes>Ja</yes>
+		<you_will_lose_all_configurations_continue>Sie verlieren alle Konfigurationen. Weiter?</you_will_lose_all_configurations_continue>
+		<zoom>Zoom</zoom>
+	</lang>
+	<lang>
+		<!--Español-->
+		<FR>Vie</FR>
+		<MO>Lun</MO>
+		<SA>Sat</SA>
+		<SU>Dom</SU>
+		<TH>Jue</TH>
+		<TU>Mar</TU>
+		<WE>Mié</WE>
+		<access_list>Lista de acceso</access_list>
+		<action>Acción</action>
+		<add_entry>Añadir entrada</add_entry>
+		<address>Dirección</address>
+		<administrator>Administrador</administrator>
+		<alarm>Alarma</alarm>
+		<assigned_actions>Acciones asignadas</assigned_actions>
+		<audio_recording>Grabación de audio</audio_recording>
+		<backup>Cópia de seguridad</backup>
+		<camera>Cámara</camera>
+		<camera_control>Control de cámara</camera_control>
+		<cancel>Cancelar</cancel>
+		<channel>Canal</channel>
+		<close>Cerrar</close>
+		<configuration>Configuración</configuration>
+		<confirm_key>Confirmar clave</confirm_key>
+		<confirm_password>Confirmar contraseña</confirm_password>
+		<continuous_recording>Grabación continua</continuous_recording>
+		<create>Crear</create>
+		<current_version>Versión actual</current_version>
+		<day>Día</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>Mensaje DDNS</ddns_message>
+		<ddns_settings>Configuración DDNS</ddns_settings>
+		<detailed>Detallado</detailed>
+		<device_name>Nombre del dispositivo</device_name>
+		<di>Entrada digital</di>
+		<disabled>Deshabilitar</disabled>
+		<disk>Disco</disk>
+		<do>Salida digital</do>
+		<email>Correo electrónico</email>
+		<enabled>Habilitar</enabled>
+		<event>Evento</event>
+		<event_schedule>Programa de eventos</event_schedule>
+		<excellent>Excelente</excellent>
+		<export>Exportar</export>
+		<firmware>Firmware</firmware>
+		<focus>Enfoque</focus>
+		<format>Formatear</format>
+		<frame_rate>Velocidad de fotograma</frame_rate>
+		<fri>Vie</fri>
+		<from>De</from>
+		<ftp>FTP</ftp>
+		<ftp_server>Servidor FTP</ftp_server>
+		<gateway>Puerta de enlace</gateway>
+		<general_settings>Configuraciones Generales</general_settings>
+		<get_ip_address_automatically>Obtener dirección IP automáticamente</get_ip_address_automatically>
+		<good>Bueno</good>
+		<goto>Ir a</goto>
+		<host_name>Nombre de host</host_name>
+		<hour>Hora</hour>
+		<http>HTTP</http>
+		<http_port>Puerto HTTP</http_port>
+		<ip_address>Dirección IP</ip_address>
+		<keep_current_date_and_time>Mantener la fecha y hora actual</keep_current_date_and_time>
+		<key>Clave</key>
+		<layout>Diseño</layout>
+		<legal_agreement>Contrato legal</legal_agreement>
+		<live>En directo</live>
+		<logout>Cerrar</logout>
+		<mac_address>Dirección MAC</mac_address>
+		<maintenance>Mantenimiento</maintenance>
+		<manual>Manual</manual>
+		<medium>Medio</medium>
+		<model>Modelo</model>
+		<mon>Lun</mon>
+		<motion>Movimiento</motion>
+		<mute>Silencio</mute>
+		<network>Red</network>
+		<network_address>Dirección de red</network_address>
+		<next>Próximo</next>
+		<no>No</no>
+		<ntp_enabled>NTP activado</ntp_enabled>
+		<ntp_server>Servidor NTP</ntp_server>
+		<ok>Aceptar</ok>
+		<operator>Operador</operator>
+		<overview>Visión general</overview>
+		<password>Contraseña</password>
+		<pause>Pausa</pause>
+		<pir>PIR</pir>
+		<play>Jugar</play>
+		<playback_control>Control de reproducción</playback_control>
+		<port>puerto</port>
+		<previous>Anterior</previous>
+		<primary_dns>Servidor DNS primario</primary_dns>
+		<quality>Calidad</quality>
+		<reboot>Reiniciar</reboot>
+		<recipient_email_address>Destinatario de correo electrónico</recipient_email_address>
+		<recording>Grabación</recording>
+		<recording_manual>Manual</recording_manual>
+		<recording_policy>Política de grabación</recording_policy>
+		<recording_type>Tipo de grabación</recording_type>
+		<register>Registrar</register>
+		<reload>Volver a cargar</reload>
+		<remove>Entfernen</remove>
+		<reset>Reajustar</reset>
+		<restore>Restaurar</restore>
+		<rtsp_port>Puerto RTSP</rtsp_port>
+		<sat>Sat</sat>
+		<save>Guardar</save>
+		<schedule>Programación</schedule>
+		<schedule_configuration>Configuración de la programación</schedule_configuration>
+		<schedule_settings>Ajustes de la programación</schedule_settings>
+		<search>Buscar</search>
+		<search_device>Búsqueda de dispositivos</search_device>
+		<secondary_dns>Servidor DNS secundario</secondary_dns>
+		<security>Seguridad</security>
+		<select_ddns_service>Seleccionar servicio DDNS</select_ddns_service>
+		<select_policy>Seleccionar política</select_policy>
+		<sender_email_address>Remitente del correo electrónico</sender_email_address>
+		<server>Servidor</server>
+		<set_to_default>Establecido como predeterminado</set_to_default>
+		<settings>Configuración</settings>
+		<snapshot>Instantánea</snapshot>
+		<source>Origen</source>
+		<standard>Estándar</standard>
+		<static_ip>IP estática</static_ip>
+		<stop>Parada</stop>
+		<storage>Almacenamiento</storage>
+		<subnet_mask>Máscar de suberd</subnet_mask>
+		<sun>Dom</sun>
+		<sync_with_computer_time>Sincronização com computador tempo</sync_with_computer_time>
+		<system>Sistema</system>
+		<system_configuration>Configuración del sistema</system_configuration>
+		<system_log>Registro del sistema</system_log>
+		<test>Prueba</test>
+		<thu>Jue</thu>
+		<time>Tiempo</time>
+		<time_zone>Zona horaria</time_zone>
+		<to>Para</to>
+		<trigger>Activador</trigger>
+		<trigger_type>Tipo de activador</trigger_type>
+		<tue>Mar</tue>
+		<update>Actualizar</update>
+		<upgrade>Actualizar</upgrade>
+		<upload>Cargar</upload>
+		<url>URL</url>
+		<use_fixed_ip_address>Usar dirección IP fija</use_fixed_ip_address>
+		<user_configuration>Configuración del usuario</user_configuration>
+		<user_management>Usuario</user_management>
+		<user_name>Nombre del usuario</user_name>
+		<username>Nombre de usuario</username>
+		<video>Vídeo</video>
+		<video_compression>Compresión de vídeo</video_compression>
+		<video_resolution>Resolución de vídeo</video_resolution>
+		<wed>Mié</wed>
+		<yes>Sí</yes>
+		<you_will_lose_all_configurations_continue>SSe perderán todas las configuraciones. ¿Continuar?</you_will_lose_all_configurations_continue>
+		<zoom>Zoom</zoom>
+	</lang>
+	<lang>
+		<!--Français-->
+		<FR>Ven</FR>
+		<MO>Mon</MO>
+		<SA>Sam</SA>
+		<SU>Dim</SU>
+		<TH>Jeu</TH>
+		<TU>Mar</TU>
+		<WE>Mer</WE>
+		<access_list>Liste d'accès</access_list>
+		<action>Action</action>
+		<add_entry>Ajouter une entrée</add_entry>
+		<address>Adresse</address>
+		<administrator>Administrateur</administrator>
+		<alarm>Alarme</alarm>
+		<assigned_actions>Assigner des actions</assigned_actions>
+		<audio_recording>Enregistrement audio</audio_recording>
+		<backup>Sauvegarde</backup>
+		<camera>Caméra</camera>
+		<camera_control>Commandes de la caméra</camera_control>
+		<cancel>Annuler</cancel>
+		<channel>Chaîne</channel>
+		<close>Fermer</close>
+		<configuration>Configuración</configuration>
+		<confirm_key>Confirmer la clé</confirm_key>
+		<confirm_password>Confirmer le mot de passe</confirm_password>
+		<continuous_recording>L'enregistrement continu</continuous_recording>
+		<create>Créer</create>
+		<current_version>Version actuelle</current_version>
+		<day>Jour</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>Message DDNS</ddns_message>
+		<ddns_settings>Réglages DDNS</ddns_settings>
+		<detailed>Detailed</detailed>
+		<device_name>Nom de l’appareil</device_name>
+		<di>Entrée numérique</di>
+		<disabled>Désactiver</disabled>
+		<disk>Disque</disk>
+		<do>Sortie numérique</do>
+		<email>Courrier électronique</email>
+		<enabled>Activer</enabled>
+		<event>Evénement</event>
+		<event_schedule>Programmation de l'événement</event_schedule>
+		<excellent>Excellent</excellent>
+		<export>Exporter</export>
+		<firmware>Micrologiciel</firmware>
+		<focus>Mise au point</focus>
+		<format>Format</format>
+		<frame_rate>Taux de trame</frame_rate>
+		<fri>Ven</fri>
+		<from>De</from>
+		<ftp>FTP</ftp>
+		<ftp_server>Serveur FTP</ftp_server>
+		<gateway>Passerelle</gateway>
+		<general_settings>Paramètres généraux</general_settings>
+		<get_ip_address_automatically>Obtenir adresse IP automatiquement</get_ip_address_automatically>
+		<good>Bon</good>
+		<goto>Aller à</goto>
+		<host_name>Nom d'hôte</host_name>
+		<hour>Heure</hour>
+		<http>HTTP</http>
+		<http_port>Port HTTP</http_port>
+		<ip_address>Adresse IP</ip_address>
+		<keep_current_date_and_time>Tenir à jour la date et l'heure</keep_current_date_and_time>
+		<key>Clé</key>
+		<layout>Layout</layout>
+		<legal_agreement>Contrat</legal_agreement>
+		<live>Vivre</live>
+		<logout>Fermeture</logout>
+		<mac_address>Adresse MAC</mac_address>
+		<maintenance>Maintenance</maintenance>
+		<manual>Manuel</manual>
+		<medium>Moyen</medium>
+		<model>Modèle</model>
+		<mon>Mon</mon>
+		<motion>Mouvement</motion>
+		<mute>Muet</mute>
+		<network>Réseau</network>
+		<network_address>Adresse réseau</network_address>
+		<next>Suivant</next>
+		<no>Non</no>
+		<ntp_enabled>NTP activé</ntp_enabled>
+		<ntp_server>Serveur NTP</ntp_server>
+		<ok>OK</ok>
+		<operator>Opérateur</operator>
+		<overview>Général</overview>
+		<password>Mot de passe</password>
+		<pause>Pause</pause>
+		<pir>PIR</pir>
+		<play>Jouer</play>
+		<playback_control>Contrôle de lecture</playback_control>
+		<port>port</port>
+		<previous>Précédent</previous>
+		<primary_dns>Serveur DNS primaire</primary_dns>
+		<quality>Qualité</quality>
+		<reboot>Redémarrer</reboot>
+		<recipient_email_address>Adresse email du destinataire</recipient_email_address>
+		<recording>Enregistrement</recording>
+		<recording_manual>Manuel</recording_manual>
+		<recording_policy>Politique d’enregistrement</recording_policy>
+		<recording_type>Type d’enregistrement</recording_type>
+		<register>Enregistrer</register>
+		<reload>Recharger</reload>
+		<remove>Enlever</remove>
+		<reset>Réinitialiser</reset>
+		<restore>Restaurer</restore>
+		<rtsp_port>Port RTSP</rtsp_port>
+		<sat>Sam</sat>
+		<save>Enregistrer</save>
+		<schedule>Planifier</schedule>
+		<schedule_configuration>Configuration du programme</schedule_configuration>
+		<schedule_settings>Réglages du programme</schedule_settings>
+		<search>Recherche</search>
+		<search_device>Dispositif de recherche</search_device>
+		<secondary_dns>Serveur DNS secondaire</secondary_dns>
+		<security>Securité</security>
+		<select_ddns_service>Sélectionner le service DDNS</select_ddns_service>
+		<select_policy>Sélectionner la politique</select_policy>
+		<sender_email_address>Adresse email de l’expéditeur</sender_email_address>
+		<server>Serveur</server>
+		<set_to_default>Réglé par défaut</set_to_default>
+		<settings>Réglages</settings>
+		<snapshot>Instantané</snapshot>
+		<source>Source</source>
+		<standard>Standard</standard>
+		<static_ip>IP statique</static_ip>
+		<stop>Arrêter</stop>
+		<storage>Stockage</storage>
+		<subnet_mask>Masque de sous-réseau</subnet_mask>
+		<sun>Dim</sun>
+		<sync_with_computer_time>Synchronisation avec le temps</sync_with_computer_time>
+		<system>Système</system>
+		<system_configuration>Configuration du système</system_configuration>
+		<system_log>Syslog</system_log>
+		<test>Test</test>
+		<thu>Jeu</thu>
+		<time>Temps</time>
+		<time_zone>Fuseau Horaire</time_zone>
+		<to>A</to>
+		<trigger>Déclencher</trigger>
+		<trigger_type>Type de déclencheur</trigger_type>
+		<tue>Mar</tue>
+		<update>Mise à jour</update>
+		<upgrade>Améliorer</upgrade>
+		<upload>Télécharger</upload>
+		<url>URL</url>
+		<use_fixed_ip_address>Utilisez l'adresse IP fixe</use_fixed_ip_address>
+		<user_configuration>Configuration de l’utilisateur</user_configuration>
+		<user_management>Gestion de l’utilisateur</user_management>
+		<user_name>Nom de l’utilisateur</user_name>
+		<username>Nom d’utilisateur</username>
+		<video>Vidéo</video>
+		<video_compression>Compression vidéo</video_compression>
+		<video_resolution>Résolution vidéo</video_resolution>
+		<wed>Mer</wed>
+		<yes>Oui</yes>
+		<you_will_lose_all_configurations_continue>Vous perdrez toutes les configurations. Continuer?</you_will_lose_all_configurations_continue>
+		<zoom>Zoom</zoom>
+	</lang>
+	<lang>
+		<!--Italiano-->
+		<FR>Fri</FR>
+		<MO>Mon</MO>
+		<SA>Sat</SA>
+		<SU>Sun</SU>
+		<TH>Thu</TH>
+		<TU>Tue</TU>
+		<WE>Wed</WE>
+		<access_list>Elenco accessi</access_list>
+		<action>Azione</action>
+		<add_entry>Aggiungi voce</add_entry>
+		<address>Indirizzo</address>
+		<administrator>Amministratore</administrator>
+		<alarm>Allarme</alarm>
+		<assigned_actions>Azioni assegnate</assigned_actions>
+		<audio_recording>Registrazione audio</audio_recording>
+		<backup>Backup</backup>
+		<camera>Telecamera</camera>
+		<camera_control>Controllo videocamera</camera_control>
+		<cancel>Annulla</cancel>
+		<channel>Canale</channel>
+		<close>Chiudere</close>
+		<configuration>Configurazione</configuration>
+		<confirm_key>Conferma chiave</confirm_key>
+		<confirm_password>Conferma password</confirm_password>
+		<continuous_recording>Registrazione continua</continuous_recording>
+		<create>Crea</create>
+		<current_version>Versione corrente</current_version>
+		<day>Giorno</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>Messaggio DDNS</ddns_message>
+		<ddns_settings>Impostazioni DDNS</ddns_settings>
+		<detailed>Dettagli</detailed>
+		<device_name>Nome dispositivo</device_name>
+		<di>Input digitale</di>
+		<disabled>Disabilita</disabled>
+		<disk>Disco</disk>
+		<do>Output digitale</do>
+		<email>E-mail</email>
+		<enabled>Abilita</enabled>
+		<event>Evento</event>
+		<event_schedule>Pianificazione evento</event_schedule>
+		<excellent>Eccellente</excellent>
+		<export>Esporta</export>
+		<firmware>Firmware</firmware>
+		<focus>Messa a fuoco</focus>
+		<format>Formatta</format>
+		<frame_rate>Velocità fotogramma</frame_rate>
+		<fri>Fri</fri>
+		<from>Da</from>
+		<ftp>FTP</ftp>
+		<ftp_server>Server FTP</ftp_server>
+		<gateway>Gateway</gateway>
+		<general_settings>Impostazioni generali</general_settings>
+		<get_ip_address_automatically>Ottieni indirizzo IP automaticamente</get_ip_address_automatically>
+		<good>Buono</good>
+		<goto>Vai a</goto>
+		<host_name>Nome host</host_name>
+		<hour>Ora</hour>
+		<http>HTTP</http>
+		<http_port>Porta HTTP</http_port>
+		<ip_address>Indirizzo IP</ip_address>
+		<keep_current_date_and_time>Mantieni data e l'ora correnti</keep_current_date_and_time>
+		<key>Chiave</key>
+		<layout>Layout</layout>
+		<legal_agreement>Contratto legale</legal_agreement>
+		<live>Dal vivo</live>
+		<logout>Uscita</logout>
+		<mac_address>Indirizzo MAC</mac_address>
+		<maintenance>Manutenzione</maintenance>
+		<manual>Manuale</manual>
+		<medium>Media</medium>
+		<model>Modello</model>
+		<mon>Mon</mon>
+		<motion>Movimento</motion>
+		<mute>Disattiva audio</mute>
+		<network>Rete</network>
+		<network_address>Indirizzo di rete</network_address>
+		<next>Avanti</next>
+		<no>No</no>
+		<ntp_enabled>NTP attivo</ntp_enabled>
+		<ntp_server>Server NTP</ntp_server>
+		<ok>OK</ok>
+		<operator>Operatore</operator>
+		<overview>Panoramica</overview>
+		<password>Parola d'ordine</password>
+		<pause>Pausa</pause>
+		<pir>PIR</pir>
+		<play>Gioco</play>
+		<playback_control>Controlli di riproduzione</playback_control>
+		<port>porta</port>
+		<previous>Precedente</previous>
+		<primary_dns>Server DNS primario</primary_dns>
+		<quality>Qualità</quality>
+		<reboot>Riavvia</reboot>
+		<recipient_email_address>Indirizzo destinatario e-mail</recipient_email_address>
+		<recording>Registrazione</recording>
+		<recording_manual>Manuale</recording_manual>
+		<recording_policy>Politica registrazione</recording_policy>
+		<recording_type>Tipo registrazione</recording_type>
+		<register>Registra</register>
+		<reload>Ricarica</reload>
+		<remove>Rimuovi</remove>
+		<reset>Ripristina</reset>
+		<restore>Ripristina</restore>
+		<rtsp_port>Porta RTSP</rtsp_port>
+		<sat>Sat</sat>
+		<save>Salva</save>
+		<schedule>Pianifica</schedule>
+		<schedule_configuration>Pianifica configurazione</schedule_configuration>
+		<schedule_settings>Impostazioni pianificazione</schedule_settings>
+		<search>Cerca</search>
+		<search_device>Ricerca di dispositivi</search_device>
+		<secondary_dns>Server DNS secondario</secondary_dns>
+		<security>Sicurezza</security>
+		<select_ddns_service>Seleziona servizio DDNS</select_ddns_service>
+		<select_policy>Seleziona politica</select_policy>
+		<sender_email_address>Indirizzo mittente e-mail</sender_email_address>
+		<server>Server</server>
+		<set_to_default>Imposta sul valore predefinito</set_to_default>
+		<settings>Impostazioni</settings>
+		<snapshot>Istantanea</snapshot>
+		<source>Origine</source>
+		<standard>Standard</standard>
+		<static_ip>IP statico</static_ip>
+		<stop>Fermare</stop>
+		<storage>Immagazzinamento</storage>
+		<subnet_mask>Subnet Mask</subnet_mask>
+		<sun>Sun</sun>
+		<sync_with_computer_time>Sync con il tempo</sync_with_computer_time>
+		<system>Sistema</system>
+		<system_configuration>Configurazione sistema</system_configuration>
+		<system_log>Registro sistema</system_log>
+		<test>Test</test>
+		<thu>Thu</thu>
+		<time>Tempo</time>
+		<time_zone>Fuso orario</time_zone>
+		<to>A</to>
+		<trigger>Attivatore</trigger>
+		<trigger_type>Tipo di attivatore</trigger_type>
+		<tue>Tue</tue>
+		<update>Aggiorna</update>
+		<upgrade>Aggiorna</upgrade>
+		<upload>Caricamento</upload>
+		<url>URL</url>
+		<use_fixed_ip_address>Usa indirizzo IP fisso</use_fixed_ip_address>
+		<user_configuration>Configurazione utente</user_configuration>
+		<user_management>Utente</user_management>
+		<user_name>Nome utente</user_name>
+		<username>Nome utente</username>
+		<video>Video</video>
+		<video_compression>Compressione video</video_compression>
+		<video_resolution>Risoluzione video</video_resolution>
+		<wed>Wed</wed>
+		<yes>Sì</yes>
+		<you_will_lose_all_configurations_continue>Si perderà tutte le configurazioni. Continuare?</you_will_lose_all_configurations_continue>
+		<zoom>Zoom</zoom>
+	</lang>
+	<lang>
+		<!--日本語-->
+		<FR>金曜</FR>
+		<MO>月曜</MO>
+		<SA>土曜</SA>
+		<SU>日曜</SU>
+		<TH>木曜</TH>
+		<TU>火曜</TU>
+		<WE>水曜</WE>
+		<access_list>アクセスリスト</access_list>
+		<action>アクション</action>
+		<add_entry>エントリの追加</add_entry>
+		<address>アドレス</address>
+		<administrator>管理者</administrator>
+		<alarm>アラーム</alarm>
+		<assigned_actions>割り当てアクション</assigned_actions>
+		<audio_recording>音声録音</audio_recording>
+		<backup>バックアップ</backup>
+		<camera>カメラ</camera>
+		<camera_control>カメラコントロール</camera_control>
+		<cancel>キャンセル</cancel>
+		<channel>チャンネル</channel>
+		<close>閉じる</close>
+		<configuration>構成</configuration>
+		<confirm_key>確認キー</confirm_key>
+		<confirm_password>パスワードを確認</confirm_password>
+		<continuous_recording>連続記録</continuous_recording>
+		<create>作成</create>
+		<current_version>現在のバージョン</current_version>
+		<day>日</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>DDNS メッセージ</ddns_message>
+		<ddns_settings>DDNS設定</ddns_settings>
+		<detailed>詳細</detailed>
+		<device_name>デバイス名</device_name>
+		<di>デジタル入力</di>
+		<disabled>無効</disabled>
+		<disk>ディスク</disk>
+		<do>デジタル出力</do>
+		<email>電子メール</email>
+		<enabled>有効</enabled>
+		<event>イベント</event>
+		<event_schedule>イベントスケジュール</event_schedule>
+		<excellent>最高</excellent>
+		<export>エキスポート</export>
+		<firmware>ファームウェア</firmware>
+		<focus>フォーカス</focus>
+		<format>初期化する</format>
+		<frame_rate>フレームレート</frame_rate>
+		<fri>金曜</fri>
+		<from>送信元</from>
+		<ftp>FTP</ftp>
+		<ftp_server>FTPサーバ</ftp_server>
+		<gateway>ゲートウェイ</gateway>
+		<general_settings>一般設定</general_settings>
+		<get_ip_address_automatically>自動的にIPアドレスを取得</get_ip_address_automatically>
+		<good>好</good>
+		<goto>移動</goto>
+		<host_name>ホスト名</host_name>
+		<hour>時</hour>
+		<http>HTTP</http>
+		<http_port>HTTPポート</http_port>
+		<ip_address>IPアドレス</ip_address>
+		<keep_current_date_and_time>現在の日付と時刻を保持</keep_current_date_and_time>
+		<key>キー</key>
+		<layout>レイアウト</layout>
+		<legal_agreement>法的なライセンス</legal_agreement>
+		<live>ライブ</live>
+		<logout>ログアウト</logout>
+		<mac_address>MACアドレス</mac_address>
+		<maintenance>メンテナンス</maintenance>
+		<manual>マニュアル</manual>
+		<medium>中位</medium>
+		<model>モデル</model>
+		<mon>月曜</mon>
+		<motion>モーション</motion>
+		<mute>ミュート</mute>
+		<network>ネットワーク</network>
+		<network_address>ネットワークアドレス</network_address>
+		<next>次</next>
+		<no>いいえ</no>
+		<ntp_enabled>NTP利用可能</ntp_enabled>
+		<ntp_server>NTPサーバ</ntp_server>
+		<ok>OK</ok>
+		<operator>オペレータ</operator>
+		<overview>概要</overview>
+		<password>パスワード</password>
+		<pause>一時停止</pause>
+		<pir>PIR</pir>
+		<play>再生</play>
+		<playback_control>再生制御</playback_control>
+		<port>ポート</port>
+		<previous>前</previous>
+		<primary_dns>プライマリDNSサーバ</primary_dns>
+		<quality>品質</quality>
+		<reboot>再起動</reboot>
+		<recipient_email_address>受信者Eメールアドレス</recipient_email_address>
+		<recording>録画</recording>
+		<recording_manual>手動</recording_manual>
+		<recording_policy>録画ポリシー</recording_policy>
+		<recording_type>録画タイプ</recording_type>
+		<register>登録</register>
+		<reload>リロード</reload>
+		<remove>削除</remove>
+		<reset>リセット</reset>
+		<restore>元に戻す</restore>
+		<rtsp_port>RTSPポート</rtsp_port>
+		<sat>土曜</sat>
+		<save>保存</save>
+		<schedule>スケジュール</schedule>
+		<schedule_configuration>スケジュール設定</schedule_configuration>
+		<schedule_settings>スケジュール設定</schedule_settings>
+		<search>検索</search>
+		<search_device>検索装置</search_device>
+		<secondary_dns>セカンダリDNS サーバ</secondary_dns>
+		<security>セキュリティ</security>
+		<select_ddns_service>DDNSサービスの選択</select_ddns_service>
+		<select_policy>ポリシーの選択</select_policy>
+		<sender_email_address>送信者Eメールアドレス</sender_email_address>
+		<server>サーバ</server>
+		<set_to_default>设置为默认</set_to_default>
+		<settings>設定</settings>
+		<snapshot>スナップショット</snapshot>
+		<source>ソース</source>
+		<standard>標準</standard>
+		<static_ip>固定IP</static_ip>
+		<stop>停止</stop>
+		<storage>ストレージ</storage>
+		<subnet_mask>サブネットマスク</subnet_mask>
+		<sun>日曜</sun>
+		<sync_with_computer_time>コンピュータの時刻と同期</sync_with_computer_time>
+		<system>システム</system>
+		<system_configuration>システム設定</system_configuration>
+		<system_log>システムログ</system_log>
+		<test>テスト</test>
+		<thu>木曜</thu>
+		<time>時間</time>
+		<time_zone>タイムゾーン</time_zone>
+		<to>～</to>
+		<trigger>トリガー</trigger>
+		<trigger_type>トリガーの種類</trigger_type>
+		<tue>火曜</tue>
+		<update>更新</update>
+		<upgrade>アップデート</upgrade>
+		<upload>アップロード</upload>
+		<url>URL</url>
+		<use_fixed_ip_address>固定IPアドレスを使用する</use_fixed_ip_address>
+		<user_configuration>ユーザー設定</user_configuration>
+		<user_management>ユーザー</user_management>
+		<user_name>ユーザー名</user_name>
+		<username>ユーザー名</username>
+		<video>ビデオ</video>
+		<video_compression>ビデオ圧縮</video_compression>
+		<video_resolution>ビデオ解像度</video_resolution>
+		<wed>水曜</wed>
+		<yes>はい</yes>
+		<you_will_lose_all_configurations_continue>すべての設定は失われます。続行しますか?</you_will_lose_all_configurations_continue>
+		<zoom>ズーム</zoom>
+	</lang>
+	<lang>
+		<!--Português-->
+		<FR>Sex</FR>
+		<MO>Seg</MO>
+		<SA>Sáb</SA>
+		<SU>Dom</SU>
+		<TH>Qui</TH>
+		<TU>Ter</TU>
+		<WE>Qua</WE>
+		<access_list>Lista de acesso</access_list>
+		<action>Acção</action>
+		<add_entry>Adicionar Entrada</add_entry>
+		<address>Endereço</address>
+		<administrator>Administrador</administrator>
+		<alarm>Alarme</alarm>
+		<assigned_actions>Acções Atribuídas</assigned_actions>
+		<audio_recording>Gravação de Áudio</audio_recording>
+		<backup>Cópia de segurança</backup>
+		<camera>Câmara</camera>
+		<camera_control>Controlo da câmara</camera_control>
+		<cancel>Cancelar</cancel>
+		<channel>Canal</channel>
+		<close>Fechar</close>
+		<configuration>Configuração</configuration>
+		<confirm_key>Confirmar chave</confirm_key>
+		<confirm_password>Confirmar palavra-passe</confirm_password>
+		<continuous_recording>A Gravação Contínua</continuous_recording>
+		<create>Criar</create>
+		<current_version>Versão Actual</current_version>
+		<day>Dia</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>Mensagem DDNS</ddns_message>
+		<ddns_settings>Definições de DDNS</ddns_settings>
+		<detailed>Detalhado</detailed>
+		<device_name>Nome de Dispositivo</device_name>
+		<di>Entrada digital</di>
+		<disabled>Desactivar</disabled>
+		<disk>Disco</disk>
+		<do>Saída digital</do>
+		<email>E-mail</email>
+		<enabled>Ativar</enabled>
+		<event>Evento</event>
+		<event_schedule>Programação do evento</event_schedule>
+		<excellent>Excelente</excellent>
+		<export>Exportar</export>
+		<firmware>Firmware</firmware>
+		<focus>Focagem</focus>
+		<format>Formatar</format>
+		<frame_rate>Velocidade de Fotogramas</frame_rate>
+		<fri>Sex</fri>
+		<from>De</from>
+		<ftp>FTP</ftp>
+		<ftp_server>Servidor de FTP</ftp_server>
+		<gateway>Gateway</gateway>
+		<general_settings>Definições Gerais</general_settings>
+		<get_ip_address_automatically>Obter endereço IP automaticamente</get_ip_address_automatically>
+		<good>Bom</good>
+		<goto>Ir para</goto>
+		<host_name>Nome do anfitrião</host_name>
+		<hour>Hora</hour>
+		<http>HTTP</http>
+		<http_port>Porta HTTP</http_port>
+		<ip_address>Endereço de IP</ip_address>
+		<keep_current_date_and_time>Manter a actual data e hora</keep_current_date_and_time>
+		<key>Chave</key>
+		<layout>Layout</layout>
+		<legal_agreement>Acordo Legal</legal_agreement>
+		<live>Activo</live>
+		<logout>Terminar</logout>
+		<mac_address>Endereço MAC</mac_address>
+		<maintenance>Manutenção</maintenance>
+		<manual>Manual</manual>
+		<medium>Médio</medium>
+		<model>Modelo</model>
+		<mon>Seg</mon>
+		<motion>Movimento</motion>
+		<mute>Silenciar</mute>
+		<network>Rede</network>
+		<network_address>Endereço de rede</network_address>
+		<next>Seguinte</next>
+		<no>Não</no>
+		<ntp_enabled>NTP Activado</ntp_enabled>
+		<ntp_server>Servidor NTP</ntp_server>
+		<ok>OK</ok>
+		<operator>Operador</operator>
+		<overview>Visão geral</overview>
+		<password>Palavra-passe</password>
+		<pause>Pausa</pause>
+		<pir>PIR</pir>
+		<play>Jogar</play>
+		<playback_control>Controlo de Reprodução</playback_control>
+		<port>porta</port>
+		<previous>Anterior</previous>
+		<primary_dns>Servidor DNS Primário</primary_dns>
+		<quality>Qualidade</quality>
+		<reboot>Reinicializar</reboot>
+		<recipient_email_address>Endereço de Email do Destinatário</recipient_email_address>
+		<recording>Gravação</recording>
+		<recording_manual>Manual</recording_manual>
+		<recording_policy>Política de Gravação</recording_policy>
+		<recording_type>Tipo de Gravação</recording_type>
+		<register>Registro</register>
+		<reload>Recarregar</reload>
+		<remove>Remover</remove>
+		<reset>Reajustar</reset>
+		<restore>Restaurar</restore>
+		<rtsp_port>Porta RTSP</rtsp_port>
+		<sat>Sáb</sat>
+		<save>Guardar</save>
+		<schedule>Agendar</schedule>
+		<schedule_configuration>Programar Definição</schedule_configuration>
+		<schedule_settings>Programar Definições</schedule_settings>
+		<search>Procurar</search>
+		<search_device>Dispositivo de pesquisa</search_device>
+		<secondary_dns>Servidor DNS Secundário</secondary_dns>
+		<security>Segurança</security>
+		<select_ddns_service>Seleccionar Serviço DDNS</select_ddns_service>
+		<select_policy>Seleccionar Política</select_policy>
+		<sender_email_address>Endereço de Email do Remetente</sender_email_address>
+		<server>Servidor</server>
+		<set_to_default>Definir como padrão</set_to_default>
+		<settings>Definições</settings>
+		<snapshot>Instantâneo</snapshot>
+		<source>Origem</source>
+		<standard>Padrão</standard>
+		<static_ip>IP Estático</static_ip>
+		<stop>Pare</stop>
+		<storage>Armazenamento</storage>
+		<subnet_mask>Máscara de Subrede</subnet_mask>
+		<sun>Dom</sun>
+		<sync_with_computer_time>Sincronização com computador tempo</sync_with_computer_time>
+		<system>Sistema</system>
+		<system_configuration>Definição de Sistema</system_configuration>
+		<system_log>Registo do Sistema</system_log>
+		<test>Teste</test>
+		<thu>Qui</thu>
+		<time>Tempo</time>
+		<time_zone>Zona horária</time_zone>
+		<to>Para</to>
+		<trigger>Activar</trigger>
+		<trigger_type>Tipo de activador</trigger_type>
+		<tue>Ter</tue>
+		<update>Actualizar</update>
+		<upgrade>Melhorar</upgrade>
+		<upload>Enviar</upload>
+		<url>URL</url>
+		<use_fixed_ip_address>Use endereço IP fixo</use_fixed_ip_address>
+		<user_configuration>Definição do Utilizador</user_configuration>
+		<user_management>Utilizador</user_management>
+		<user_name>Nome do Utilizador</user_name>
+		<username>Nome do Utilizador</username>
+		<video>Vídeo</video>
+		<video_compression>Compressão de Vídeo</video_compression>
+		<video_resolution>Resolução de Vídeo</video_resolution>
+		<wed>Qua</wed>
+		<yes>Sim</yes>
+		<you_will_lose_all_configurations_continue>Você perderá todas as configurações. Continuar?</you_will_lose_all_configurations_continue>
+		<zoom>Zumbido</zoom>
+	</lang>
+	<lang>
+		<!--简体中文-->
+		<FR>周五</FR>
+		<MO>周一</MO>
+		<SA>周六</SA>
+		<SU>周日</SU>
+		<TH>周四</TH>
+		<TU>周二</TU>
+		<WE>周三</WE>
+		<access_list>访问列表</access_list>
+		<action>动作</action>
+		<add_entry>增添条目</add_entry>
+		<address>地址</address>
+		<administrator>管理员</administrator>
+		<alarm>警报</alarm>
+		<assigned_actions>指定的操作</assigned_actions>
+		<audio_recording>音频录制</audio_recording>
+		<backup>备份</backup>
+		<camera>摄像头</camera>
+		<camera_control>摄像机控制</camera_control>
+		<cancel>取消</cancel>
+		<channel>通道</channel>
+		<close>关闭</close>
+		<configuration>配置</configuration>
+		<confirm_key>确认密钥</confirm_key>
+		<confirm_password>确认密码</confirm_password>
+		<continuous_recording>连续录像</continuous_recording>
+		<create>创建</create>
+		<current_version>目前版本</current_version>
+		<day>天</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>DDNS 消息</ddns_message>
+		<ddns_settings>DDNS设置</ddns_settings>
+		<detailed>详细</detailed>
+		<device_name>设备名称</device_name>
+		<di>数字输入</di>
+		<disabled>禁止</disabled>
+		<disk>硬盘</disk>
+		<do>数字输出</do>
+		<email>电子邮件</email>
+		<enabled>启用</enabled>
+		<event>事件</event>
+		<event_schedule>事件计划</event_schedule>
+		<excellent>极好</excellent>
+		<export>导出</export>
+		<firmware>固件</firmware>
+		<focus>变焦</focus>
+		<format>格式化</format>
+		<frame_rate>帧率</frame_rate>
+		<fri>周五</fri>
+		<from>起始</from>
+		<ftp>FTP</ftp>
+		<ftp_server>FTP服务器</ftp_server>
+		<gateway>网关</gateway>
+		<general_settings>基本设置</general_settings>
+		<get_ip_address_automatically>自动获得IP地址</get_ip_address_automatically>
+		<good>良好</good>
+		<goto>转向</goto>
+		<host_name>主机名称</host_name>
+		<hour>小时</hour>
+		<http>HTTP</http>
+		<http_port>HTTP端口号</http_port>
+		<ip_address>IP地址</ip_address>
+		<keep_current_date_and_time>保留当前日期和时间</keep_current_date_and_time>
+		<key>密码</key>
+		<layout>布局</layout>
+		<legal_agreement>法律协议</legal_agreement>
+		<live>实时监控</live>
+		<logout>退出</logout>
+		<mac_address>MAC地址</mac_address>
+		<maintenance>维护</maintenance>
+		<manual>手动</manual>
+		<medium>中</medium>
+		<model>型号</model>
+		<mon>周一</mon>
+		<motion>移动</motion>
+		<mute>静音</mute>
+		<network>网络设置</network>
+		<network_address>网络地址</network_address>
+		<next>后</next>
+		<no>否</no>
+		<ntp_enabled>NTP启用</ntp_enabled>
+		<ntp_server>NTP服务器</ntp_server>
+		<ok>确定</ok>
+		<operator>操作者</operator>
+		<overview>总览</overview>
+		<password>密码</password>
+		<pause>暂停</pause>
+		<pir>PIR</pir>
+		<play>播放</play>
+		<playback_control>回播控制</playback_control>
+		<port>端口号</port>
+		<previous>以前</previous>
+		<primary_dns>首选DNS服务器</primary_dns>
+		<quality>品质</quality>
+		<reboot>重新启动</reboot>
+		<recipient_email_address>收件人邮件地址</recipient_email_address>
+		<recording>录制</recording>
+		<recording_manual>手动</recording_manual>
+		<recording_policy>录像规则</recording_policy>
+		<recording_type>录像方式</recording_type>
+		<register>注册</register>
+		<reload>重新加载</reload>
+		<remove>删除</remove>
+		<reset>重新启动</reset>
+		<restore>恢复</restore>
+		<rtsp_port>RTSP端口号</rtsp_port>
+		<sat>周六</sat>
+		<save>保存</save>
+		<schedule>定时</schedule>
+		<schedule_configuration>配置定时</schedule_configuration>
+		<schedule_settings>定时设置</schedule_settings>
+		<search>搜寻</search>
+		<search_device>搜索设备</search_device>
+		<secondary_dns>备用DNS服务器</secondary_dns>
+		<security>安全管理</security>
+		<select_ddns_service>选择DDNS服务</select_ddns_service>
+		<select_policy>选择规则</select_policy>
+		<sender_email_address>发件人邮件地址</sender_email_address>
+		<server>服务器</server>
+		<set_to_default>设置为默认</set_to_default>
+		<settings>设置</settings>
+		<snapshot>快照</snapshot>
+		<source>源</source>
+		<standard>标准</standard>
+		<static_ip>静态IP地址</static_ip>
+		<stop>停止</stop>
+		<storage>存储</storage>
+		<subnet_mask>子网掩码</subnet_mask>
+		<sun>周日</sun>
+		<sync_with_computer_time>与计算机时间同步</sync_with_computer_time>
+		<system>系统</system>
+		<system_configuration>系统配置</system_configuration>
+		<system_log>系统日志</system_log>
+		<test>测试</test>
+		<thu>周四</thu>
+		<time>时间</time>
+		<time_zone>时区</time_zone>
+		<to>截至</to>
+		<trigger>触发</trigger>
+		<trigger_type>触发器类型</trigger_type>
+		<tue>周二</tue>
+		<update>更新</update>
+		<upgrade>升级</upgrade>
+		<upload>上载</upload>
+		<url>URL</url>
+		<use_fixed_ip_address>使用固定的IP地址</use_fixed_ip_address>
+		<user_configuration>用户配置</user_configuration>
+		<user_management>用户管理</user_management>
+		<user_name>用户名</user_name>
+		<username>用户名</username>
+		<video>视频</video>
+		<video_compression>视频压缩</video_compression>
+		<video_resolution>视频清晰度</video_resolution>
+		<wed>周三</wed>
+		<yes>是</yes>
+		<you_will_lose_all_configurations_continue>你将失去所有的配置。继续吗？</you_will_lose_all_configurations_continue>
+		<zoom>缩放</zoom>
+	</lang>
+	<lang>
+		<!--繁體中文-->
+		<FR>星期五</FR>
+		<MO>星期一</MO>
+		<SA>星期六</SA>
+		<SU>星期日</SU>
+		<TH>星期四</TH>
+		<TU>星期二</TU>
+		<WE>星期三</WE>
+		<access_list>訪問列表</access_list>
+		<action>動作</action>
+		<add_a_rule>新增規則</add_a_rule>
+		<add_entry>增加條目</add_entry>
+		<add_to_action_list>加到警報動作列表</add_to_action_list>
+		<add_to_schedule_list>加到週期列表</add_to_schedule_list>
+		<add_to_trigger_list>加到觸發條件列表</add_to_trigger_list>
+		<address>位址</address>
+		<adjust_the_date_time_and_time_zone_of_this_server>修改日期時間及時區</adjust_the_date_time_and_time_zone_of_this_server>
+		<administrator>管理員</administrator>
+		<alarm>警報</alarm>
+		<alarm_enable>啟用警報</alarm_enable>
+		<alarm_settings>警報設定</alarm_settings>
+		<alarm_summary>警報描述</alarm_summary>
+		<alarm_trigger_interval>警報觸發間隔</alarm_trigger_interval>
+		<all_day>全天</all_day>
+		<allow_all>允許全部連線</allow_all>
+		<allow_only>只允許某些連線</allow_only>
+		<apply_complete>修改完成</apply_complete>
+		<assigned_actions>指定的動作</assigned_actions>
+		<ata_standard>ATA標準</ata_standard>
+		<ata_version>ATA版本</ata_version>
+		<audio_recording>聲音錄製</audio_recording>
+		<backup>備份</backup>
+		<bonding_settings>多網卡綁定設定</bonding_settings>
+		<bookmark>書籤</bookmark>
+		<camera>攝影機</camera>
+		<camera_access>攝影機存取</camera_access>
+		<camera_brand>攝影機廠牌</camera_brand>
+		<camera_configuration>攝影機設定</camera_configuration>
+		<camera_control>攝影機控制</camera_control>
+		<camera_list>攝影機列表</camera_list>
+		<camera_model>攝影機型號</camera_model>
+		<cancel>取消</cancel>
+		<channel>通道</channel>
+		<channel_count>頻道數量</channel_count>
+		<close>關閉</close>
+		<close_side>關閉側面版</close_side>
+		<configuration>設定</configuration>
+		<confirm_key>確認金鑰</confirm_key>
+		<confirm_password>確認密碼</confirm_password>
+		<connection_log>連線紀錄</connection_log>
+		<continuous_recording>連續錄影</continuous_recording>
+		<cpu_temperature>CPU溫度</cpu_temperature>
+		<cpu_usage>CPU使用量</cpu_usage>
+		<create>建立</create>
+		<create_alarm>新建警報設定</create_alarm>
+		<create_rule>建立規則</create_rule>
+		<create_user>建立新使用者</create_user>
+		<current_version>目前版本</current_version>
+		<daily>每日</daily>
+		<day>天</day>
+		<ddns>DDNS</ddns>
+		<ddns_message>DDNS 訊息</ddns_message>
+		<ddns_settings>DDNS設定</ddns_settings>
+		<default_language>預設語言</default_language>
+		<delete_rule>刪除規則</delete_rule>
+		<deny_only>只拒絕</deny_only>
+		<detailed>詳細的</detailed>
+		<detect>偵測</detect>
+		<device_channel>頻道</device_channel>
+		<device_model>裝置模組</device_model>
+		<device_name>裝置名稱</device_name>
+		<di>數位輸入</di>
+		<disabled>禁止</disabled>
+		<discard>取消</discard>
+		<disk>硬盤</disk>
+		<disk_1_temperature>硬碟1溫度</disk_1_temperature>
+		<disk_health>硬碟健康度</disk_health>
+		<disk_info>磁碟資訊</disk_info>
+		<disk_last_test_result>上次測試結果</disk_last_test_result>
+		<disk_last_test_time>上次測試時間</disk_last_test_time>
+		<disk_long_test_result>長時間測試結果</disk_long_test_result>
+		<disk_short_test_result>短時間測試結果</disk_short_test_result>
+		<disk_temperature>硬碟溫度</disk_temperature>
+		<do>數位輸出</do>
+		<do_you_really_want_to_reboot_the_nvr>你真的想要重開伺服器嗎？</do_you_really_want_to_reboot_the_nvr>
+		<done>完成</done>
+		<drag_emap_view>拖拉電子地圖視窗</drag_emap_view>
+		<dual_network>雙網卡</dual_network>
+		<email>電子郵件</email>
+		<emap>電子地圖</emap>
+		<enabled>啟用</enabled>
+		<error_packets>錯誤封包</error_packets>
+		<event>事件</event>
+		<event_recording>事件錄影</event_recording>
+		<event_schedule>事件排程</event_schedule>
+		<excellent>極佳</excellent>
+		<expand_this_volume_needs_step_by_step_disk_swap>擴充磁碟陣列需要依照下列步驟替換</expand_this_volume_needs_step_by_step_disk_swap>
+		<export>匯出</export>
+		<failover>容錯</failover>
+		<finish>完成</finish>
+		<firmware>韌體</firmware>
+		<firmware_version>韌體版本</firmware_version>
+		<focus>變焦</focus>
+		<format>格式化</format>
+		<format_will_kill_any_data_on_this_volume>格式化將移除所有資料</format_will_kill_any_data_on_this_volume>
+		<frame_rate>幅率</frame_rate>
+		<free_memory>空閒記憶體空間</free_memory>
+		<fri>星期五</fri>
+		<from>開始</from>
+		<ftp>FTP</ftp>
+		<ftp_server>FTP主機</ftp_server>
+		<gateway>閘道</gateway>
+		<general>一般</general>
+		<general_settings>一般設定</general_settings>
+		<get_ip_address_automatically>自動獲得IP位址</get_ip_address_automatically>
+		<good>良好</good>
+		<goto>轉向</goto>
+		<group>群組</group>
+		<hide_minimap>隱藏迷你地圖</hide_minimap>
+		<host_access_control>存取權限控制</host_access_control>
+		<host_name>主機名稱</host_name>
+		<hour>小時</hour>
+		<http>HTTP</http>
+		<http_port>HTTP埠號</http_port>
+		<instant_playback>立刻回播</instant_playback>
+		<ip_address>IP位址</ip_address>
+		<keep_current_date_and_time>保留當前日期和時間</keep_current_date_and_time>
+		<key>密碼</key>
+		<lan_1>網卡1</lan_1>
+		<lan_2>網卡2</lan_2>
+		<layout>佈局</layout>
+		<layout_page_left>上一頁</layout_page_left>
+		<layout_page_right>下一頁</layout_page_right>
+		<legal_agreement>法律協議書</legal_agreement>
+		<live>即時監控</live>
+		<load_balance>負載平衡</load_balance>
+		<login>登入</login>
+		<logout>退出</logout>
+		<long_test>長時間測試</long_test>
+		<mac_address>MAC位址</mac_address>
+		<maintenance>維護</maintenance>
+		<manual>手動</manual>
+		<manual_test>手動測試</manual_test>
+		<maximum_alarm_exceed>超過警報設定數量上限</maximum_alarm_exceed>
+		<maximum_rules_exceed>超過最大規則數量上限</maximum_rules_exceed>
+		<medium>中</medium>
+		<model>型號</model>
+		<model_family>型號</model_family>
+		<modify_done>修改完成</modify_done>
+		<mon>星期一</mon>
+		<monthly>每月</monthly>
+		<motion>移動</motion>
+		<mute>靜音</mute>
+		<network>網路設定</network>
+		<network_address>網路位址</network_address>
+		<next>後</next>
+		<no>否</no>
+		<no_action_assigned_please_assign>請指定警報動作</no_action_assigned_please_assign>
+		<no_raid_task_now>目前無RAID任務執行</no_raid_task_now>
+		<no_schedule_default_is_all_the_day>預設週期為全天</no_schedule_default_is_all_the_day>
+		<no_test_recently>最近無測試</no_test_recently>
+		<no_trigger_please_create>請建立觸發條件</no_trigger_please_create>
+		<ntp_enabled>NTP啟用</ntp_enabled>
+		<ntp_server>NTP主機</ntp_server>
+		<ok>確定</ok>
+		<online_user>線上使用者</online_user>
+		<operator>操作者</operator>
+		<optional>可選</optional>
+		<overview>概略說明</overview>
+		<packets_recieved>收到封包</packets_recieved>
+		<packets_sent>傳送封包</packets_sent>
+		<page_down>下一頁</page_down>
+		<page_up>上一頁</page_up>
+		<password>密碼</password>
+		<pause>暫停</pause>
+		<ping_test>連線測試</ping_test>
+		<pir>PIR</pir>
+		<play>播放</play>
+		<playback>回播</playback>
+		<playback_control>回播控制</playback_control>
+		<playback_next>播放下一筆錄影</playback_next>
+		<playback_speeddown>減速播放</playback_speeddown>
+		<playback_speedup>加速播放</playback_speedup>
+		<playback_sync>同步回播</playback_sync>
+		<please_insert_new_disk_now>現在請插入新硬碟</please_insert_new_disk_now>
+		<please_remove_this_disk_now>現在請移除這個硬碟</please_remove_this_disk_now>
+		<please_select_an_alarm_first>請先選擇一個警報設定</please_select_an_alarm_first>
+		<port>埠號</port>
+		<previous>以前</previous>
+		<primary_dns>首選DNS主機</primary_dns>
+		<process>處理</process>
+		<progressing_raid_task>現在進行中的磁碟陣列任務</progressing_raid_task>
+		<protocol_settings>通訊協定設定</protocol_settings>
+		<quality>品質</quality>
+		<raid_management>磁碟陣列管理</raid_management>
+		<reboot>重新啟動</reboot>
+		<recipient_email_address>收件人郵件位址</recipient_email_address>
+		<recording>錄製</recording>
+		<recording_manual>手動</recording_manual>
+		<recording_policy>錄影規則</recording_policy>
+		<recording_settings>錄影設定</recording_settings>
+		<recording_type>錄影方式</recording_type>
+		<recycle_settings>硬碟空間回收設定</recycle_settings>
+		<register>注冊</register>
+		<relay_password>密碼</relay_password>
+		<relay_port>埠號</relay_port>
+		<release_spare>釋放備用硬碟</release_spare>
+		<reload>重新載入</reload>
+		<remove>刪除</remove>
+		<remove_alarm>移除警報設定</remove_alarm>
+		<remove_user>移除使用者</remove_user>
+		<remove_will_disband_the_disks_under_this_volume>移除將釋放所有硬碟</remove_will_disband_the_disks_under_this_volume>
+		<replace>取代</replace>
+		<reserve_days>保留天數</reserve_days>
+		<reset>重新啟動</reset>
+		<restore>恢複</restore>
+		<rotate>旋轉</rotate>
+		<rtp_port>RTP埠號</rtp_port>
+		<rtsp_port>RTSP埠號</rtsp_port>
+		<sat>星期六</sat>
+		<sata_settings>SATA設定</sata_settings>
+		<save>儲存</save>
+		<scan_disk>掃描磁碟</scan_disk>
+		<schedule>定時</schedule>
+		<schedule_configuration>設定定時</schedule_configuration>
+		<schedule_settings>定時設定</schedule_settings>
+		<search>搜尋</search>
+		<search_device>搜索設備</search_device>
+		<secondary_dns>備用DNS主機</secondary_dns>
+		<security>安全管理</security>
+		<select_1_or_more_disks_to_spare_this_volume>選擇一個或多個硬碟作為磁碟陣列的備援硬碟</select_1_or_more_disks_to_spare_this_volume>
+		<select_ddns_service>選擇DDNS服務</select_ddns_service>
+		<select_emap>選擇電子地圖</select_emap>
+		<select_policy>選擇規則</select_policy>
+		<select_your_emap>選擇電子地圖</select_your_emap>
+		<sender_email_address>發件人郵件位址</sender_email_address>
+		<serial_number>序列號</serial_number>
+		<server>主機</server>
+		<set_to_default>設置為默認</set_to_default>
+		<settings>設定</settings>
+		<short_test>短時間測試</short_test>
+		<show_minimap>顯示迷你地圖</show_minimap>
+		<smart>SMART</smart>
+		<snapshot>快照</snapshot>
+		<snmp_ups>SNMP UPS</snmp_ups>
+		<source>來源</source>
+		<standard>標準</standard>
+		<static_ip>靜態IP位址</static_ip>
+		<stop>停止</stop>
+		<storage>存儲</storage>
+		<subnet_mask>子網域遮罩</subnet_mask>
+		<sun>星期日</sun>
+		<sync_with_computer_time>與電腦時間同步</sync_with_computer_time>
+		<system>系統</system>
+		<system_allow_all_connection_income_now>系統允許所有連線</system_allow_all_connection_income_now>
+		<system_backup_restore_reset>備份/還原</system_backup_restore_reset>
+		<system_configuration>系統設定</system_configuration>
+		<system_fan_speed>系統風扇溫度</system_fan_speed>
+		<system_infomation>系統資訊</system_infomation>
+		<system_log>系統日誌</system_log>
+		<system_only_allow_connection_from_the_list_below_now>系統只接受下列連線</system_only_allow_connection_from_the_list_below_now>
+		<system_only_deny_connection_from_the_list_below_now>系統只拒絕下列連線</system_only_deny_connection_from_the_list_below_now>
+		<system_temperature>系統溫度</system_temperature>
+		<system_up_time>系統使用經時</system_up_time>
+		<tcp_ip_settings>TCP/IP設定</tcp_ip_settings>
+		<test>測試</test>
+		<test_the_connection_to_specific_ip_address>測試對固定IP的連線狀況</test_the_connection_to_specific_ip_address>
+		<thu>星期四</thu>
+		<time>時間</time>
+		<time_zone>時區</time_zone>
+		<to>截至</to>
+		<toggle_emap_view>開啟或關閉電子地圖視窗</toggle_emap_view>
+		<total_memory>總記憶體空間</total_memory>
+		<trigger>觸發</trigger>
+		<trigger_type>觸發類型</trigger_type>
+		<tue>星期二</tue>
+		<update>更新</update>
+		<upgrade>升級</upgrade>
+		<upload>上載</upload>
+		<upload_emap>上傳電子地圖</upload_emap>
+		<ups_address>UPS位址</ups_address>
+		<ups_configuration>不斷電系統設定</ups_configuration>
+		<ups_enable>啟用不斷電系統</ups_enable>
+		<ups_model>不斷電系統型號</ups_model>
+		<ups_settings>不斷電系統設定</ups_settings>
+		<ups_status>UPS狀態</ups_status>
+		<url>URL</url>
+		<usb_ups>USB UPS</usb_ups>
+		<use_fixed_ip_address>使用固定的IP位址</use_fixed_ip_address>
+		<user_capacity>容量</user_capacity>
+		<user_configuration>用戶設定</user_configuration>
+		<user_management>用戶管理</user_management>
+		<user_name>用戶名</user_name>
+		<username>用戶名</username>
+		<video>影像</video>
+		<video_compression>影像壓縮</video_compression>
+		<video_resolution>影像清晰度</video_resolution>
+		<video_settings_of_liveview>即時監控的視訊設定</video_settings_of_liveview>
+		<video_settings_of_recording>錄影的視訊設定</video_settings_of_recording>
+		<watch_later>稍後觀看</watch_later>
+		<wed>星期三</wed>
+		<weekly>每週</weekly>
+		<wizard>精靈</wizard>
+		<yearly>每年</yearly>
+		<yes>是</yes>
+		<you_need_can_select_1_or_more_disks_to_add_into_this_volume>你可以選擇一個或多個硬碟加入磁碟陣列</you_need_can_select_1_or_more_disks_to_add_into_this_volume>
+		<you_need_can_select_1_or_more_disks_to_migrate_this_volume>你可以選擇一個或多個硬碟做磁碟陣列遷移</you_need_can_select_1_or_more_disks_to_migrate_this_volume>
+		<you_need_select_at_least_2_disks_to_build_a_raid0>你必須至少選擇兩個硬碟以建造RAID0</you_need_select_at_least_2_disks_to_build_a_raid0>
+		<you_need_select_at_least_2_disks_to_build_a_raid1>你必須至少選擇兩個硬碟以建造RAID1</you_need_select_at_least_2_disks_to_build_a_raid1>
+		<you_need_select_at_least_3_disks_to_build_a_raid2>你必須至少選擇兩個硬碟以建造RAID5</you_need_select_at_least_3_disks_to_build_a_raid2>
+		<you_will_lose_all_configurations_continue>你將失去所有的設定。繼續嗎？</you_will_lose_all_configurations_continue>
+		<zoom>縮放</zoom>
+	</lang>
+</root>

@@ -1,0 +1,59 @@
+<div class="widget-head">
+	<h3 symbol="text:user_management">Add a new user and configure user's authority</h3>
+</div>
+<div class="tablePanel">
+	<table class="grid user">
+	</table>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset>
+			<legend symbol="text:user_configuration">User config</legend>
+			<div id="usernameRow">
+				<label for="username" symbol="text:username">User name</label>
+				<input id="username" name="username" type="text" size=12 maxlength=64 />
+			</div>
+			<div>
+				<label for="password" symbol="text:password">Password</label>
+				<input id="password" name="password" type="password" size=12 maxlength=64 />
+			</div>
+			<div>
+				<label for="password" symbol="text:confirm_password">Varify Password</label>
+				<input id="password" name="password" type="password" size=12 maxlength=64 />
+			</div>
+			<div id="groupRow">
+				<label for="group" symbol="text:group">group</label>
+				<select id="group" name="group">
+					<option value="user" symbol="text:operator">Normal user</option>
+					<option value="administrator" symbol="text:administrator">Administrator</option>
+				</select>
+			</div>
+			<div>
+				<label for="language" symbol="text:default_language">default language</label>
+				<select id="language" name="language">
+					<option value="0">English</option>
+					<option value="1">Deutsch</option>
+					<option value="2">Español</option>
+					<option value="3">Français</option>
+					<option value="4">Italiano</option>
+					<option value="5">日本語</option>
+					<option value="6">Português</option>
+					<option value="7">简体中文</option>
+					<option value="8">繁體中文</option>
+				</select>
+			</div>
+		</fieldset>
+		<fieldset id="encoderRow">
+			<legend symbol="text:camera_control">Access control</legend>
+			<div>
+			</div>
+		</fieldset>
+		<fieldset id="settingsRow">
+			<legend symbol="text:settings_control">Settings control</legend>
+			<div>
+				<input type="checkbox" name="settings" id="settings" />
+				<label symbol="text:enable_settings_access" for="settings"></label>
+			</div>
+		</fieldset>
+	</form>
+</div>

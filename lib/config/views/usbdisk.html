@@ -1,0 +1,30 @@
+<div class="widget-head">
+	<h3>USB Disk</h3>
+</div>
+<div class="tablePanel">
+	<table class="usb grid"></table>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset>
+			<legend>USB Status on Select:</legend>
+			<div><label>Manufacturer</label>--</div>
+			<div><label>Model</label>--</div>
+			<div><label>Device Type</label>--</div>
+			<div><label>Total/Free size</label>--</div>
+			<div><label>File System</label>--</div>
+			<div><label>Status</label>No Disk</div>
+			<div><label>Format As:</label><select name="FileSystem" size="1" class="blue-12" id="fs">
+					<option value="1" checked>EXT 3</option>
+					<option value="2" >FAT</option>
+					<option value="3" >NTFS</option>
+				</select><input type="button" value="Format Now.." />
+			</div>
+			<div><label>Unplug:</label><input type="button" value="Unplug Now.." /></div>
+			<div>To remove the hardware device, please click [Unplug now...]. When the system does not show the device anymore, you can remove it safely.  
+			</div>
+			<div>Note: Do NOT unplug the device when it is in use to protect the device.  
+			</div>
+		</fieldset>
+	</form>
+</div>

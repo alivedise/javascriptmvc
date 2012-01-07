@@ -1,0 +1,178 @@
+#cameralist {
+	height: 80%;
+}
+
+.jcarousel-nvr {
+	height: 100%;
+}
+
+.jcarousel-skin-nvr .jcarousel-container {
+	-moz-border-radius: 2px;
+	background: none;
+	border: none;
+}
+
+.jcarousel-skin-nvr .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-nvr .jcarousel-container-horizontal {
+    width: 100%;
+    height: 80%;
+    padding: 5px 5px;
+	margin-bottom: 100px;
+}
+
+.jcarousel-skin-nvr .jcarousel-container-vertical{
+    width: 100%;
+    height: 100%;
+    padding: 5px 5px;
+	margin: 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-clip-vertical {
+	margin-top: 10px;
+	margin-bottom: 10px;
+    width:  100%;
+	height: 100%;
+}
+
+.jcarousel-skin-nvr .jcarousel-clip-horizontal {
+	margin-left: 35px;
+	margin-right: 55px;
+    height: 100%;
+}
+
+.jcarousel-skin-nvr .jcarousel-item-vertical {
+    width: 195px;
+    height: 60px;
+	border: none;
+}
+
+.jcarousel-skin-nvr .jcarousel-item-horizontal {
+    width: 100px;
+    /*height: 100%;*/
+    /*border: 1px solid #fff;*/
+	border: none;
+}
+
+.jcarousel-skin-nvr .jcarousel-item:hover {
+    border-color: #FF0000;
+}
+
+.jcarousel-skin-nvr .jcarousel-item-vertical {
+    margin-bottom: 7px;
+}
+
+.jcarousel-skin-nvr .jcarousel-item-placeholder {
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-nvr .jcarousel-next-horizontal {
+    position: absolute;
+    top: 25px;
+    right: 33px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background: transparent url(../images/go-rt-off.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(prev-horizontal.gif);
+}
+
+.jcarousel-skin-nvr .jcarousel-next-horizontal:hover {
+    background: transparent url(../images/go-rt-on.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-next-horizontal:active {
+    background: transparent url(../images/go-rt-on.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-nvr .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-nvr .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+}
+
+.jcarousel-skin-nvr .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background: transparent url(../images/go-lt-off.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background: transparent url(../images/go-lt-off.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-prev-horizontal:hover {
+    background: transparent url(../images/go-lt-on.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-prev-horizontal:active {
+    background: transparent url(../images/go-lt-on.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-nvr .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-nvr .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+}
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-nvr .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 90px;
+    width: 100%;
+    height: 15px;
+    cursor: pointer;
+}
+
+.jcarousel-skin-nvr .jcarousel-next-vertical:hover {
+}
+
+.jcarousel-skin-nvr .jcarousel-next-vertical:active {
+}
+
+.jcarousel-skin-nvr .jcarousel-next-disabled-vertical,
+.jcarousel-skin-nvr .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-nvr .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+}
+
+.jcarousel-skin-nvr .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 90px;
+    width: 100%;
+    height: 15px;
+    cursor: pointer;
+    background: transparent url(../images/go-up-off.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-prev-vertical:hover {
+    background: transparent url(../images/go-up-on.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-prev-vertical:active {
+    background: transparent url(../images/go-up-on.gif) no-repeat 0 0;
+}
+
+.jcarousel-skin-nvr .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-nvr .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-nvr .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+}

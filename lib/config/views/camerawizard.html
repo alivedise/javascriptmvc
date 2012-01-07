@@ -1,0 +1,64 @@
+<div class="wizard">
+	<fieldset title="Thread 1">
+		<legend>How to insert your camera?</legend>
+		<div class="weapon ui-corner-all"><div class="class">Automatic Search</div></div>
+		<div class="weapon ui-corner-all"><div class="class">Manual Insert</div></div>
+		<div class="weapon ui-corner-all"><div class="class">Batch Insert</div></div>
+	</fieldset>
+	<fieldset title="Thread 2">
+		<legend>Manual Insert</legend>
+		<div>
+			<div class="hidden">
+				<input type="text" value="" name="modified" id="modified"/>
+			</div>
+			<div>
+				<label for="enable">Enable this camera</label>
+				<input type="checkbox" name="enable" id="enable" value='Yes' offval='No' checked="true"/>
+			</div>
+			<div>
+				<label for="name">Camera name</label>
+				<input type="text" value="" name="name" id="name"/>
+			</div>
+			<div>
+				<label for="address">IP address</label>
+				<input type="text" value="" name="address" id="address" class="required"/>
+			</div>
+			<div>
+				<label for="port">Port</label>
+				<input type="text" value="80" name="port" id="port" size="11" maxlength="11"/>
+			</div>
+			<div style="display: none;">
+				<label for="brand">Camera brand</label>
+				<input id="brand" name="brand" />
+			</div>
+			<div style="display: none;">
+				<label for="model">Camera model</label>
+				<input id="model" name="model" />
+			</div>
+			<div>
+				<label for="view_channel">Device channel</label><select id="view_channel" name="view_channel"></select> 
+			</div>
+			<div>
+				<label for="username">User name</label>
+				<input type="text" name="username" id="username" value="" />
+			</div>
+			<div>
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" value="" /><span>Press shift+enter to close virtual keyboard.</span>
+			</div>
+			<div>
+				<label for="recording">Enable recordng on this camera</label>
+				<input type="checkbox" name="recording" id="recording" value='Yes' offval='No' />
+			</div>
+		</div>
+	</fieldset>
+	<fieldset title="Thread 3">
+		<legend>Manual Insert</legend>
+	</fieldset>
+	<fieldset title="Thread 4">
+		<legend>Manual Insert</legend>
+	</fieldset>
+	<fieldset title="Thread 5">
+		<legend>Manual Insert</legend>
+	</fieldset>
+</div>

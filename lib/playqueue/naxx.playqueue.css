@@ -1,0 +1,140 @@
+div.playqueue {
+	height: 100%;
+}
+
+div.screenshot {
+	border: solid 3px #808080;
+	position: relative;
+	width: 80px;
+	height: 60px;
+	position: relative;
+	display:inline-block;
+	background: url(../images/gif/stream-loader-2.gif) no-repeat center center;
+}
+
+div.screenshot>img {
+	width: 100%;
+	height: 100%;
+}
+
+div.screenshot:hover {
+	border-color: white;
+}
+
+div.screenshot  span.offset {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #0186d1;
+	color:white;
+}
+
+div#loader div.container img {
+	width: 100%;
+}
+
+span.timeInterval {
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	background: #808080;
+	color:white;
+	padding: .1em;
+}
+
+div.loading {
+	background: url(../images/gif/stream-loader-2.gif) no-repeat center center;
+}
+
+div.noimage {
+	background: url(../images/widget/snapshot/noimage.png) no-repeat center center;
+}
+
+
+div.playqueue#bottom {
+	background: #c4c4c4;
+}
+div.queue-resizer {
+	background: url('../images/widget/playqueue/queue_toggle.jpg');
+	width: 100%;
+	height: 29px;
+	cursor: pointer;
+	padding-left: 10px;
+	position: relative;
+}
+
+div.queueitem {
+	position: relative;
+	min-width: 80px;
+	min-height: 80px;
+	margin-top: 20px;
+}
+
+div.queueitem span.item_index {
+	height:80px;
+	line-height:80px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+div.queueitem span.delete {
+	position: absolute;
+	top: -4px;
+	right: -8px;
+	display: none;
+}
+
+div.screenshot span.insert {
+	position: absolute;
+	bottom: -13px;
+	right: -13px;
+	display: none;
+}
+
+div.screenshot:hover span.insert {
+	display: block;
+}
+
+div.queue-resizer * {
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+div.queue-pager {
+	padding-top: 3px;
+	padding-left: 10px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+
+#videolist0 {
+	width: 100%;
+	height: 100%;
+}
+
+div.playqueue_tip {
+	background: white;
+	color: black;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: auto;
+	min-width: 100px;
+	display: none;
+	z-index: 10000;
+}
+div.playqueue_tip div{
+	height: 25px;
+	line-height: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	vertical-align: middle;
+	text-overflow:ellipsis; 
+	white-space: nowrap;
+}
+div.playqueue_tip div:hover {
+	color:white;
+	background: #0186d1;
+}

@@ -1,0 +1,134 @@
+
+div.cameraslider {
+	overflow: hidden;
+	position: relative;
+}
+
+div.encoder img {
+	vertical-align: middle;
+}
+
+span.encoder span.name {
+	display: block;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	height: 25px;
+	position: absolute;
+	top: 68px;
+	width: 88px;
+	font-size: 80%;
+	left: 7px;
+	white-space:nowrap;  
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+
+div.cameraslider div.toggler {
+	position: absolute;
+	top: 10px;
+	right: 55px;
+	z-index: 100;
+}
+
+div.cameraslider div.pager {
+	position: absolute;
+	top: 30px;
+	right: 5px;
+	width: 55px;
+	z-index: 100;
+}
+
+div.cameraslider div.pager span.page-down {
+	margin-top: 30px;
+}
+
+div.cameraslider div.encoder_pool {
+	text-align: left;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	margin-right: 55px;
+	width: 90%;
+}
+
+
+div.encoder_pool div.encoder_detail {
+	display: none;
+}
+
+span.encoder div.status {
+	position: absolute;
+	top: 0;
+	left: 5px;
+	z-index: 1;
+}
+
+span.encoder>img {
+	position: absolute;
+	top: 2px;
+	left: 7px;
+	width: 88px;
+	height: 64px;
+	z-index: 0;
+}
+
+div.dido {
+	height: 60px;
+	width: 100%;
+}
+
+div.encoder_tip {
+	font-size: .9em;
+	z-index: 10000;
+	width: 285px;
+	height: 384px;
+	padding-top: 37px;
+	background: url('../images/tooltip/dido_bg.png') no-repeat left top;
+	color: white;
+	text-align: center;
+}
+
+div.encoder_tip>div {
+	min-height: 19px;
+	margin-left: 37px;
+	margin-right: 37px;
+}
+
+div.encoder_tip div.name {
+	text-align: left;
+	font-weight: bold;
+}
+
+div.encoder_tip .info {
+	text-align: left;
+	margin-right: 1em;
+}
+
+div.encoder_tip>div.jcarousel-skin-nvr {
+	position: absolute;
+	top: 175px;
+	left: 0;
+	text-align: left;
+	height: 148px;
+}
+#io_list {
+	width: 100%;
+}
+.io_list li[index] span.index {
+	margin-right: 2em;
+	font-weight: bold;
+}
+.io_list li[index] span.cam_io {
+	margin-right: 1em;
+}
+.io_list li>span.io_text {
+	margin-left: .7em;
+	margin-right: 20px;
+}
+div.encoder_tip .do_part, div.encoder_tip .di_part {
+	display: inline-block;
+	width: 80px;
+}
+

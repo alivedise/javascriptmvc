@@ -1,0 +1,81 @@
+div.map_control {
+	background: #222222 url('../images/widget/emapctrl/emapctrlBg.png');
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+div.map_control *{
+	vertical-align: middle;
+}
+div.map_control div.emapctrl {
+	margin: auto;
+	padding-top: 14px;
+	color: white;
+	font-size: 18px;
+}
+
+div.emap2D, div.emap25D {
+	max-width: 90px;
+	display: inline-block;
+}
+
+div.emap2D div, div.emap25D div {
+}
+
+div.map_control div.emapSelector {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 1000;
+}
+.emapSelector * {
+	vertical-align: middle;
+	margin: 5px;
+}
+.emapSelector .name {
+	color: white;
+}
+
+.direction_wheel {
+	display: inline-block;
+	position: relative;
+}
+
+.direction_wheel .up {
+	position: absolute;
+	top: 5px;
+	left: 25px;
+}
+.direction_wheel .down {
+	position: absolute;
+	bottom: 5px;
+	left: 25px;
+}
+.direction_wheel .left {
+	position: absolute;
+	top: 25px;
+	left: 5px;
+}
+.direction_wheel .right {
+	position: absolute;
+	top: 25px;
+	right: 4px;
+}
+
+.zoom_ctrl,.lift_ctrl {
+	display: inline-block;
+	height: 59px;
+	width: 20px;
+	position:relative;
+	float:left;
+}
+.zoom_ctrl span.zoomin, .lift_ctrl span.up {
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+.zoom_ctrl span.zoomout, .lift_ctrl span.down {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}

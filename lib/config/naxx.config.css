@@ -1,0 +1,915 @@
+span.debugpath {
+	top: 0;
+	left: 0;
+	font-size: 20px;
+}
+
+label {
+	width: 200px;
+}
+
+span.debug {
+	background: yellow;
+	color: black;
+	font-size: 13px;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+}
+
+div.blockform form {
+	padding: 10px;
+	min-height: 265px;
+}
+
+form>fieldset div.rowElem {
+	position: static;
+	text-align: left;
+}
+
+form>fieldset div.rowElem div.rowElem  {
+	padding-left: 30px;
+	display: block;
+}
+
+div.view.Utility.hover {
+	border-color: #0186D1;
+}
+
+div.view.Utility.configing {
+	border-color: #0186D1;
+}
+
+ul li{
+	list-style: none outside none;
+}
+
+div.rowElem>label, div.radio, div.selectior, div.checker, input[type="text"]{
+    display:inline-block;
+}
+
+div.rowElem>label
+{
+	color: black;
+	text-align: left;
+    margin-right: 5px;
+	width: 250px;
+}
+
+input[type=text], input[type=password], select 
+{
+	width: 200px;
+/*	border-width: 2px;
+	border-style: solid;*/
+	height: 25px;
+	padding: 0;
+}
+
+select {
+	width: 204px;
+}
+
+.ui-icon {
+	display: inline-block;
+}
+
+.keyboard {
+	height: 25px;
+	cursor: pointer;
+}
+
+form div * {
+	vertical-align: middle;
+}
+
+button img, .fg-button img {
+	height: 20px;
+}
+
+button * {
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+
+div.settings-resizer {
+	background: #d5d5d5;
+	border: none;
+}
+
+div.widget-head {
+	background: none;
+	padding: 12px;
+	height: 0%;
+	text-align: left;
+}
+
+div.widget-head span.settingBtn, div.widget-head select {
+	margin-top: 12px;
+	margin-left: 10px;
+}
+
+div.widget-head select {
+	height: 28px;
+}
+
+div.clear {
+	width: 100%;
+	height: 100%;
+}
+
+div.statusPanel {
+	text-align: left;
+	padding: 3px;
+	color: black;
+	z-index: 99999;
+}
+
+.internal {
+	padding: 7px;
+	display:inline-block;
+	float:left;
+}
+
+select#hour, select#minute, select#second, select#interval, select#reserve_day {
+	width: 30px;
+}
+
+fieldset#time div.ui-slider {
+	width: 80%;
+}
+
+select#device_channel {
+	width: 50px;
+}
+
+div.ui-userdata button.fg-button {
+	vertical-align: top;
+	top: 0;
+	margin-left: 0;
+	width: 20px;
+	height: 100%;
+	margin-right: 3px;
+}
+
+div.ui-userdata button {
+	height: 100%;
+	margin: 0;
+}
+
+div.widget-head h3 {
+	color: #0186D1;
+	position: absolute;
+	right: 3px;
+	top: 3px;
+}
+
+div.widget-content {
+	height: 90%;
+}
+
+div.widget-content li, div.widget-content p{
+	font-family: Arial, Helvetica, sans-serif;                                                                                     
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+form fieldset {
+	padding-top: 10px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: auto;
+	width: 100%;
+	color: black;
+	border: none;
+	display: block;
+}
+
+form fieldset>legend{
+	padding-left: 10px;
+}
+form fieldset>div{
+	padding-left: 20px;
+}
+
+
+fieldset img.icon {
+	width: 30px;
+	height: 30px;
+}
+
+fieldset.wizard * {
+	vertical-align: middle;
+}
+
+div.wizard {
+	height: 100%;
+}
+
+legend {
+	font-weight : bold;
+	text-align: left;
+	color: black;
+	padding: 1px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div.statusPanel {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	color: black;
+	background: white;
+}
+div.statusPanel.ui-layout-pane.ui-tabs.ui-widget.ui-widget-content 
+{
+	overflow-y:hidden;
+}
+
+div.tablePanel {
+	height: 100%;
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background: white url('images/load.gif') center center no-repeat!important;
+}
+
+span.CharName {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div#progress_bar {
+	width: 80px;
+}
+
+#netmask1,#netmask2,#netmask3 {
+	width:100px;
+}
+
+
+th.ui-state-default.ui-th-column, div.ui-state-default.ui-jqgrid-hdiv, td.ui-state-default.jqgrid-rownum, div.ui-userdata.ui-state-default, div.ui-pager-control {
+	background: url('../images/setting_table_title_bg.jpg');
+	color: black;
+}
+
+div.ui-userdata, div#t_addressGrid_allow, div#t_addressGrid_deny {
+	color: grey;
+	height: 30px;
+	border: none;
+	background: white;
+	text-align: left;
+	padding: 5px;
+}
+
+div.blockform#alarmEditor {
+	padding: 20px;
+}
+
+div.blockform legend {
+	color: #0186D1;
+	margin: 5px;
+}
+
+div#div_allow_all {
+	text-align: left;
+	padding: 5px;
+}
+div.ui-userdata.ui-state-default a {
+	margin-left:10px;
+	color: grey;
+}
+
+.table_resizer {
+	background: #d2d2d2;
+}
+
+#hour,#minute,#second {
+	width: 50px;
+}
+
+.multiselect {
+width: 460px;
+height: 200px;
+}
+div.blockform label {
+	min-width: 111px;
+	display: inline-block;
+}
+
+div.statusPanel.ui-tabs .ui-tabs-nav.ui-widget-header
+{
+	background: white;
+	border-bottom: solid 1px #aaa;
+}
+div.blockform>form {
+	Height: 506px;
+	padding: 10px;
+	background: white;
+	color: #a0a0a0;
+	margin-bottom: 0.5em;
+}
+div.blockform>.ui-jqgrid {
+	margin-bottom: 0.5em;
+}
+div#snapshot {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 320px;
+	height: 240px;
+	background: black;
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+div#snapshot * {
+	vertical-align:middle;
+}
+div#snapshot img.full {
+	vertical-align:middle;
+	width: 100%;
+	height: 100%;
+}
+div#snapshot span {
+	height:100%;
+	display:inline-block;
+	color: white;
+	line-height:100%;
+}
+
+div.policy a {
+	color: #055298;
+}
+
+div.trigger *, div.schedule *, div.action *{
+	vertical-align: middle;
+}
+
+div.action a,div.schedule a,div.trigger a {
+	color: #055298;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+/*sun sat...*/
+div.blockform label.weekday {
+	width: auto;
+}
+
+div.blockform form>div {
+	min-height: 50px;
+}
+
+form.tablegrid {
+}
+
+form#actionForm, form#scheduleForm, form#triggerForm {
+	min-height: 265px;
+}
+form#actionForm>div, form#scheduleForm>div {
+	min-height: 18px;
+}
+form#actionForm label, form#scheduleForm label {
+	min-width: 200px;
+	padding: 10px;
+}
+div.range_slider {
+	width: 300px;
+	position: absolute;
+	top: 80px;
+	right: 50px;
+}
+div.range_slider div.weekday_text{
+	float: left;
+	display: inline-block;
+	height: 20px;
+	min-width: 30px;
+}
+span.warning {
+	border: solid 1px red;
+	color: red;
+	margin-left: 5px;
+}
+span.infomation {
+	border: solid 1px green;
+	color: green;
+	margin-left: 5px;
+}
+div.range_slider div.weekday {
+	float: left;
+	margin: 2px;
+	width: 250px;
+	display: inline-block;
+	height: 20px;
+	border: 1px solid #AAAAAA;
+	color: #222222;
+	position: relative;
+	background: url("custom-theme/images/ui-bg_gloss-wave_75_d0e5f5_500x100.png") repeat-x scroll 50% 50% #0186D1;
+}
+div.timer_range {
+	position: absolute;
+	height: 20px;
+	top: 0px;
+	background: url("custom-theme/images/ui-bg_gloss-wave_90_055298_500x100.png") repeat-x scroll 50% 50% #0186D1;
+	/*border: 1px solid #AAAAAA;
+	color: #222222;*/
+	font-weight: bold;
+}
+#alarmdes span2 {
+	margin-left: 20px;
+	border: solid 1px #0186D1;
+	color: #055298;
+	padding: 3px;
+}
+
+div.blockform input#start, div.blockform input#end {
+	width: 60px;
+	margin-right: 30px;
+}
+
+input.ip_octet {
+	border: solid 1px grey;
+	width: 3em;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+
+div#iptableEditor div{
+	min-height: 0;
+}
+
+input#timezone_selector {
+	width: 400px;
+}
+
+#actionRow {
+	text-align: center;
+}
+
+#actionRow div.action{
+	border: inset 1px white;
+	width: 100px;
+	padding: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+}
+
+#actionRow div.action *{
+	vertical-align: middle;
+}
+
+div.diskRow {
+	height: 30px;
+}
+
+div.diskRow div.capability {
+	background: white;
+	color: black;
+}
+
+div.diskRow label {
+	width: auto;
+}
+
+div#warnRow {
+	border: 2px solid red;
+	color: red;
+	height: auto;
+}
+
+div#diskinfo span, div#overview span {
+	color: #0186d1;
+	font-size: 15px;
+}
+
+#encoderRow div.encoder_item {
+	margin-left: 3em;
+	min-width: 200px;
+	max-width: 200px;
+	float: left;
+	overflow: hidden;
+}
+
+div.weekdiv label {
+	width: 20px;
+	max-width: 100px;
+}
+
+span.green {
+	color: green;
+}
+
+span.red {
+	color: red;
+}
+
+div.widget-head .ui-button{
+	margin-top: 14px;
+	margin-bottom: 14px;
+	margin-left: 8px;
+	background-image: url('../images/cbutton.png');
+	background-color: white;
+	color: #7f7f7f;
+}
+
+div.tablePanel div.ui-pager-control .ui-pg-button .ui-icon {
+	background-image: url('custom-theme/images/ui-icons_000000_256x240.png');
+	background-color: white;
+}
+
+div.widget-head .ui-button.ui-state-active, div#drm_panel .jqgrid .ui-button.ui-state-active, div.ui-pager-control .ui-pg-button.ui-state-active .ui-icon {
+	background-image: url('../images/cbutton_active2.png');
+	color: #0186D1;
+}
+div.ui-pager-control .ui-pg-button.ui-state-hover .ui-icon {
+	background-image: url('custom-theme/images/ui-icons_333333_256x240.png');
+	color: #0186D1;
+	border: none;
+	width: 18px;
+}
+
+button.insert .ui-button-icon-secondary {
+	right: 0;
+}
+
+
+button.insert {
+	display: none;
+	height: 20px;
+}
+
+button.insert.ui-button{
+	position: relative;
+	background-image: url('../images/cbutton.png');
+	background-color: white;
+	color: #7f7f7f;
+}
+
+button.insert .ui-icon {
+	margin-top: -10px;
+	background-image: url('images/ui-icons_217bc0_256x240.png');
+}
+
+button.insert.ui-state-active {
+	background-color: #e5e5ef;
+	background-image: url('../images/cbutton_active2.png');
+	color: #0186D1;
+}
+
+div#alarmEditor ul.ui-widget-header {
+	border: none;
+	background: none;
+}
+
+.ui-tabs-panel.ui-widget-content {
+	background: white;
+	color: grey;
+	height: 250px;
+}
+
+.ui-tabs li.ui-state-default {
+	background-image:url('../images/setting_panelTitle_actived.jpg');
+	background-color: #0186D1;
+	color: white;
+}
+.ui-tabs li.ui-state-active {
+	background: white;
+}
+.statusPanel.ui-tabs li.ui-state-active {
+	background: url('../images/setting_button_bar_bg.jpg');
+}
+.statusPanel .ui-tabs-panel.ui-widget-content.ui-corner-bottom,div.statusPanel.ui-layout-pane.ui-layout-pane-south.ui-tabs.ui-widget.ui-widget-content.ui-corner-all
+{
+	background: #f5f5f5;
+}
+.ui-tabs li a {
+	color: grey;
+}
+.ui-tabs li.ui-state-default a {
+	color: white;
+}
+.ui-tabs li.ui-state-active a {
+	color: grey;
+}
+div#alarmEditor .ui-state-highlight .ui-icon {
+}
+.ui-tabs .ui-tabs-nav li a {
+	padding-left: 4em;
+	padding-right: 4em;
+}
+.ui-jqgrid.ui-widget.ui-widget-content {
+	border: none;
+}
+.ui-tabs-nav.ui-widget-header
+{
+	background: none;
+	border: none;
+	/*border-bottom: solid 1px #aaa;*/
+}
+div#iptableTabs .ui-tabs-nav.ui-widget-header {
+	background: #f0f0f0;
+	padding: 0;
+}
+.ui-tabs-panel.ui-widget-content
+{
+	background: white;
+	padding: 0;
+}
+div#alarmEditor.ui-tabs .ui-tabs-panel.ui-widget-content {
+	height: 506px;
+	margin-bottom: 0.5em;
+}
+div#iptableTabs.ui-tabs .ui-tabs-panel.ui-widget-content {
+	height: 2000px;
+}
+
+
+div#createSchedule fieldset.normal,div#createSchedule hr {
+	width: 100%;
+	float: left;
+}
+div#createSchedule fieldset.event {
+	min-height: 110px;
+}
+fieldset.event>legend,fieldset.event div.rowElem,fieldset.event>div>div {
+	min-width: 300px;
+	display: inline-block;
+	float: left;
+}
+div#createSchedule img.vl{
+	float: left;
+	height: 265px;
+	width: 3px;
+}
+img.hr{
+	height: 3px;
+	width: 90%;
+}
+fieldset.recursive_column {
+	height: 265px;
+	display: inline-block;
+	width: 30%;
+	float: left;
+}
+hr {
+	width: 100%;
+}
+fieldset.detail_column {
+	height: 265px;
+	display: inline-block;
+	width: 60%;
+	float:left;
+}
+div.ui-timepicker-title.ui-widget-header {
+	color:white;
+}
+.ui-jqgrid .ui-state-highlight {
+	color: white;
+	background: #0186D1;
+}
+.ui-jqgrid-repeat {
+	border-color: orange;
+	border-width: 2px;
+}
+.ui-widget-content.ui-priority-secondary {
+	background: #dddddd;
+}
+.ui-widget-content.jqgrow.ui-state-hover.ui-state-active {
+	background: #0181D1;
+}
+.ui-widget-content.ui-priority-secondary.ui-state-hover {
+	background: #646464;
+}
+.ui-jqgrid .ui-widget-content.ui-priority-secondary.ui-state-hover {
+	color: white;
+	background: #222;
+}
+.ui-jqgrid .ui-widget-content.ui-priority-secondary.ui-state-highlight {
+	color: white;
+	background: #0186D1;
+}
+.ui-widget-content.jqgrow.ui-state-hover {
+	background: #646464;
+}
+.ui-widget-content.jqgrow.ui-state-highlight.ui-jqgrid-new, .ui-widget-content.jqgrow.ui-state-hover.ui-jqgrid-new 
+{
+	color: lime;
+}
+.ui-widget-content .ui-widget-content.ui-priority-secondary.ui-state-highlight.ui-jqgrid-new ,.ui-widget-content.ui-priority-secondary.ui-state-hover.ui-jqgrid-new
+{
+	color: lime;
+}
+div.block_description {
+	color: #0186d1;
+}
+.ui-widget-content.jqgrow.ui-state-hover img.active {
+	display: none;
+}
+.ui-widget-content.jqgrow.ui-state-hover img.normal {
+	display: none;
+}
+.ui-widget-content.jqgrow.ui-state-hover img.hover {
+	display: inline-block;
+}
+.ui-widget-content.jqgrow img.active {
+	display: none;
+}
+.ui-widget-content.jqgrow img.normal {
+	display: inline-block;
+}
+.ui-widget-content.jqgrow img.hover {
+	display: none;
+}
+.ui-widget-content.jqgrow.ui-state-highlight img.active, .ui-widget-content.jqgrow.ui-state-highlight.ui-state-hover img.active {
+	display: inline-block;
+}
+.ui-widget-content.jqgrow.ui-state-highlight img.normal, .ui-widget-content.jqgrow.ui-state-highlight.ui-state-hover img.normal {
+	display: none;
+}
+.ui-widget-content.jqgrow.ui-state-highlight img.hover, .ui-widget-content.jqgrow.ui-state-highlight.ui-state-hover img.hover {
+	display: none;
+}
+
+span.check.ui-icon {
+	background-image: url(images/ui-icons_cd0a0a_256x240.png);
+	position: absolute;
+	top: 5px;
+	right: -25px;
+}
+div.schedule_slider {
+	margin-top: 1em;
+	height: 23px;
+	border: solid 1px #aaa;
+	position: relative;
+}
+div.schedule_slider_X2 {
+	height: 161px;
+	cursor: pointer;
+	border: solid 1px #aaa;
+	position: relative;
+}
+div.schedule_slider .ui-boxer-appender, div.schedule_slider_X2 .ui-boxer-appender {
+	z-index: 0;
+}
+.ui-boxer-appender.reserved {
+	background: none;
+	border: solid 1px green;
+	position: absolute;
+	z-index: 5;
+}
+span.schedule_indicator {
+	color: #aaa;
+	top: -1em;
+	width: 20px;
+	font-size: .8em;
+	margin-left: -4px;
+	position: absolute;
+	z-index: 3;
+}
+span.schedule_divider {
+	height: 23px;
+	line-height: 23px;
+	color: #2f2f2f;
+	top: 0;
+	width: 4.16666%;
+	position: absolute;
+	border: solid #aaa 1px;
+	z-index: 5;
+}
+span.schedule_divider.occupied {
+	background: url('../images/widget/setting/schedule_back.png') #0186d1;
+	border-color: white;
+}
+div.schedule_slider_cover,div.schedule_slider_cover_X2 {
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: url('../images/blank.png');
+}
+div#createSchedule .jqTransformRadioWrapper {
+	display: inline-block;
+	float: none;
+}
+div#createSchedule .jqTransformRadio {
+	display: inline-block;
+}
+div#eventRow .jqTransformCheckboxWrapper {
+	display: inline-block;
+	float: none;
+}
+div#eventRow .jqTransformCheckbox {
+	display: inline-block;
+}
+div#eventRow>div {
+	float: left;
+	display: inline-block;
+	min-width: 100px;
+	margin-left: 30px;
+}
+div#createSchedule label {
+	margin-top: 7px;
+	min-width: 20px;
+}
+div.ui-boxer-appender .ui-icon {
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -8px;
+}
+
+div.ui-progressbar-value.ui-widget-header {
+	background-image: url('../images/widget/setting/schedule_back.png');
+}
+div.jqTransformInputWrapper div {
+	position: relative;
+}
+div.jqTransformInputWrapper div span.check {
+	position: absolute;
+	top: 5px;
+	right: -25px;
+}
+
+.blockUI .ui-button-text {
+	display: inline;
+}
+div#createUserEncoderRow > div {
+	display: inline-block;
+	float: left;
+	max-width: 100px;
+	min-width: 100px;
+	overflow: hidden;
+}
+.blockUI div >.jqTransformCheckboxWrapper {
+	float: none;
+	display: inline-block;
+}
+.buttonRow {
+	padding: 10px;
+}
+.ui-tabs .ui-tabs-nav {
+	padding: 0;
+}
+
+.blockUI button.block {
+	margin-right: 0.5em;
+}
+form span.label {
+	display: inline-block;
+	width: 200px;
+}
+div.blockform iframe {
+	background: white;
+	color: black;
+	font-size: 0.8em;
+}
+div.blockform .jqTransformRadioWrapper+label {
+	display: inline;
+}
+div.blockform .jqTransformCheckboxWrapper+label {
+	float: none;
+}
+div.blockform .ui-slider-range {
+	background: url('../images/widget/blocking/schedule_back.png') #0186d1;
+}
+div.blockform .ui-slider-handle {
+	color: #0186d1;
+	width: 17px;
+	height: 17px;
+	background: url('../images/widget/viewcell/thumb.png');
+	border: 0;
+	padding: 0;
+	margin-left: -8px;
+	margin-top: 0;
+}
+#byhourRow {
+	margin-top: 3.5em;
+}
+#ddns_reg_form {
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+#smartinfo {
+	overflow:hidden;
+}
+.ui-widget-content.jqgrow.ui-state-highlight .ui-icon {
+	background-image: url(custom-theme/images/ui-icons_ffffff_256x240.png);
+}
+
+div.top_right {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+
+div.top_right label {
+	width: auto;
+}

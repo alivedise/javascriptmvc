@@ -1,0 +1,794 @@
+/* 
+ * Copyright (c) 2011 Vivotek Inc. All rights reserved.
+ *
+ * +-----------------------------------------------------------------+
+ * | THIS SOFTWARE IS FURNISHED UNDER A LICENSE AND MAY ONLY BE USED |
+ * | AND COPIED IN ACCORDANCE WITH THE TERMS AND CONDITIONS OF SUCH  |
+ * | A LICENSE AND WITH THE INCLUSION OF THE THIS COPY RIGHT NOTICE. |
+ * | THIS SOFTWARE OR ANY OTHER COPIES OF THIS SOFTWARE MAY NOT BE   |
+ * | PROVIDED OR OTHERWISE MADE AVAILABLE TO ANY OTHER PERSON. THE   |
+ * | OWNERSHIP AND TITLE OF THIS SOFTWARE IS NOT TRANSFERRED.        |
+ * |                                                                 |
+ * | THE INFORMATION IN THIS SOFTWARE IS SUBJECT TO CHANGE WITHOUT   |
+ * | ANY PRIOR NOTICE AND SHOULD NOT BE CONSTRUED AS A COMMITMENT BY |
+ * | VIVOTEK INC.                                                    |
+ * +-----------------------------------------------------------------+
+ *
+ * Date: 2011-05-18 14:44:46
+ * Author: Alive Kuo (alive.kuo at vivotek.com)
+ */
+
+div.vivotext {
+	text-align: center;
+	margin: 5px;
+	color: #055298;
+	width: 100%;
+	line-height: 100%;
+}
+span.layout {
+	background-image: url('/images/button/layout/layout_normal.png');
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+span.layout.normal {
+	background-image: url('/images/button/layout/layout_normal.png');
+}
+span.layout.hover {
+	background-image: url('/images/button/layout/layout_hover.png');
+}
+span.layout.press {
+	background-image: url('/images/button/layout/layout_pressed.png');
+}
+span.layout.active {
+	background-image: url('/images/button/layout/layout_actived.png');
+}
+span.layout.disable {
+	background-image: url('/images/button/layout/layout_disable.png');
+}
+.L1x1 { background-position: -5px -5px; }
+.L1_3 { background-position: -5px -55px; }
+.L1_5 { background-position: -5px -105px; }
+.L2x2 { background-position: -5px -155px; }
+.L3x3 { background-position: -5px -205px; }
+.L4x4 { background-position: -5px -255px; }
+.layout1 { background-position: -5px -305px; }
+.layout2 { background-position: -5px -355px; }
+.layout3 { background-position: -5px -405px; }
+.layout4 { background-position: -5px -455px; }
+.L1a3 { background-position: -5px -505px; }
+
+span.status {
+	background-image: url('/images/button/encodericon/small_normal.png');
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+span.status.normal {
+	background-image: url('/images/button/encodericon/small_normal.png');
+}
+span.status.hover {
+	background-image: url('/images/button/encodericon/small_hover.png');
+}
+span.status.press {
+	background-image: url('/images/button/encodericon/small_pressed.png');
+}
+span.status.active {
+	background-image: url('/images/button/encodericon/small_hover.png');
+}
+span.status.disable {
+	background-image: url('/images/button/encodericon/small_disable.png');
+}
+[status=CAM_INIT] .camera.status { 
+	background-image: url('/images/button/encodericon/small_disable.png');
+	background-position: 0 0px;
+	cursor: none; 
+}
+[status=CAM_ACTIVE] .camera.status { background-position: 0 0; cursor: none; }
+[status=CAM_OFFLINE] .camera.status { background-position: 0 -20px; cursor: none;}
+[status=CAM_UNAUTHORIZED] .camera.status { background-position: 0 -20px; cursor: none;}
+[status=CAM_UNSTABLE] .camera.status { background-position: 0 -20px; cursor: none;}
+[status=CAM_DIAGNOSTICS] .camera.status { background-position: 0 -20px; cursor: none;}
+[status=CAM_KEEPALIVE] .camera.status { background-position: 0 -20px; cursor: none;}
+[status=CAM_EMPTY] .camera.status { background-position: 0 -40px; cursor: none;}
+
+.status.di { background-position: 0 -60px; }
+.status.do { background-position: 0 -220px; }
+.status.recording { background-position: 0 -80px; }
+.status.offline { background-position: 0 -20px; }
+.status.live { background-position: 0 -100px; }
+.status.toggle.online { background-position: 0 -120px; }
+.status.toggle.offline { background-position: 0 -140px; }
+.status.status.cancel { background-position: 0 -160px; }
+.status.toggle.cancel { background-position: 0 -160px; }
+.status.toggle.di_on { background-position: 0 -180px; }
+.status.toggle.do_on { background-position: 0 -200px; }
+span.status.active.online { background-position: 0 0; }
+span.status.active.offline { background-position: 0 -20px; }
+span.status.active.cancel { background-position: 0 -40px; }
+span.status.active.di_on { background-position: 0 -60px; }
+span.status.active.do_on { background-position: 0 -220px; }
+
+span.viewcellBtn {
+	background-image: url('/images/button/viewcell/viewcellBtn_normal.png');
+	display: inline-block;
+	width: 28px; /*alive: theory 30*/
+	height: 28px;
+	cursor: pointer;
+}
+span.viewcellBtn.normal {
+	background-image: url('/images/button/viewcell/viewcellBtn_normal.png');
+}
+span.viewcellBtn.hover {
+	background-image: url('/images/button/viewcell/viewcellBtn_hover.png');
+}
+span.viewcellBtn.press {
+	background-image: url('/images/button/viewcell/viewcellBtn_pressed.png');
+}
+span.viewcellBtn.active {
+	background-image: url('/images/button/viewcell/viewcellBtn_actived.png');
+}
+span.viewcellBtn.disable {
+	background-image: url('/images/button/viewcell/viewcellBtn_disable.png');
+}
+.play { background-position: 0 0; }
+.instantplayback { background-position: 0 -30px; }
+.bookmark { background-position: 0 -60px; }
+.snapshot { background-position: 0 -90px; }
+.offline { background-position: 0 -120px; }
+.volume { background-position: 0 -150px; }
+.full { background-position: 0 -180px; }
+.back { background-position: 0 -210px; }
+.pipin { background-position: 0 -240px; }
+.pipout { background-position: 0 -270px; }
+.pause { background-position: 0 -300px; }
+.returnliveview { background-position: 0 -330px; }
+.mute { background-position: 0 -364px; }
+.export { background-position: 0 -394px; }
+
+div.pip span.pipin, div.pip span.pipout {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+}
+
+
+span.navBtn {
+	background-image: url('/images/button/function/navBtn_normal.png');
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+span.navBtn.normal {
+	background-image: url('/images/button/function/navBtn_normal.png');
+}
+span.navBtn.hover {
+	background-image: url('/images/button/function/navBtn_hover.png');
+}
+span.navBtn.press {
+	background-image: url('/images/button/function/navBtn_pressed.png');
+}
+span.navBtn.active {
+	background-image: url('/images/button/function/navBtn_active.png');
+}
+span.navBtn.disable {
+	background-image: url('/images/button/function/navBtn_disable.png');
+}
+.alloffline { background-position: -5px -5px; }
+.rotate { background-position: -5px -55px; }
+.page-left { background-position: -5px -105px; }
+.page-right { background-position: -5px -155px; }
+.edit { background-position: -5px -205px; }
+.search { background-position: -5px -255px; }
+.page-up { background-position: -5px -305px; }
+.page-down { background-position: -5px -355px; }
+.tip-page-up { background-position: -5px -305px; }
+.tip-page-down { background-position: -5px -355px; }
+.navBtn.toggle { background-position: -5px -405px; }
+.navBtn.upload { background-position: -5px -455px; }
+.theater { background-position: -5px -505px; }
+.alarm { background-position: -5px -555px; }
+.playbacking { background-position: -5px -605px; }
+
+span.nav {
+	background-image: url('/images/button/pageswitch/nav_normal.png');
+	display: inline-block;
+	width: 82px;
+	height: 82px;
+	cursor: pointer;
+}
+span.nav.normal {
+	background-image: url('/images/button/pageswitch/nav_normal.png');
+}
+span.nav.hover {
+	background-image: url('/images/button/pageswitch/nav_hover.png');
+}
+span.nav.press {
+	background-image: url('/images/button/pageswitch/nav_pressed.png');
+}
+span.nav.active {
+	background-image: url('/images/button/pageswitch/nav_actived.png');
+}
+span.nav.disable {
+	background-image: url('/images/button/pageswitch/nav_disable.png');
+}
+.liveview { background-position: 0 0; }
+.playback { background-position: 0 -86px; }
+.emap { background-position: 0 -172px; }
+.settings { background-position: 0 -258px; }
+
+span.nav {
+	position: relative;
+}
+
+span.nav .vivotext {
+	position: absolute;
+	color: white;
+	top: 42px;
+	left: 0px;
+	width: 60px;
+	text-align: center;
+	background: #151515;
+	margin-left: 11px;
+	height: 15px;
+}
+
+span.cam_rec {
+	background-image: url('/images/button/cameraslider/schedule_recording_off.png');
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	cursor: normal;
+}
+
+span.cam_rec_manaul {
+	background-image: url('/images/button/cameraslider/manual_recording_normal.png');
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	cursor: pointer;
+}
+
+span.cam_rec_manual.normal {
+	background-image: url('/images/button/cameraslider/manual_recording_normal.png');
+}
+span.cam_rec_manual.hover {
+	background-image: url('/images/button/cameraslider/manual_recording_hover.png');
+}
+span.cam_rec_manual.press {
+	background-image: url('/images/button/cameraslider/manual_recording_press.png');
+}
+span.cam_rec_manual.active {
+	background-image: url('/images/button/cameraslider/manual_recording_active.png');
+}
+span.cam_rec_manual.disable {
+	background-image: url('/images/button/cameraslider/manual_recording_disable.png');
+}
+.cam_rec.schedule[status=ON] {
+	background-image: url('/images/button/schedule_recording_on.png');
+}
+.cam_rec.schedule[status=ON] {
+	background-image: url('/images/button/schedule_recording_off.png');
+}
+
+span.cam_io {
+	background-image: url('/images/button/dido/dido_normal.png');
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	position: relative;
+}
+
+span.cam_io.normal {
+	background-image: url('/images/button/dido/dido_disable.png');
+}
+span.cam_io.hover {
+	background-image: url('/images/button/dido/dido_hover.png');
+}
+span.cam_io.press {
+	background-image: url('/images/button/dido/dido_pressed.png');
+}
+span.cam_io.active {
+	background-image: url('/images/button/dido/dido_actived.png');
+}
+span.cam_io.disable {
+	background-image: url('/images/button/dido/dido_disable.png');
+}
+.cam_io.di {
+	background-position: 0 0; 
+}
+.cam_io.do { 
+	background-position: 0 -27px; 
+	cursor: pointer;
+}
+.cam_io.di[status=0] {
+	background-image: url('/images/button/dido/dido_disable.png');
+}
+.cam_io.do[status=0] {
+	background-image: url('/images/button/dido/dido_disable.png');
+}
+.cam_io.di[status=1] {
+	background-image: url('/images/button/dido/dido_actived.png');
+}
+.cam_io.do[status=1] {
+	background-image: url('/images/button/dido/dido_actived.png');
+}
+
+span.PlaybackBtn {
+	background-image: url('/images/button/playctrl/PlaybackBtn_normal.png');
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+span.PlaybackBtn.normal {
+	background-image: url('/images/button/playctrl/PlaybackBtn_normal.png');
+}
+span.PlaybackBtn.hover {
+	background-image: url('/images/button/playctrl/PlaybackBtn_hover.png');
+}
+span.PlaybackBtn.press {
+	background-image: url('/images/button/playctrl/PlaybackBtn_pressed.png');
+}
+span.PlaybackBtn.active {
+	background-image: url('/images/button/playctrl/PlaybackBtn_actived.png');
+}
+span.PlaybackBtn.disable {
+	background-image: url('/images/button/playctrl/PlaybackBtn_disable.png');
+}
+.PlaybackBtn.stop { background-position: 0 0;} 
+.PlaybackBtn.play { background-position: 0 -40px; }
+.PlaybackBtn.next { background-position: 0 -80px; }
+.PlaybackBtn.sync { background-position: 0 -120px; }
+.PlaybackBtn.speed_up { background-position: 0 -160px; }
+.PlaybackBtn.speed_down { background-position: 0 -200px; }
+.PlaybackBtn.pause { background-position: 0 -240px; }
+.PlaybackBtn.p_record { background-position: 0 -320px; }
+.PlaybackBtn.n_record { background-position: 0 -360px; }
+
+span.event_toggle {
+	background-image: url('/images/button/eventtoggle/event_btn_toggle_off.png');
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+}
+span.event_toggle.normal {
+	background-image: url('/images/button/eventtoggle/event_btn_toggle_off.png');
+}
+span.event_toggle.hover {
+}
+span.event_toggle.press {
+}
+span.event_toggle.active {
+	background-image: url('/images/button/eventtoggle/event_btn_toggle_on.png');
+}
+span.event_toggle.disable {
+}
+.event_toggle.di { background-position: 0 0;} 
+.event_toggle.do { background-position: 0 -12px; }
+.event_toggle.motion { background-position: 0 -24px; }
+.event_toggle.pir { background-position: 0 -36px; }
+
+
+span.setter {
+	background-image: url('/images/button/setting/setting_normal.png');
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+span.setter.normal {
+	background-image: url('/images/button/setting/setting_normal.png');
+}
+span.setter.hover {
+	background-image: url('/images/button/setting/setting_hover.png');
+}
+span.setter.press {
+	background-image: url('/images/button/setting/setting_pressed.png');
+}
+span.setter.active {
+	background-image: url('/images/button/setting/setting_actived.png');
+}
+span.setter.disable {
+	background-image: url('/images/button/setting/setting_disable.png');
+}
+span.setter.static {
+	background-image: url('/images/button/setting/setting_static.png');
+	cursor: default;
+}
+span.setter.set_icon {
+	background-image: url('/images/button/setting/setting_static_small.png');
+	cursor: default;
+	display: inline-block;
+	width: 28px;
+	height: 30px;
+}
+.setter.network { background-position: 0 0;} 
+.setter.camera { background-position: 0 -60px; }
+.setter.system { background-position: 0 -120px; }
+.setter.user { background-position: 0 -180px; }
+.setter.storage { background-position: 0 -240px; }
+.setter.log { background-position: 0 -300px; }
+
+.set_icon.network { background-position: 0 0;} 
+.set_icon.camera { background-position: 0 -30px; }
+.set_icon.system { background-position: 0 -60px; }
+.set_icon.user { background-position: 0 -90px; }
+.set_icon.storage { background-position: 0 -120px; }
+.set_icon.log { background-position: 0 -150px; }
+
+
+span.playq {
+	background-image: url('/images/button/playqueue/playQueBtn_normal.png');
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+span.playq.normal {
+	background-image: url('/images/button/playqueue/playQueBtn_normal.png');
+}
+span.playq.hover {
+	background-image: url('/images/button/playqueue/playQueBtn_hover.png');
+}
+span.playq.press {
+	background-image: url('/images/button/playqueue/playQueBtn_pressed.png');
+}
+span.playq.active {
+	background-image: url('/images/button/playqueue/playQueBtn_actived.png');
+}
+span.playq.disable {
+	background-image: url('/images/button/playqueue/playQueBtn_disable.png');
+}
+.playq.insert { background-position: 0 0;} 
+.playq.delete { background-position: 0 -25px; }
+.playq.prev { background-position: 0 -50px; }
+.playq.next { background-position: 0 -75px; }
+.playq.goplayback { background-position: 0 -100px; }
+.playq.config { background-position: 0 -123px; }
+.playq.more { background-position: 0 -150px; }
+.playq.less { background-position: 0 -175px; }
+.playq.add { background-position: 0 -200px; }
+.playq.remove { background-position: 0 -225px; }
+.playq.live { background-position: 0 -250px; }
+.playq.playback { background-position: 0 -275px; }
+.playq.emap { background-position: 0 -300px; }
+.playq.settings { background-position: 0 -325px; }
+
+span.playrt {
+	background-image: url('/images/button/queryresult/qr_normal.png');
+	display: inline-block;
+	width: 45px;
+	height: 30px;
+	cursor: pointer;
+}
+span.playrt.normal {
+	background-image: url('/images/button/queryresult/qr_normal.png');
+}
+span.playrt.hover {
+	background-image: url('/images/button/queryresult/qr_normal.png');
+}
+span.playrt.press {
+	background-image: url('/images/button/queryresult/qr_normal.png');
+}
+span.playrt.active {
+	background-image: url('/images/button/queryresult/qr_active.png');
+}
+span.playrt.disable {
+	background-image: url('/images/button/queryresult/qr_disabled.png');
+}
+.playrt.table { background-position: 0 0;} 
+.playrt.grid { background-position: 0 -35px; }
+
+span.emap_camera {
+	background-image: url('/images/button/emapicon/emap_camera_normal.png');
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+span.emap_camera.normal {
+	background-image: url('/images/button/emapicon/emap_camera_normal.png');
+}
+span.emap_camera.hover {
+	background-image: url('/images/button/emapicon/emap_camera_hover.png');
+}
+span.emap_camera.press {
+	background-image: url('/images/button/emapicon/emap_camera_pressed.png');
+}
+span.emap_camera.active {
+	background-image: url('/images/button/emapicon/emap_camera_actived.png');
+}
+span.emap_camera.disable {
+	background-image: url('/images/button/emapicon/emap_camera_disable.png');
+}
+.emap_camera.usual { background-position: 0 0;} 
+.emap_camera.alarm { background-position: 0 -40px; }
+
+span.direction {
+	background-image: url('/images/button/emapctrl/emap_camera_normal.png');
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+span.direction.normal {
+	background-image: url('/images/button/emapctrl/direction_normal.png');
+}
+span.direction.hover {
+	background-image: url('/images/button/emapctrl/direction_hover.png');
+}
+span.direction.press {
+	background-image: url('/images/button/emapctrl/direction_pressed.png');
+}
+span.direction.active {
+	background-image: url('/images/button/emapctrl/direction_actived.png');
+}
+span.direction.disable {
+	background-image: url('/images/button/emapctrl/direction_disable.png');
+}
+.direction.left { background-position: 0 0;} 
+.direction.up { background-position: 0 -10px; }
+.direction.right { background-position: 0 -20px; }
+.direction.down { background-position: 0 -30px; }
+.direction.circle { background-position: 0 -40px; }
+.direction.list { background-position: 0 -50px; }
+
+
+span.emapctrl {
+	background-image: url('/images/button/emapctrl/controls_normal.png');
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+span.emapctrl.normal {
+	background-image: url('/images/button/emapctrl/controls_normal.png');
+}
+span.emapctrl.hover {
+	background-image: url('/images/button/emapctrl/controls_hover.png');
+}
+span.emapctrl.press {
+	background-image: url('/images/button/emapctrl/controls_pressed.png');
+}
+span.emapctrl.active {
+	background-image: url('/images/button/emapctrl/controls_actived.png');
+}
+span.emapctrl.disable {
+	background-image: url('/images/button/emapctrl/controls_disable.png');
+}
+.emapctrl.zoomin { background-position: 0 0;} 
+.emapctrl.zoomout { background-position: 0 -15px; }
+.emapctrl.up { background-position: 0 -30px; }
+.emapctrl.down { background-position: 0 -45px; }
+
+span.emappip {
+	background-image: url('/images/button/minimap/pip_emap_normal.png');
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+span.emappip.normal {
+	background-image: url('/images/button/minimap/pip_emap_normal.png');
+}
+span.emappip.hover {
+	background-image: url('/images/button/minimap/pip_emap_hover.png');
+}
+span.emappip.press {
+	background-image: url('/images/button/minimap/pip_emap_pressed.png');
+}
+span.emappip.active {
+	background-image: url('/images/button/minimap/pip_emap_actived.png');
+}
+span.emappip.disable {
+	background-image: url('/images/button/minimap/pip_emap_disable.png');
+}
+.emappip.hide { background-position: 0 0;} 
+.emappip.show { background-position: 0 -20px; }
+
+
+span.arrow {
+	background-image: url('/images/button/arrow/arrow_normal.png');
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+}
+span.arrow.normal {
+	background-image: url('/images/button/arrow/arrow_normal.png');
+}
+span.arrow.hover {
+	background-image: url('/images/button/arrow/arrow_hover.png');
+}
+span.arrow.press {
+	background-image: url('/images/button/arrow/arrow_pressed.png');
+}
+span.arrow.active {
+	background-image: url('/images/button/arrow/arrow_actived.png');
+}
+span.arrow.disable {
+	background-image: url('/images/button/arrow/arrow_disable.png');
+}
+.arrow.left { background-position: -2px -2px; } 
+.arrow.right { background-position: -2px -32px; }
+.arrow.up { background-position: -2px -62px; }
+.arrow.down { background-position: -2px -92px; }
+
+span.settingBtn {
+	background-image: url('/images/settingBtn_Bg.png');
+	display: inline-block;
+	width: 99px;
+	height: 33px;
+	cursor: pointer;
+}
+
+span.encoder {
+	background-image: url('/images/button/encoder/CameraSlider_normal.png');
+	display: inline-block;
+	width: 102px;
+	height: 100px;
+	margin-bottom: 50px;
+	cursor: pointer;
+	position: relative;
+	background-position: 0 0;
+}
+
+span.encoder.normal {
+	background-image: url('/images/button/encoder/CameraSlider_normal.png');
+}
+span.encoder.active {
+	background-image: url('/images/button/encoder/CameraSlider_active.png');
+}
+span.encoder.disable {
+	background-image: url('/images/button/encoder/CameraSlider_slider.png');
+}
+span.encoder.hover {
+	background-image: url('/images/button/encoder/CameraSlider_hover.png');
+}
+span.encoder.pressed {
+	background-image: url('/images/button/encoder/CameraSlider_pressed.png');
+}
+
+span.mlt {
+	background-image: url('/images/button/languageselector/arrow_normal.png');
+	display: inline-block;
+	width: 170px;
+	height: 31px;
+	cursor: pointer;
+}
+span.mlt.normal {
+	background-image: url('/images/button/languageselector/language_normal.png');
+}
+span.mlt.hover {
+	background-image: url('/images/button/languageselector/language_hover.png');
+}
+span.mlt.press {
+	background-image: url('/images/button/languageselector/language_press.png');
+}
+span.mlt.active {
+	background-image: url('/images/button/languageselector/language_normal.png');
+}
+span.mlt.disable {
+	background-image: url('/images/button/languageselector/language_disable.png');
+}
+
+span.mlt .vivotext {
+	height: 31px;
+	color: black;
+	font-size: .9em;
+	margin: 0;
+	line-height: 31px;
+}
+
+span.emapselector {
+	background-image: url('/images/button/emapselector/arrow_normal.png');
+	display: inline-block;
+	width: 230px;
+	height: 31px;
+	cursor: pointer;
+}
+span.emapselector.normal {
+	background-image: url('/images/button/emapselector/language_normal.png');
+}
+span.emapselector.hover {
+	background-image: url('/images/button/emapselector/language_hover.png');
+}
+span.emapselector.press {
+	background-image: url('/images/button/emapselector/language_hover.png');
+}
+span.emapselector.active {
+	background-image: url('/images/button/emapselector/language_normal.png');
+}
+span.emapselector.disable {
+	background-image: url('/images/button/emapselector/language_disable.png');
+}
+
+span.drminsert {
+	background-image: url('/images/button/drm_insert/add_normal.png');
+	display: none;
+	width: 26px;
+	height: 19px;
+	cursor: pointer;
+}
+span.drminsert.normal {
+	background-image: url('/images/button/drm_insert/add_normal.png');
+}
+span.drminsert.hover {
+	background-image: url('/images/button/drm_insert/add_hover.png');
+}
+span.drminsert.press {
+	background-image: url('/images/button/drm_insert/add_pressed.png');
+}
+span.drminsert.active {
+	background-image: url('/images/button/drm_insert/add_active.png');
+}
+span.drminsert.disable {
+	background-image: url('/images/button/drm_insert/add_disable.png');
+}
+
+span.fisheye {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOption_normal.png');
+	display: inline-block;
+	width: 39px;
+	height: 25px;
+	cursor: pointer;
+}
+span.fisheye.normal {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOption_normal.png');
+}
+span.fisheye.hover {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOption_hover.png');
+}
+span.fisheye.press {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOption_pressed.png');
+}
+span.fisheye.active {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOption_active.png');
+}
+span.fisheye.disable {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOption_disable.png');
+}
+
+span.fisheye.f1P { background-position: 0px 0px; } 
+span.fisheye.f1O { background-position: 0px -25px; }
+span.fisheye.f1R { background-position: 0px -50px; }
+span.fisheye.f2P { background-position: 0px -75px; }
+span.fisheye.f2O { background-position: 0px -100px; }
+
+span.fisheye.wide {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOption_normal.png');
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	cursor: pointer;
+}
+span.fisheye.wide.normal {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOptionWide_normal.png');
+}
+span.fisheye.wide.hover {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOptionWide_hover.png');
+}
+span.fisheye.wide.press {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOptionWide_pressed.png');
+}
+span.fisheye.wide.active {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOptionWide_active.png');
+}
+span.fisheye.wide.disable {
+	background-image: url('/images/button/fisheye/fisheyeDisplayOptionWide_disable.png');
+}
+
+span.fisheye.f1O3R { background-position: 0px 0px; } 
+span.fisheye.f1O8R { background-position: 0px -25px; }
+span.fisheye.f4RPRO { background-position: 0px -50px; }
+
+span.disable {
+	cursor: none;
+}

@@ -1,0 +1,30 @@
+<div class="widget-head">
+	<h3 symbol="text:ddns_settings">DDNS Service</h3>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset>
+			<div>
+				<input type="checkbox" name="ddns_enable" id="ddns_enable"/><label for="ddns_enable" symbol="text:enabled">Enable Dynamic DNS Service</label>
+				<div>
+					<label for="ddns_provider" symbol="text:select_ddns_service">DDNS Server:</label>
+					<select id="ddns_provider" name="ddns_provider">
+						<option value="Safe100">Safe100</option>
+					</select>
+				</div>
+				<div>
+					<label for="ddns_Safe100_usernameemail" symbol="text:username">Username:</label>
+					<input type="text" id="ddns_Safe100_usernameemail" name="ddns_Safe100_usernameemail" />
+				</div>
+				<div>
+					<label for="ddns_Safe100_passwordkey" symbol="text:password">Password:</label>
+					<input type="password" name="ddns_Safe100_passwordkey" id="ddns_Safe100_passwordkey" />
+				</div>
+				<div>
+					<label for="ddns_Safe100_hostname" symbol="text:host_name">Host name:</label>
+					<input type="text" id="ddns_Safe100_hostname" name="ddns_Safe100_hostname" />
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>

@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>External.Jqtransform</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+            .error {border: solid 1px red;}
+            .error_text { color: red; font-size: 10px;}
+            td {padding: 3px;}
+        </style>
+	</head>
+	<body>
+	    <h1>External.Jqtransform Demo</h1>
+		<div id='jqtransform'></div>
+		<script type='text/javascript' 
+                src='../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('external/jqtransform',function(){
+				
+				$('#jqtransform').external_jqtransform();
+			})
+		</script>
+	</body>
+</html>

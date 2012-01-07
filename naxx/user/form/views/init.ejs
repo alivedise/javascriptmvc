@@ -1,0 +1,31 @@
+<form>
+	<fieldset>
+		<legend symbol="text:user_configuration">User config</legend>
+		<div>
+			<label for="username" symbol="text:username">User name</label>
+			<input id="username" name="username" type="text" size=12 maxlength=64 />
+		</div>
+		<div>
+			<label for="password" symbol="text:password">Password</label>
+			<input id="password" name="password" type="password" size=12 maxlength=64 />
+		</div>
+		<div>
+			<label for="confirm_password" symbol="text:confirm_password">Varify Password</label>
+			<input id="confirm_password" name="confirm_password" type="password" size=12 maxlength=64 />
+		</div>
+		<div>
+			<label for="group" symbol="text:group">group</label>
+			<input id="group" name="group" type="text" />
+		</div>
+	</fieldset>
+	<fieldset id="encoderRow">
+		<legend symbol="text:camera_control">Access control</legend>
+	</fieldset>
+	<fieldset id="settingsRow">
+		<legend symbol="text:settings_control">Settings control</legend>
+		<div>
+			<input type="checkbox" name="settings" id="settings" />
+			<label symbol="text:enable_settings_access" for="settings"></label>
+		</div>
+	</fieldset>
+</form>

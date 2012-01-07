@@ -1,0 +1,294 @@
+/* 
+ * Copyright (c) 2011 Vivotek Inc. All rights reserved.
+ 
+ * +-----------------------------------------------------------------+
+ * | THIS SOFTWARE IS FURNISHED UNDER A LICENSE AND MAY ONLY BE USED |
+ * | AND COPIED IN ACCORDANCE WITH THE TERMS AND CONDITIONS OF SUCH  |
+ * | A LICENSE AND WITH THE INCLUSION OF THE THIS COPY RIGHT NOTICE. |
+ * | THIS SOFTWARE OR ANY OTHER COPIES OF THIS SOFTWARE MAY NOT BE   |
+ * | PROVIDED OR OTHERWISE MADE AVAILABLE TO ANY OTHER PERSON. THE   |
+ * | OWNERSHIP AND TITLE OF THIS SOFTWARE IS NOT TRANSFERRED.        |
+ * |                                                                 |
+ * | THE INFORMATION IN THIS SOFTWARE IS SUBJECT TO CHANGE WITHOUT   |
+ * | ANY PRIOR NOTICE AND SHOULD NOT BE CONSTRUED AS A COMMITMENT BY |
+ * | VIVOTEK INC.                                                    |
+ * +-----------------------------------------------------------------+
+ * Date: 2011-04-15 10:50:26
+ * Author: Alive Kuo (alive.kuo at vivotek.com)
+ *
+ * naxx.panel.css: css of top-panel
+ * 
+ */
+
+/*上方黑色面板*/
+.panel {
+	width: 100%;
+	height: 100%;
+	background: url('../images/widget/toppanel/BannerBg.jpg');
+}
+
+div.panel div.title {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 100;
+	color: white;
+	height: auto;
+}
+
+.logo {
+	position: absolute;
+	top: 22px;
+	left: 22px;
+	height: 40px;
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.nvrtoggler {
+	padding-left: 5px;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	vertical-align: middle;
+	background: url('../images/widget/sidepanel/PanelTitleBg.jpg');
+	color: white;
+	text-align: left;
+}
+
+.nvrtoggler *{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+
+div.pager * {
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+div.eventlist {
+	background: #2f2f2f;
+	height: 100%;
+	width: 100%;
+}
+
+div.fix-pane div {
+	display: inline-block;
+	height: 100%;
+	top: 0;
+	float: left;
+}
+
+div.layout-pane, div.action-pane {
+	max-width: 113px;
+	color: white;
+	padding-top: 22px;
+	position: relative;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+div.layout-pane span, div.action-pane span {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+div.menu-pane {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 257px;
+	height: 150px;
+}
+
+div.edit {
+	color: white;
+	width: 272px;
+	height: 150px;
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: black url('../images/widget/toppanel/edit_bg.jpg');
+	z-index: 22222;
+	text-align: center;
+	padding-top: 35px;
+}
+
+div.edit button {
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
+div.edit div.q {
+	width: auto;
+	text-align: left;
+	margin-left: 32px;
+	margin-right: 32px;
+	height: auto;
+	word-wrap:break-word;
+	overflow:hidden;
+}
+
+div.panel button.ui-button.ui-widget.ui-button-text-only, button.block
+{
+	border-color: black;
+	min-width: 90px;
+	height: 26px;
+}
+
+div.panel button.ui-button.ui-widget.ui-button-text-only.ui-state-default, button.block.ui-state-default
+{
+	background-image: url('custom-theme/images/ui-bg_highlight-hard_25_222222_1x100.png');
+}
+div.panel button.ui-button.ui-widget.ui-button-text-only.ui-state-active, button.block.ui-state-active
+{
+	background-image: url('custom-theme/images/ui-bg_highlight-hard_30_0186d1_1x100.png');
+}
+div.panel button.ui-button.ui-widget.ui-button-text-only.ui-state-hover, button.block.ui-state-hover
+{
+	background-image: url('custom-theme/images/ui-bg_highlight-hard_30_0186d1_1x100.png');
+}
+
+button.ui-button.ui-widget.ui-button-text-only .ui-button-text {
+	padding: 0 1em;
+}
+
+div.menu-pane div.infoboard {
+	height: 67px;
+	position: absolute;
+	top: 0;
+	right: -85px;
+}
+
+div.menu-pane div.navigator {
+	position:absolute;
+	width:100%;
+	height:60px;
+	top: 66px;
+	left: 0;
+}
+
+div.navigator span.nav {
+	margin-right: 3px;
+}
+
+div.infoboard div.blocklogo {
+	background: none;
+	position:absolute;
+	width:auto;
+	top: 20px;
+	left: 9px;
+	width :140px;
+}
+
+div.blocklogo img {
+	width: 100%;
+}
+
+div.infoboard span.search {
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+div.infoboard span.system_time {
+	background: url('../images/widget/toppanel/system_time.png') no-repeat top left;
+	padding-left: 25px;
+	position: absolute;
+	color: white;
+	top: 33px;
+	right: 90px;
+	width: 70px;
+	/*height: 22px;*/
+	/*line-height: 22px;*/
+	font-size: .9em;
+	font-weight: bold;
+}
+
+div.infoboard select {
+	position: absolute;
+	top: 35px;
+	right: 10px;
+	width: 111px;
+}
+
+div.infoboard span.user {
+	position: absolute;
+	top: 10px;
+	right: 90px;
+	color: white;
+}
+
+span.user span.username {
+	max-width: 100px;
+	overflow: hidden;
+}
+
+div#layout_more {
+	display: none;
+	text-align: center;
+	padding-top: 28px;
+	z-index: 10000;
+	background: url('../images/tooltip/tooltips_layout_more.png') no-repeat left top;
+	width: 216px;
+	height: 156px;
+	color: white;
+}
+div#layout_more div {
+	width: auto;
+}
+span.logout,a#logout {
+	text-decoration:underline;
+	color: #00dfff;
+}
+
+div.disable_cover {
+	background: #2a2a2a;
+	text-align: center;
+	z-index: 100000;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+div.disable_cover span {
+	height: 100%;
+	line-height: 100%;
+}
+
+div.disable_cover * {
+	vertical-align: middle;
+}
+div#layout_more * {
+	text-align: center;
+}
+div#layout_more span[vision] {
+	position: relative;
+}
+div#layout_more div.layout {
+	width: 40px;
+	min-height: 80px;
+	display: inline-block;
+	float:left;
+}
+div#layout_more div.layout:hover, div#layout_more div.layout:active {
+	border: solid 2px white;
+}
+span[vision] span[symbol] {
+	position: absolute;
+	bottom: -30px;
+	width: 40px;
+	font-size: 80%;
+	color: white;
+	text-align: center;
+	left: 0;
+}
+div.layout.first {
+	margin-left: 26px;
+}
+

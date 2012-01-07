@@ -1,0 +1,600 @@
+<div class="widget-head">
+	<h3 symbol="text:adjust_the_date_time_and_time_zone_of_this_server">Adjust the date, time and time zone of this server</h3>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset>
+			<legend symbol="text:timezone"></legend>
+			<div>
+				<label fot="timezone_selector" symbol="text:time_zone">Select your time zone</label>
+				<input id="timezone_selector" type="text" />
+			</div>
+			<select name="timezone" id="timezone" class="jqTransformHidden hidden">
+				<option symbol="text:america_adak" value="America/Adak">(GMT-10:00) America/Adak (Hawaii-Aleutian Standard Time)</option>
+				<option symbol="text:america_atka" value="America/Atka">(GMT-10:00) America/Atka (Hawaii-Aleutian Standard Time)</option>
+				<option symbol="text:america_anchorage" value="America/Anchorage">(GMT-9:00) America/Anchorage (Alaska Standard Time)</option>
+				<option symbol="text:america_juneau" value="America/Juneau">(GMT-9:00) America/Juneau (Alaska Standard Time)</option>
+				<option symbol="text:america_nome" value="America/Nome">(GMT-9:00) America/Nome (Alaska Standard Time)</option>
+				<option symbol="text:america_yakutat" value="America/Yakutat">(GMT-9:00) America/Yakutat (Alaska Standard Time)</option>
+				<option symbol="text:america_dawson" value="America/Dawson">(GMT-8:00) America/Dawson (Pacific Standard Time)</option>
+				<option symbol="text:america_ensenada" value="America/Ensenada">(GMT-8:00) America/Ensenada (Pacific Standard Time)</option>
+				<option selected="" symbol="text:america_los_angeles" value="America/Los_Angeles">(GMT-8:00) America/Los_Angeles (Pacific Standard Time)</option>
+				<option symbol="text:america_tijuana" value="America/Tijuana">(GMT-8:00) America/Tijuana (Pacific Standard Time)</option>
+				<option symbol="text:america_vancouver" value="America/Vancouver">(GMT-8:00) America/Vancouver (Pacific Standard Time)</option>
+				<option symbol="text:america_whitehorse" value="America/Whitehorse">(GMT-8:00) America/Whitehorse (Pacific Standard Time)</option>
+				<option symbol="text:canada_pacific" value="Canada/Pacific">(GMT-8:00) Canada/Pacific (Pacific Standard Time)</option>
+				<option symbol="text:canada_yukon" value="Canada/Yukon">(GMT-8:00) Canada/Yukon (Pacific Standard Time)</option>
+				<option symbol="text:mexico_bajanorte" value="Mexico/BajaNorte">(GMT-8:00) Mexico/BajaNorte (Pacific Standard Time)</option>
+				<option symbol="text:america_boise" value="America/Boise">(GMT-7:00) America/Boise (Mountain Standard Time)</option>
+				<option symbol="text:america_cambridge_bay" value="America/Cambridge_Bay">(GMT-7:00) America/Cambridge_Bay (Mountain Standard Time)</option>
+				<option symbol="text:america_chihuahua" value="America/Chihuahua">(GMT-7:00) America/Chihuahua (Mountain Standard Time)</option>
+				<option symbol="text:america_dawson_creek" value="America/Dawson_Creek">(GMT-7:00) America/Dawson_Creek (Mountain Standard Time)</option>
+				<option symbol="text:america_denver" value="America/Denver">(GMT-7:00) America/Denver (Mountain Standard Time)</option>
+				<option symbol="text:america_edmonton" value="America/Edmonton">(GMT-7:00) America/Edmonton (Mountain Standard Time)</option>
+				<option symbol="text:america_hermosillo" value="America/Hermosillo">(GMT-7:00) America/Hermosillo (Mountain Standard Time)</option>
+				<option symbol="text:america_inuvik" value="America/Inuvik">(GMT-7:00) America/Inuvik (Mountain Standard Time)</option>
+				<option symbol="text:america_mazatlan" value="America/Mazatlan">(GMT-7:00) America/Mazatlan (Mountain Standard Time)</option>
+				<option symbol="text:america_phoenix" value="America/Phoenix">(GMT-7:00) America/Phoenix (Mountain Standard Time)</option>
+				<option symbol="text:america_shiprock" value="America/Shiprock">(GMT-7:00) America/Shiprock (Mountain Standard Time)</option>
+				<option symbol="text:america_yellowknife" value="America/Yellowknife">(GMT-7:00) America/Yellowknife (Mountain Standard Time)</option>
+				<option symbol="text:canada_mountain" value="Canada/Mountain">(GMT-7:00) Canada/Mountain (Mountain Standard Time)</option>
+				<option symbol="text:mexico_bajasur" value="Mexico/BajaSur">(GMT-7:00) Mexico/BajaSur (Mountain Standard Time)</option>
+				<option symbol="text:america_belize" value="America/Belize">(GMT-6:00) America/Belize (Central Standard Time)</option>
+				<option symbol="text:america_cancun" value="America/Cancun">(GMT-6:00) America/Cancun (Central Standard Time)</option>
+				<option symbol="text:america_chicago" value="America/Chicago">(GMT-6:00) America/Chicago (Central Standard Time)</option>
+				<option symbol="text:america_costa_rica" value="America/Costa_Rica">(GMT-6:00) America/Costa_Rica (Central Standard Time)</option>
+				<option symbol="text:america_el_salvador" value="America/El_Salvador">(GMT-6:00) America/El_Salvador (Central Standard Time)</option>
+				<option symbol="text:america_guatemala" value="America/Guatemala">(GMT-6:00) America/Guatemala (Central Standard Time)</option>
+				<option symbol="text:america_knox_in" value="America/Knox_IN">(GMT-6:00) America/Knox_IN (Central Standard Time)</option>
+				<option symbol="text:america_managua" value="America/Managua">(GMT-6:00) America/Managua (Central Standard Time)</option>
+				<option symbol="text:america_menominee" value="America/Menominee">(GMT-6:00) America/Menominee (Central Standard Time)</option>
+				<option symbol="text:america_merida" value="America/Merida">(GMT-6:00) America/Merida (Central Standard Time)</option>
+				<option symbol="text:america_mexico_city" value="America/Mexico_City">(GMT-6:00) America/Mexico_City (Central Standard Time)</option>
+				<option symbol="text:america_monterrey" value="America/Monterrey">(GMT-6:00) America/Monterrey (Central Standard Time)</option>
+				<option symbol="text:america_rainy_river" value="America/Rainy_River">(GMT-6:00) America/Rainy_River (Central Standard Time)</option>
+				<option symbol="text:america_rankin_inlet" value="America/Rankin_Inlet">(GMT-6:00) America/Rankin_Inlet (Central Standard Time)</option>
+				<option symbol="text:america_regina" value="America/Regina">(GMT-6:00) America/Regina (Central Standard Time)</option>
+				<option symbol="text:america_swift_current" value="America/Swift_Current">(GMT-6:00) America/Swift_Current (Central Standard Time)</option>
+				<option symbol="text:america_tegucigalpa" value="America/Tegucigalpa">(GMT-6:00) America/Tegucigalpa (Central Standard Time)</option>
+				<option symbol="text:america_winnipeg" value="America/Winnipeg">(GMT-6:00) America/Winnipeg (Central Standard Time)</option>
+				<option symbol="text:canada_central" value="Canada/Central">(GMT-6:00) Canada/Central (Central Standard Time)</option>
+				<option symbol="text:canada_east-saskatchewan" value="Canada/East-Saskatchewan">(GMT-6:00) Canada/East-Saskatchewan (Central Standard Time)</option>
+				<option symbol="text:canada_saskatchewan" value="Canada/Saskatchewan">(GMT-6:00) Canada/Saskatchewan (Central Standard Time)</option>
+				<option symbol="text:chile_easterisland" value="Chile/EasterIsland">(GMT-6:00) Chile/EasterIsland (Easter Is. Time)</option>
+				<option symbol="text:mexico_general" value="Mexico/General">(GMT-6:00) Mexico/General (Central Standard Time)</option>
+				<option symbol="text:america_atikokan" value="America/Atikokan">(GMT-5:00) America/Atikokan (Eastern Standard Time)</option>
+				<option symbol="text:america_bogota" value="America/Bogota">(GMT-5:00) America/Bogota (Colombia Time)</option>
+				<option symbol="text:america_cayman" value="America/Cayman">(GMT-5:00) America/Cayman (Eastern Standard Time)</option>
+				<option symbol="text:america_coral_harbour" value="America/Coral_Harbour">(GMT-5:00) America/Coral_Harbour (Eastern Standard Time)</option>
+				<option symbol="text:america_detroit" value="America/Detroit">(GMT-5:00) America/Detroit (Eastern Standard Time)</option>
+				<option symbol="text:america_fort_wayne" value="America/Fort_Wayne">(GMT-5:00) America/Fort_Wayne (Eastern Standard Time)</option>
+				<option symbol="text:america_grand_turk" value="America/Grand_Turk">(GMT-5:00) America/Grand_Turk (Eastern Standard Time)</option>
+				<option symbol="text:america_guayaquil" value="America/Guayaquil">(GMT-5:00) America/Guayaquil (Ecuador Time)</option>
+				<option symbol="text:america_havana" value="America/Havana">(GMT-5:00) America/Havana (Cuba Standard Time)</option>
+				<option symbol="text:america_indianapolis" value="America/Indianapolis">(GMT-5:00) America/Indianapolis (Eastern Standard Time)</option>
+				<option symbol="text:america_iqaluit" value="America/Iqaluit">(GMT-5:00) America/Iqaluit (Eastern Standard Time)</option>
+				<option symbol="text:america_jamaica" value="America/Jamaica">(GMT-5:00) America/Jamaica (Eastern Standard Time)</option>
+				<option symbol="text:america_lima" value="America/Lima">(GMT-5:00) America/Lima (Peru Time)</option>
+				<option symbol="text:america_louisville" value="America/Louisville">(GMT-5:00) America/Louisville (Eastern Standard Time)</option>
+				<option symbol="text:america_montreal" value="America/Montreal">(GMT-5:00) America/Montreal (Eastern Standard Time)</option>
+				<option symbol="text:america_nassau" value="America/Nassau">(GMT-5:00) America/Nassau (Eastern Standard Time)</option>
+				<option symbol="text:america_new_york" value="America/New_York">(GMT-5:00) America/New_York (Eastern Standard Time)</option>
+				<option symbol="text:america_nipigon" value="America/Nipigon">(GMT-5:00) America/Nipigon (Eastern Standard Time)</option>
+				<option symbol="text:america_panama" value="America/Panama">(GMT-5:00) America/Panama (Eastern Standard Time)</option>
+				<option symbol="text:america_pangnirtung" value="America/Pangnirtung">(GMT-5:00) America/Pangnirtung (Eastern Standard Time)</option>
+				<option symbol="text:america_port-au-prince" value="America/Port-au-Prince">(GMT-5:00) America/Port-au-Prince (Eastern Standard Time)</option>
+				<option symbol="text:america_resolute" value="America/Resolute">(GMT-5:00) America/Resolute (Eastern Standard Time)</option>
+				<option symbol="text:america_thunder_bay" value="America/Thunder_Bay">(GMT-5:00) America/Thunder_Bay (Eastern Standard Time)</option>
+				<option symbol="text:america_toronto" value="America/Toronto">(GMT-5:00) America/Toronto (Eastern Standard Time)</option>
+				<option symbol="text:canada_eastern" value="Canada/Eastern">(GMT-5:00) Canada/Eastern (Eastern Standard Time)</option>
+				<option symbol="text:america_caracas" value="America/Caracas">(GMT-4:-30) America/Caracas (Venezuela Time)</option>
+				<option symbol="text:america_anguilla" value="America/Anguilla">(GMT-4:00) America/Anguilla (Atlantic Standard Time)</option>
+				<option symbol="text:america_antigua" value="America/Antigua">(GMT-4:00) America/Antigua (Atlantic Standard Time)</option>
+				<option symbol="text:america_aruba" value="America/Aruba">(GMT-4:00) America/Aruba (Atlantic Standard Time)</option>
+				<option symbol="text:america_asuncion" value="America/Asuncion">(GMT-4:00) America/Asuncion (Paraguay Time)</option>
+				<option symbol="text:america_barbados" value="America/Barbados">(GMT-4:00) America/Barbados (Atlantic Standard Time)</option>
+				<option symbol="text:america_blanc-sablon" value="America/Blanc-Sablon">(GMT-4:00) America/Blanc-Sablon (Atlantic Standard Time)</option>
+				<option symbol="text:america_boa_vista" value="America/Boa_Vista">(GMT-4:00) America/Boa_Vista (Amazon Time)</option>
+				<option symbol="text:america_campo_grande" value="America/Campo_Grande">(GMT-4:00) America/Campo_Grande (Amazon Time)</option>
+				<option symbol="text:america_cuiaba" value="America/Cuiaba">(GMT-4:00) America/Cuiaba (Amazon Time)</option>
+				<option symbol="text:america_curacao" value="America/Curacao">(GMT-4:00) America/Curacao (Atlantic Standard Time)</option>
+				<option symbol="text:america_dominica" value="America/Dominica">(GMT-4:00) America/Dominica (Atlantic Standard Time)</option>
+				<option symbol="text:america_eirunepe" value="America/Eirunepe">(GMT-4:00) America/Eirunepe (Amazon Time)</option>
+				<option symbol="text:america_glace_bay" value="America/Glace_Bay">(GMT-4:00) America/Glace_Bay (Atlantic Standard Time)</option>
+				<option symbol="text:america_goose_bay" value="America/Goose_Bay">(GMT-4:00) America/Goose_Bay (Atlantic Standard Time)</option>
+				<option symbol="text:america_grenada" value="America/Grenada">(GMT-4:00) America/Grenada (Atlantic Standard Time)</option>
+				<option symbol="text:america_guadeloupe" value="America/Guadeloupe">(GMT-4:00) America/Guadeloupe (Atlantic Standard Time)</option>
+				<option symbol="text:america_guyana" value="America/Guyana">(GMT-4:00) America/Guyana (Guyana Time)</option>
+				<option symbol="text:america_halifax" value="America/Halifax">(GMT-4:00) America/Halifax (Atlantic Standard Time)</option>
+				<option symbol="text:america_la_paz" value="America/La_Paz">(GMT-4:00) America/La_Paz (Bolivia Time)</option>
+				<option symbol="text:america_manaus" value="America/Manaus">(GMT-4:00) America/Manaus (Amazon Time)</option>
+				<option symbol="text:america_marigot" value="America/Marigot">(GMT-4:00) America/Marigot (Atlantic Standard Time)</option>
+				<option symbol="text:america_martinique" value="America/Martinique">(GMT-4:00) America/Martinique (Atlantic Standard Time)</option>
+				<option symbol="text:america_moncton" value="America/Moncton">(GMT-4:00) America/Moncton (Atlantic Standard Time)</option>
+				<option symbol="text:america_montserrat" value="America/Montserrat">(GMT-4:00) America/Montserrat (Atlantic Standard Time)</option>
+				<option symbol="text:america_port_of_spain" value="America/Port_of_Spain">(GMT-4:00) America/Port_of_Spain (Atlantic Standard Time)</option>
+				<option symbol="text:america_porto_acre" value="America/Porto_Acre">(GMT-4:00) America/Porto_Acre (Amazon Time)</option>
+				<option symbol="text:america_porto_velho" value="America/Porto_Velho">(GMT-4:00) America/Porto_Velho (Amazon Time)</option>
+				<option symbol="text:america_puerto_rico" value="America/Puerto_Rico">(GMT-4:00) America/Puerto_Rico (Atlantic Standard Time)</option>
+				<option symbol="text:america_rio_branco" value="America/Rio_Branco">(GMT-4:00) America/Rio_Branco (Amazon Time)</option>
+				<option symbol="text:america_santiago" value="America/Santiago">(GMT-4:00) America/Santiago (Chile Time)</option>
+				<option symbol="text:america_santo_domingo" value="America/Santo_Domingo">(GMT-4:00) America/Santo_Domingo (Atlantic Standard Time)</option>
+				<option symbol="text:america_st_barthelemy" value="America/St_Barthelemy">(GMT-4:00) America/St_Barthelemy (Atlantic Standard Time)</option>
+				<option symbol="text:america_st_kitts" value="America/St_Kitts">(GMT-4:00) America/St_Kitts (Atlantic Standard Time)</option>
+				<option symbol="text:america_st_lucia" value="America/St_Lucia">(GMT-4:00) America/St_Lucia (Atlantic Standard Time)</option>
+				<option symbol="text:america_st_thomas" value="America/St_Thomas">(GMT-4:00) America/St_Thomas (Atlantic Standard Time)</option>
+				<option symbol="text:america_st_vincent" value="America/St_Vincent">(GMT-4:00) America/St_Vincent (Atlantic Standard Time)</option>
+				<option symbol="text:america_thule" value="America/Thule">(GMT-4:00) America/Thule (Atlantic Standard Time)</option>
+				<option symbol="text:america_tortola" value="America/Tortola">(GMT-4:00) America/Tortola (Atlantic Standard Time)</option>
+				<option symbol="text:america_virgin" value="America/Virgin">(GMT-4:00) America/Virgin (Atlantic Standard Time)</option>
+				<option symbol="text:antarctica_palmer" value="Antarctica/Palmer">(GMT-4:00) Antarctica/Palmer (Chile Time)</option>
+				<option symbol="text:atlantic_bermuda" value="Atlantic/Bermuda">(GMT-4:00) Atlantic/Bermuda (Atlantic Standard Time)</option>
+				<option symbol="text:atlantic_stanley" value="Atlantic/Stanley">(GMT-4:00) Atlantic/Stanley (Falkland Is. Time)</option>
+				<option symbol="text:brazil_acre" value="Brazil/Acre">(GMT-4:00) Brazil/Acre (Amazon Time)</option>
+				<option symbol="text:brazil_west" value="Brazil/West">(GMT-4:00) Brazil/West (Amazon Time)</option>
+				<option symbol="text:canada_atlantic" value="Canada/Atlantic">(GMT-4:00) Canada/Atlantic (Atlantic Standard Time)</option>
+				<option symbol="text:chile_continental" value="Chile/Continental">(GMT-4:00) Chile/Continental (Chile Time)</option>
+				<option symbol="text:america_st_johns" value="America/St_Johns">(GMT-3:-30) America/St_Johns (Newfoundland Standard Time)</option>
+				<option symbol="text:canada_newfoundland" value="Canada/Newfoundland">(GMT-3:-30) Canada/Newfoundland (Newfoundland Standard Time)</option>
+				<option symbol="text:america_araguaina" value="America/Araguaina">(GMT-3:00) America/Araguaina (Brasilia Time)</option>
+				<option symbol="text:america_bahia" value="America/Bahia">(GMT-3:00) America/Bahia (Brasilia Time)</option>
+				<option symbol="text:america_belem" value="America/Belem">(GMT-3:00) America/Belem (Brasilia Time)</option>
+				<option symbol="text:america_buenos_aires" value="America/Buenos_Aires">(GMT-3:00) America/Buenos_Aires (Argentine Time)</option>
+				<option symbol="text:america_catamarca" value="America/Catamarca">(GMT-3:00) America/Catamarca (Argentine Time)</option>
+				<option symbol="text:america_cayenne" value="America/Cayenne">(GMT-3:00) America/Cayenne (French Guiana Time)</option>
+				<option symbol="text:america_cordoba" value="America/Cordoba">(GMT-3:00) America/Cordoba (Argentine Time)</option>
+				<option symbol="text:america_fortaleza" value="America/Fortaleza">(GMT-3:00) America/Fortaleza (Brasilia Time)</option>
+				<option symbol="text:america_godthab" value="America/Godthab">(GMT-3:00) America/Godthab (Western Greenland Time)</option>
+				<option symbol="text:america_jujuy" value="America/Jujuy">(GMT-3:00) America/Jujuy (Argentine Time)</option>
+				<option symbol="text:america_maceio" value="America/Maceio">(GMT-3:00) America/Maceio (Brasilia Time)</option>
+				<option symbol="text:america_mendoza" value="America/Mendoza">(GMT-3:00) America/Mendoza (Argentine Time)</option>
+				<option symbol="text:america_miquelon" value="America/Miquelon">(GMT-3:00) America/Miquelon (Pierre &amp; Miquelon Standard Time)</option>
+				<option symbol="text:america_montevideo" value="America/Montevideo">(GMT-3:00) America/Montevideo (Uruguay Time)</option>
+				<option symbol="text:america_paramaribo" value="America/Paramaribo">(GMT-3:00) America/Paramaribo (Suriname Time)</option>
+				<option symbol="text:america_recife" value="America/Recife">(GMT-3:00) America/Recife (Brasilia Time)</option>
+				<option symbol="text:america_rosario" value="America/Rosario">(GMT-3:00) America/Rosario (Argentine Time)</option>
+				<option symbol="text:america_santarem" value="America/Santarem">(GMT-3:00) America/Santarem (Brasilia Time)</option>
+				<option symbol="text:america_sao_paulo" value="America/Sao_Paulo">(GMT-3:00) America/Sao_Paulo (Brasilia Time)</option>
+				<option symbol="text:antarctica_rothera" value="Antarctica/Rothera">(GMT-3:00) Antarctica/Rothera (Rothera Time)</option>
+				<option symbol="text:brazil_east" value="Brazil/East">(GMT-3:00) Brazil/East (Brasilia Time)</option>
+				<option symbol="text:america_noronha" value="America/Noronha">(GMT-2:00) America/Noronha (Fernando de Noronha Time)</option>
+				<option symbol="text:atlantic_south_georgia" value="Atlantic/South_Georgia">(GMT-2:00) Atlantic/South_Georgia (South Georgia Standard Time)</option>
+				<option symbol="text:brazil_denoronha" value="Brazil/DeNoronha">(GMT-2:00) Brazil/DeNoronha (Fernando de Noronha Time)</option>
+				<option symbol="text:america_scoresbysund" value="America/Scoresbysund">(GMT-1:00) America/Scoresbysund (Eastern Greenland Time)</option>
+				<option symbol="text:atlantic_azores" value="Atlantic/Azores">(GMT-1:00) Atlantic/Azores (Azores Time)</option>
+				<option symbol="text:atlantic_cape_verde" value="Atlantic/Cape_Verde">(GMT-1:00) Atlantic/Cape_Verde (Cape Verde Time)</option>
+				<option symbol="text:africa_abidjan" value="Africa/Abidjan">(GMT+0:00) Africa/Abidjan (Greenwich Mean Time)</option>
+				<option symbol="text:africa_accra" value="Africa/Accra">(GMT+0:00) Africa/Accra (Ghana Mean Time)</option>
+				<option symbol="text:africa_bamako" value="Africa/Bamako">(GMT+0:00) Africa/Bamako (Greenwich Mean Time)</option>
+				<option symbol="text:africa_banjul" value="Africa/Banjul">(GMT+0:00) Africa/Banjul (Greenwich Mean Time)</option>
+				<option symbol="text:africa_bissau" value="Africa/Bissau">(GMT+0:00) Africa/Bissau (Greenwich Mean Time)</option>
+				<option symbol="text:africa_casablanca" value="Africa/Casablanca">(GMT+0:00) Africa/Casablanca (Western European Time)</option>
+				<option symbol="text:africa_conakry" value="Africa/Conakry">(GMT+0:00) Africa/Conakry (Greenwich Mean Time)</option>
+				<option symbol="text:africa_dakar" value="Africa/Dakar">(GMT+0:00) Africa/Dakar (Greenwich Mean Time)</option>
+				<option symbol="text:africa_el_aaiun" value="Africa/El_Aaiun">(GMT+0:00) Africa/El_Aaiun (Western European Time)</option>
+				<option symbol="text:africa_freetown" value="Africa/Freetown">(GMT+0:00) Africa/Freetown (Greenwich Mean Time)</option>
+				<option symbol="text:africa_lome" value="Africa/Lome">(GMT+0:00) Africa/Lome (Greenwich Mean Time)</option>
+				<option symbol="text:africa_monrovia" value="Africa/Monrovia">(GMT+0:00) Africa/Monrovia (Greenwich Mean Time)</option>
+				<option symbol="text:africa_nouakchott" value="Africa/Nouakchott">(GMT+0:00) Africa/Nouakchott (Greenwich Mean Time)</option>
+				<option symbol="text:africa_ouagadougou" value="Africa/Ouagadougou">(GMT+0:00) Africa/Ouagadougou (Greenwich Mean Time)</option>
+				<option symbol="text:africa_sao_tome" value="Africa/Sao_Tome">(GMT+0:00) Africa/Sao_Tome (Greenwich Mean Time)</option>
+				<option symbol="text:africa_timbuktu" value="Africa/Timbuktu">(GMT+0:00) Africa/Timbuktu (Greenwich Mean Time)</option>
+				<option symbol="text:america_danmarkshavn" value="America/Danmarkshavn">(GMT+0:00) America/Danmarkshavn (Greenwich Mean Time)</option>
+				<option symbol="text:atlantic_canary" value="Atlantic/Canary">(GMT+0:00) Atlantic/Canary (Western European Time)</option>
+				<option symbol="text:atlantic_faeroe" value="Atlantic/Faeroe">(GMT+0:00) Atlantic/Faeroe (Western European Time)</option>
+				<option symbol="text:atlantic_faroe" value="Atlantic/Faroe">(GMT+0:00) Atlantic/Faroe (Western European Time)</option>
+				<option symbol="text:atlantic_madeira" value="Atlantic/Madeira">(GMT+0:00) Atlantic/Madeira (Western European Time)</option>
+				<option symbol="text:atlantic_reykjavik" value="Atlantic/Reykjavik">(GMT+0:00) Atlantic/Reykjavik (Greenwich Mean Time)</option>
+				<option symbol="text:atlantic_st_helena" value="Atlantic/St_Helena">(GMT+0:00) Atlantic/St_Helena (Greenwich Mean Time)</option>
+				<option symbol="text:europe_belfast" value="Europe/Belfast">(GMT+0:00) Europe/Belfast (Greenwich Mean Time)</option>
+				<option symbol="text:europe_dublin" value="Europe/Dublin">(GMT+0:00) Europe/Dublin (Greenwich Mean Time)</option>
+				<option symbol="text:europe_guernsey" value="Europe/Guernsey">(GMT+0:00) Europe/Guernsey (Greenwich Mean Time)</option>
+				<option symbol="text:europe_isle_of_man" value="Europe/Isle_of_Man">(GMT+0:00) Europe/Isle_of_Man (Greenwich Mean Time)</option>
+				<option symbol="text:europe_jersey" value="Europe/Jersey">(GMT+0:00) Europe/Jersey (Greenwich Mean Time)</option>
+				<option symbol="text:europe_lisbon" value="Europe/Lisbon">(GMT+0:00) Europe/Lisbon (Western European Time)</option>
+				<option symbol="text:europe_london" value="Europe/London">(GMT+0:00) Europe/London (Greenwich Mean Time)</option>
+				<option symbol="text:africa_algiers" value="Africa/Algiers">(GMT+1:00) Africa/Algiers (Central European Time)</option>
+				<option symbol="text:africa_bangui" value="Africa/Bangui">(GMT+1:00) Africa/Bangui (Western African Time)</option>
+				<option symbol="text:africa_brazzaville" value="Africa/Brazzaville">(GMT+1:00) Africa/Brazzaville (Western African Time)</option>
+				<option symbol="text:africa_ceuta" value="Africa/Ceuta">(GMT+1:00) Africa/Ceuta (Central European Time)</option>
+				<option symbol="text:africa_douala" value="Africa/Douala">(GMT+1:00) Africa/Douala (Western African Time)</option>
+				<option symbol="text:africa_kinshasa" value="Africa/Kinshasa">(GMT+1:00) Africa/Kinshasa (Western African Time)</option>
+				<option symbol="text:africa_lagos" value="Africa/Lagos">(GMT+1:00) Africa/Lagos (Western African Time)</option>
+				<option symbol="text:africa_libreville" value="Africa/Libreville">(GMT+1:00) Africa/Libreville (Western African Time)</option>
+				<option symbol="text:africa_luanda" value="Africa/Luanda">(GMT+1:00) Africa/Luanda (Western African Time)</option>
+				<option symbol="text:africa_malabo" value="Africa/Malabo">(GMT+1:00) Africa/Malabo (Western African Time)</option>
+				<option symbol="text:africa_ndjamena" value="Africa/Ndjamena">(GMT+1:00) Africa/Ndjamena (Western African Time)</option>
+				<option symbol="text:africa_niamey" value="Africa/Niamey">(GMT+1:00) Africa/Niamey (Western African Time)</option>
+				<option symbol="text:africa_porto-novo" value="Africa/Porto-Novo">(GMT+1:00) Africa/Porto-Novo (Western African Time)</option>
+				<option symbol="text:africa_tunis" value="Africa/Tunis">(GMT+1:00) Africa/Tunis (Central European Time)</option>
+				<option symbol="text:africa_windhoek" value="Africa/Windhoek">(GMT+1:00) Africa/Windhoek (Western African Time)</option>
+				<option symbol="text:arctic_longyearbyen" value="Arctic/Longyearbyen">(GMT+1:00) Arctic/Longyearbyen (Central European Time)</option>
+				<option symbol="text:atlantic_jan_mayen" value="Atlantic/Jan_Mayen">(GMT+1:00) Atlantic/Jan_Mayen (Central European Time)</option>
+				<option symbol="text:europe_amsterdam" value="Europe/Amsterdam">(GMT+1:00) Europe/Amsterdam (Central European Time)</option>
+				<option symbol="text:europe_andorra" value="Europe/Andorra">(GMT+1:00) Europe/Andorra (Central European Time)</option>
+				<option symbol="text:europe_belgrade" value="Europe/Belgrade">(GMT+1:00) Europe/Belgrade (Central European Time)</option>
+				<option symbol="text:europe_berlin" value="Europe/Berlin">(GMT+1:00) Europe/Berlin (Central European Time)</option>
+				<option symbol="text:europe_bratislava" value="Europe/Bratislava">(GMT+1:00) Europe/Bratislava (Central European Time)</option>
+				<option symbol="text:europe_brussels" value="Europe/Brussels">(GMT+1:00) Europe/Brussels (Central European Time)</option>
+				<option symbol="text:europe_budapest" value="Europe/Budapest">(GMT+1:00) Europe/Budapest (Central European Time)</option>
+				<option symbol="text:europe_copenhagen" value="Europe/Copenhagen">(GMT+1:00) Europe/Copenhagen (Central European Time)</option>
+				<option symbol="text:europe_gibraltar" value="Europe/Gibraltar">(GMT+1:00) Europe/Gibraltar (Central European Time)</option>
+				<option symbol="text:europe_ljubljana" value="Europe/Ljubljana">(GMT+1:00) Europe/Ljubljana (Central European Time)</option>
+				<option symbol="text:europe_luxembourg" value="Europe/Luxembourg">(GMT+1:00) Europe/Luxembourg (Central European Time)</option>
+				<option symbol="text:europe_madrid" value="Europe/Madrid">(GMT+1:00) Europe/Madrid (Central European Time)</option>
+				<option symbol="text:europe_malta" value="Europe/Malta">(GMT+1:00) Europe/Malta (Central European Time)</option>
+				<option symbol="text:europe_monaco" value="Europe/Monaco">(GMT+1:00) Europe/Monaco (Central European Time)</option>
+				<option symbol="text:europe_oslo" value="Europe/Oslo">(GMT+1:00) Europe/Oslo (Central European Time)</option>
+				<option symbol="text:europe_paris" value="Europe/Paris">(GMT+1:00) Europe/Paris (Central European Time)</option>
+				<option symbol="text:europe_podgorica" value="Europe/Podgorica">(GMT+1:00) Europe/Podgorica (Central European Time)</option>
+				<option symbol="text:europe_prague" value="Europe/Prague">(GMT+1:00) Europe/Prague (Central European Time)</option>
+				<option symbol="text:europe_rome" value="Europe/Rome">(GMT+1:00) Europe/Rome (Central European Time)</option>
+				<option symbol="text:europe_san_marino" value="Europe/San_Marino">(GMT+1:00) Europe/San_Marino (Central European Time)</option>
+				<option symbol="text:europe_sarajevo" value="Europe/Sarajevo">(GMT+1:00) Europe/Sarajevo (Central European Time)</option>
+				<option symbol="text:europe_skopje" value="Europe/Skopje">(GMT+1:00) Europe/Skopje (Central European Time)</option>
+				<option symbol="text:europe_stockholm" value="Europe/Stockholm">(GMT+1:00) Europe/Stockholm (Central European Time)</option>
+				<option symbol="text:europe_tirane" value="Europe/Tirane">(GMT+1:00) Europe/Tirane (Central European Time)</option>
+				<option symbol="text:europe_vaduz" value="Europe/Vaduz">(GMT+1:00) Europe/Vaduz (Central European Time)</option>
+				<option symbol="text:europe_vatican" value="Europe/Vatican">(GMT+1:00) Europe/Vatican (Central European Time)</option>
+				<option symbol="text:europe_vienna" value="Europe/Vienna">(GMT+1:00) Europe/Vienna (Central European Time)</option>
+				<option symbol="text:europe_warsaw" value="Europe/Warsaw">(GMT+1:00) Europe/Warsaw (Central European Time)</option>
+				<option symbol="text:europe_zagreb" value="Europe/Zagreb">(GMT+1:00) Europe/Zagreb (Central European Time)</option>
+				<option symbol="text:europe_zurich" value="Europe/Zurich">(GMT+1:00) Europe/Zurich (Central European Time)</option>
+				<option symbol="text:africa_blantyre" value="Africa/Blantyre">(GMT+2:00) Africa/Blantyre (Central African Time)</option>
+				<option symbol="text:africa_bujumbura" value="Africa/Bujumbura">(GMT+2:00) Africa/Bujumbura (Central African Time)</option>
+				<option symbol="text:africa_cairo" value="Africa/Cairo">(GMT+2:00) Africa/Cairo (Eastern European Time)</option>
+				<option symbol="text:africa_gaborone" value="Africa/Gaborone">(GMT+2:00) Africa/Gaborone (Central African Time)</option>
+				<option symbol="text:africa_harare" value="Africa/Harare">(GMT+2:00) Africa/Harare (Central African Time)</option>
+				<option symbol="text:africa_johannesburg" value="Africa/Johannesburg">(GMT+2:00) Africa/Johannesburg (South Africa Standard Time)</option>
+				<option symbol="text:africa_kigali" value="Africa/Kigali">(GMT+2:00) Africa/Kigali (Central African Time)</option>
+				<option symbol="text:africa_lubumbashi" value="Africa/Lubumbashi">(GMT+2:00) Africa/Lubumbashi (Central African Time)</option>
+				<option symbol="text:africa_lusaka" value="Africa/Lusaka">(GMT+2:00) Africa/Lusaka (Central African Time)</option>
+				<option symbol="text:africa_maputo" value="Africa/Maputo">(GMT+2:00) Africa/Maputo (Central African Time)</option>
+				<option symbol="text:africa_maseru" value="Africa/Maseru">(GMT+2:00) Africa/Maseru (South Africa Standard Time)</option>
+				<option symbol="text:africa_mbabane" value="Africa/Mbabane">(GMT+2:00) Africa/Mbabane (South Africa Standard Time)</option>
+				<option symbol="text:africa_tripoli" value="Africa/Tripoli">(GMT+2:00) Africa/Tripoli (Eastern European Time)</option>
+				<option symbol="text:asia_amman" value="Asia/Amman">(GMT+2:00) Asia/Amman (Eastern European Time)</option>
+				<option symbol="text:asia_beirut" value="Asia/Beirut">(GMT+2:00) Asia/Beirut (Eastern European Time)</option>
+				<option symbol="text:asia_damascus" value="Asia/Damascus">(GMT+2:00) Asia/Damascus (Eastern European Time)</option>
+				<option symbol="text:asia_gaza" value="Asia/Gaza">(GMT+2:00) Asia/Gaza (Eastern European Time)</option>
+				<option symbol="text:asia_istanbul" value="Asia/Istanbul">(GMT+2:00) Asia/Istanbul (Eastern European Time)</option>
+				<option symbol="text:asia_jerusalem" value="Asia/Jerusalem">(GMT+2:00) Asia/Jerusalem (Israel Standard Time)</option>
+				<option symbol="text:asia_nicosia" value="Asia/Nicosia">(GMT+2:00) Asia/Nicosia (Eastern European Time)</option>
+				<option symbol="text:asia_tel_aviv" value="Asia/Tel_Aviv">(GMT+2:00) Asia/Tel_Aviv (Israel Standard Time)</option>
+				<option symbol="text:europe_athens" value="Europe/Athens">(GMT+2:00) Europe/Athens (Eastern European Time)</option>
+				<option symbol="text:europe_bucharest" value="Europe/Bucharest">(GMT+2:00) Europe/Bucharest (Eastern European Time)</option>
+				<option symbol="text:europe_chisinau" value="Europe/Chisinau">(GMT+2:00) Europe/Chisinau (Eastern European Time)</option>
+				<option symbol="text:europe_helsinki" value="Europe/Helsinki">(GMT+2:00) Europe/Helsinki (Eastern European Time)</option>
+				<option symbol="text:europe_istanbul" value="Europe/Istanbul">(GMT+2:00) Europe/Istanbul (Eastern European Time)</option>
+				<option symbol="text:europe_kaliningrad" value="Europe/Kaliningrad">(GMT+2:00) Europe/Kaliningrad (Eastern European Time)</option>
+				<option symbol="text:europe_kiev" value="Europe/Kiev">(GMT+2:00) Europe/Kiev (Eastern European Time)</option>
+				<option symbol="text:europe_mariehamn" value="Europe/Mariehamn">(GMT+2:00) Europe/Mariehamn (Eastern European Time)</option>
+				<option symbol="text:europe_minsk" value="Europe/Minsk">(GMT+2:00) Europe/Minsk (Eastern European Time)</option>
+				<option symbol="text:europe_nicosia" value="Europe/Nicosia">(GMT+2:00) Europe/Nicosia (Eastern European Time)</option>
+				<option symbol="text:europe_riga" value="Europe/Riga">(GMT+2:00) Europe/Riga (Eastern European Time)</option>
+				<option symbol="text:europe_simferopol" value="Europe/Simferopol">(GMT+2:00) Europe/Simferopol (Eastern European Time)</option>
+				<option symbol="text:europe_sofia" value="Europe/Sofia">(GMT+2:00) Europe/Sofia (Eastern European Time)</option>
+				<option symbol="text:europe_tallinn" value="Europe/Tallinn">(GMT+2:00) Europe/Tallinn (Eastern European Time)</option>
+				<option symbol="text:europe_tiraspol" value="Europe/Tiraspol">(GMT+2:00) Europe/Tiraspol (Eastern European Time)</option>
+				<option symbol="text:europe_uzhgorod" value="Europe/Uzhgorod">(GMT+2:00) Europe/Uzhgorod (Eastern European Time)</option>
+				<option symbol="text:europe_vilnius" value="Europe/Vilnius">(GMT+2:00) Europe/Vilnius (Eastern European Time)</option>
+				<option symbol="text:europe_zaporozhye" value="Europe/Zaporozhye">(GMT+2:00) Europe/Zaporozhye (Eastern European Time)</option>
+				<option symbol="text:africa_addis_ababa" value="Africa/Addis_Ababa">(GMT+3:00) Africa/Addis_Ababa (Eastern African Time)</option>
+				<option symbol="text:africa_asmara" value="Africa/Asmara">(GMT+3:00) Africa/Asmara (Eastern African Time)</option>
+				<option symbol="text:africa_asmera" value="Africa/Asmera">(GMT+3:00) Africa/Asmera (Eastern African Time)</option>
+				<option symbol="text:africa_dar_es_salaam" value="Africa/Dar_es_Salaam">(GMT+3:00) Africa/Dar_es_Salaam (Eastern African Time)</option>
+				<option symbol="text:africa_djibouti" value="Africa/Djibouti">(GMT+3:00) Africa/Djibouti (Eastern African Time)</option>
+				<option symbol="text:africa_kampala" value="Africa/Kampala">(GMT+3:00) Africa/Kampala (Eastern African Time)</option>
+				<option symbol="text:africa_khartoum" value="Africa/Khartoum">(GMT+3:00) Africa/Khartoum (Eastern African Time)</option>
+				<option symbol="text:africa_mogadishu" value="Africa/Mogadishu">(GMT+3:00) Africa/Mogadishu (Eastern African Time)</option>
+				<option symbol="text:africa_nairobi" value="Africa/Nairobi">(GMT+3:00) Africa/Nairobi (Eastern African Time)</option>
+				<option symbol="text:antarctica_syowa" value="Antarctica/Syowa">(GMT+3:00) Antarctica/Syowa (Syowa Time)</option>
+				<option symbol="text:asia_aden" value="Asia/Aden">(GMT+3:00) Asia/Aden (Arabia Standard Time)</option>
+				<option symbol="text:asia_baghdad" value="Asia/Baghdad">(GMT+3:00) Asia/Baghdad (Arabia Standard Time)</option>
+				<option symbol="text:asia_bahrain" value="Asia/Bahrain">(GMT+3:00) Asia/Bahrain (Arabia Standard Time)</option>
+				<option symbol="text:asia_kuwait" value="Asia/Kuwait">(GMT+3:00) Asia/Kuwait (Arabia Standard Time)</option>
+				<option symbol="text:asia_qatar" value="Asia/Qatar">(GMT+3:00) Asia/Qatar (Arabia Standard Time)</option>
+				<option symbol="text:europe_moscow" value="Europe/Moscow">(GMT+3:00) Europe/Moscow (Moscow Standard Time)</option>
+				<option symbol="text:europe_volgograd" value="Europe/Volgograd">(GMT+3:00) Europe/Volgograd (Volgograd Time)</option>
+				<option symbol="text:indian_antananarivo" value="Indian/Antananarivo">(GMT+3:00) Indian/Antananarivo (Eastern African Time)</option>
+				<option symbol="text:indian_comoro" value="Indian/Comoro">(GMT+3:00) Indian/Comoro (Eastern African Time)</option>
+				<option symbol="text:indian_mayotte" value="Indian/Mayotte">(GMT+3:00) Indian/Mayotte (Eastern African Time)</option>
+				<option symbol="text:asia_tehran" value="Asia/Tehran">(GMT+3:30) Asia/Tehran (Iran Standard Time)</option>
+				<option symbol="text:asia_baku" value="Asia/Baku">(GMT+4:00) Asia/Baku (Azerbaijan Time)</option>
+				<option symbol="text:asia_dubai" value="Asia/Dubai">(GMT+4:00) Asia/Dubai (Gulf Standard Time)</option>
+				<option symbol="text:asia_muscat" value="Asia/Muscat">(GMT+4:00) Asia/Muscat (Gulf Standard Time)</option>
+				<option symbol="text:asia_tbilisi" value="Asia/Tbilisi">(GMT+4:00) Asia/Tbilisi (Georgia Time)</option>
+				<option symbol="text:asia_yerevan" value="Asia/Yerevan">(GMT+4:00) Asia/Yerevan (Armenia Time)</option>
+				<option symbol="text:europe_samara" value="Europe/Samara">(GMT+4:00) Europe/Samara (Samara Time)</option>
+				<option symbol="text:indian_mahe" value="Indian/Mahe">(GMT+4:00) Indian/Mahe (Seychelles Time)</option>
+				<option symbol="text:indian_mauritius" value="Indian/Mauritius">(GMT+4:00) Indian/Mauritius (Mauritius Time)</option>
+				<option symbol="text:indian_reunion" value="Indian/Reunion">(GMT+4:00) Indian/Reunion (Reunion Time)</option>
+				<option symbol="text:asia_kabul" value="Asia/Kabul">(GMT+4:30) Asia/Kabul (Afghanistan Time)</option>
+				<option symbol="text:asia_aqtau" value="Asia/Aqtau">(GMT+5:00) Asia/Aqtau (Aqtau Time)</option>
+				<option symbol="text:asia_aqtobe" value="Asia/Aqtobe">(GMT+5:00) Asia/Aqtobe (Aqtobe Time)</option>
+				<option symbol="text:asia_ashgabat" value="Asia/Ashgabat">(GMT+5:00) Asia/Ashgabat (Turkmenistan Time)</option>
+				<option symbol="text:asia_ashkhabad" value="Asia/Ashkhabad">(GMT+5:00) Asia/Ashkhabad (Turkmenistan Time)</option>
+				<option symbol="text:asia_dushanbe" value="Asia/Dushanbe">(GMT+5:00) Asia/Dushanbe (Tajikistan Time)</option>
+				<option symbol="text:asia_karachi" value="Asia/Karachi">(GMT+5:00) Asia/Karachi (Pakistan Time)</option>
+				<option symbol="text:asia_oral" value="Asia/Oral">(GMT+5:00) Asia/Oral (Oral Time)</option>
+				<option symbol="text:asia_samarkand" value="Asia/Samarkand">(GMT+5:00) Asia/Samarkand (Uzbekistan Time)</option>
+				<option symbol="text:asia_tashkent" value="Asia/Tashkent">(GMT+5:00) Asia/Tashkent (Uzbekistan Time)</option>
+				<option symbol="text:asia_yekaterinburg" value="Asia/Yekaterinburg">(GMT+5:00) Asia/Yekaterinburg (Yekaterinburg Time)</option>
+				<option symbol="text:indian_kerguelen" value="Indian/Kerguelen">(GMT+5:00) Indian/Kerguelen (French Southern &amp; Antarctic Lands Time)</option>
+				<option symbol="text:indian_maldives" value="Indian/Maldives">(GMT+5:00) Indian/Maldives (Maldives Time)</option>
+				<option symbol="text:asia_calcutta" value="Asia/Calcutta">(GMT+5:30) Asia/Calcutta (India Standard Time)</option>
+				<option symbol="text:asia_colombo" value="Asia/Colombo">(GMT+5:30) Asia/Colombo (India Standard Time)</option>
+				<option symbol="text:asia_kolkata" value="Asia/Kolkata">(GMT+5:30) Asia/Kolkata (India Standard Time)</option>
+				<option symbol="text:asia_katmandu" value="Asia/Katmandu">(GMT+5:45) Asia/Katmandu (Nepal Time)</option>
+				<option symbol="text:antarctica_mawson" value="Antarctica/Mawson">(GMT+6:00) Antarctica/Mawson (Mawson Time)</option>
+				<option symbol="text:antarctica_vostok" value="Antarctica/Vostok">(GMT+6:00) Antarctica/Vostok (Vostok Time)</option>
+				<option symbol="text:asia_almaty" value="Asia/Almaty">(GMT+6:00) Asia/Almaty (Alma-Ata Time)</option>
+				<option symbol="text:asia_bishkek" value="Asia/Bishkek">(GMT+6:00) Asia/Bishkek (Kirgizstan Time)</option>
+				<option symbol="text:asia_dacca" value="Asia/Dacca">(GMT+6:00) Asia/Dacca (Bangladesh Time)</option>
+				<option symbol="text:asia_dhaka" value="Asia/Dhaka">(GMT+6:00) Asia/Dhaka (Bangladesh Time)</option>
+				<option symbol="text:asia_novosibirsk" value="Asia/Novosibirsk">(GMT+6:00) Asia/Novosibirsk (Novosibirsk Time)</option>
+				<option symbol="text:asia_omsk" value="Asia/Omsk">(GMT+6:00) Asia/Omsk (Omsk Time)</option>
+				<option symbol="text:asia_qyzylorda" value="Asia/Qyzylorda">(GMT+6:00) Asia/Qyzylorda (Qyzylorda Time)</option>
+				<option symbol="text:asia_thimbu" value="Asia/Thimbu">(GMT+6:00) Asia/Thimbu (Bhutan Time)</option>
+				<option symbol="text:asia_thimphu" value="Asia/Thimphu">(GMT+6:00) Asia/Thimphu (Bhutan Time)</option>
+				<option symbol="text:indian_chagos" value="Indian/Chagos">(GMT+6:00) Indian/Chagos (Indian Ocean Territory Time)</option>
+				<option symbol="text:asia_rangoon" value="Asia/Rangoon">(GMT+6:30) Asia/Rangoon (Myanmar Time)</option>
+				<option symbol="text:indian_cocos" value="Indian/Cocos">(GMT+6:30) Indian/Cocos (Cocos Islands Time)</option>
+				<option symbol="text:antarctica_davis" value="Antarctica/Davis">(GMT+7:00) Antarctica/Davis (Davis Time)</option>
+				<option symbol="text:asia_bangkok" value="Asia/Bangkok">(GMT+7:00) Asia/Bangkok (Indochina Time)</option>
+				<option symbol="text:asia_ho_chi_minh" value="Asia/Ho_Chi_Minh">(GMT+7:00) Asia/Ho_Chi_Minh (Indochina Time)</option>
+				<option symbol="text:asia_hovd" value="Asia/Hovd">(GMT+7:00) Asia/Hovd (Hovd Time)</option>
+				<option symbol="text:asia_jakarta" value="Asia/Jakarta">(GMT+7:00) Asia/Jakarta (West Indonesia Time)</option>
+				<option symbol="text:asia_krasnoyarsk" value="Asia/Krasnoyarsk">(GMT+7:00) Asia/Krasnoyarsk (Krasnoyarsk Time)</option>
+				<option symbol="text:asia_phnom_penh" value="Asia/Phnom_Penh">(GMT+7:00) Asia/Phnom_Penh (Indochina Time)</option>
+				<option symbol="text:asia_pontianak" value="Asia/Pontianak">(GMT+7:00) Asia/Pontianak (West Indonesia Time)</option>
+				<option symbol="text:asia_saigon" value="Asia/Saigon">(GMT+7:00) Asia/Saigon (Indochina Time)</option>
+				<option symbol="text:asia_vientiane" value="Asia/Vientiane">(GMT+7:00) Asia/Vientiane (Indochina Time)</option>
+				<option symbol="text:indian_christmas" value="Indian/Christmas">(GMT+7:00) Indian/Christmas (Christmas Island Time)</option>
+				<option symbol="text:antarctica_casey" value="Antarctica/Casey">(GMT+8:00) Antarctica/Casey (Western Standard Time (Australia))</option>
+				<option symbol="text:asia_brunei" value="Asia/Brunei">(GMT+8:00) Asia/Brunei (Brunei Time)</option>
+				<option symbol="text:asia_choibalsan" value="Asia/Choibalsan">(GMT+8:00) Asia/Choibalsan (Choibalsan Time)</option>
+				<option symbol="text:asia_chongqing" value="Asia/Chongqing">(GMT+8:00) Asia/Chongqing (China Standard Time)</option>
+				<option symbol="text:asia_chungking" value="Asia/Chungking">(GMT+8:00) Asia/Chungking (China Standard Time)</option>
+				<option symbol="text:asia_harbin" value="Asia/Harbin">(GMT+8:00) Asia/Harbin (China Standard Time)</option>
+				<option symbol="text:asia_hong_kong" value="Asia/Hong_Kong">(GMT+8:00) Asia/Hong_Kong (Hong Kong Time)</option>
+				<option symbol="text:asia_irkutsk" value="Asia/Irkutsk">(GMT+8:00) Asia/Irkutsk (Irkutsk Time)</option>
+				<option symbol="text:asia_kashgar" value="Asia/Kashgar">(GMT+8:00) Asia/Kashgar (China Standard Time)</option>
+				<option symbol="text:asia_kuala_lumpur" value="Asia/Kuala_Lumpur">(GMT+8:00) Asia/Kuala_Lumpur (Malaysia Time)</option>
+				<option symbol="text:asia_kuching" value="Asia/Kuching">(GMT+8:00) Asia/Kuching (Malaysia Time)</option>
+				<option symbol="text:asia_macao" value="Asia/Macao">(GMT+8:00) Asia/Macao (China Standard Time)</option>
+				<option symbol="text:asia_macau" value="Asia/Macau">(GMT+8:00) Asia/Macau (China Standard Time)</option>
+				<option symbol="text:asia_makassar" value="Asia/Makassar">(GMT+8:00) Asia/Makassar (Central Indonesia Time)</option>
+				<option symbol="text:asia_manila" value="Asia/Manila">(GMT+8:00) Asia/Manila (Philippines Time)</option>
+				<option symbol="text:asia_shanghai" value="Asia/Shanghai">(GMT+8:00) Asia/Shanghai (China Standard Time)</option>
+				<option symbol="text:asia_singapore" value="Asia/Singapore">(GMT+8:00) Asia/Singapore (Singapore Time)</option>
+				<option symbol="text:asia_taipei" value="Asia/Taipei">(GMT+8:00) Asia/Taipei (China Standard Time)</option>
+				<option symbol="text:asia_ujung_pandang" value="Asia/Ujung_Pandang">(GMT+8:00) Asia/Ujung_Pandang (Central Indonesia Time)</option>
+				<option symbol="text:asia_ulaanbaatar" value="Asia/Ulaanbaatar">(GMT+8:00) Asia/Ulaanbaatar (Ulaanbaatar Time)</option>
+				<option symbol="text:asia_ulan_bator" value="Asia/Ulan_Bator">(GMT+8:00) Asia/Ulan_Bator (Ulaanbaatar Time)</option>
+				<option symbol="text:asia_urumqi" value="Asia/Urumqi">(GMT+8:00) Asia/Urumqi (China Standard Time)</option>
+				<option symbol="text:australia_perth" value="Australia/Perth">(GMT+8:00) Australia/Perth (Western Standard Time (Australia))</option>
+				<option symbol="text:australia_west" value="Australia/West">(GMT+8:00) Australia/West (Western Standard Time (Australia))</option>
+				<option symbol="text:australia_eucla" value="Australia/Eucla">(GMT+8:45) Australia/Eucla (Central Western Standard Time (Australia))</option>
+				<option symbol="text:asia_dili" value="Asia/Dili">(GMT+9:00) Asia/Dili (Timor-Leste Time)</option>
+				<option symbol="text:asia_jayapura" value="Asia/Jayapura">(GMT+9:00) Asia/Jayapura (East Indonesia Time)</option>
+				<option symbol="text:asia_pyongyang" value="Asia/Pyongyang">(GMT+9:00) Asia/Pyongyang (Korea Standard Time)</option>
+				<option symbol="text:asia_seoul" value="Asia/Seoul">(GMT+9:00) Asia/Seoul (Korea Standard Time)</option>
+				<option symbol="text:asia_tokyo" value="Asia/Tokyo">(GMT+9:00) Asia/Tokyo (Japan Standard Time)</option>
+				<option symbol="text:asia_yakutsk" value="Asia/Yakutsk">(GMT+9:00) Asia/Yakutsk (Yakutsk Time)</option>
+				<option symbol="text:australia_adelaide" value="Australia/Adelaide">(GMT+9:30) Australia/Adelaide (Central Standard Time (South Australia))</option>
+				<option symbol="text:australia_broken_hill" value="Australia/Broken_Hill">(GMT+9:30) Australia/Broken_Hill (Central Standard Time (South Australia/New South Wales))</option>
+				<option symbol="text:australia_darwin" value="Australia/Darwin">(GMT+9:30) Australia/Darwin (Central Standard Time (Northern Territory))</option>
+				<option symbol="text:australia_north" value="Australia/North">(GMT+9:30) Australia/North (Central Standard Time (Northern Territory))</option>
+				<option symbol="text:australia_south" value="Australia/South">(GMT+9:30) Australia/South (Central Standard Time (South Australia))</option>
+				<option symbol="text:australia_yancowinna" value="Australia/Yancowinna">(GMT+9:30) Australia/Yancowinna (Central Standard Time (South Australia/New South Wales))</option>
+				<option symbol="text:antarctica_dumontdurville" value="Antarctica/DumontDUrville">(GMT+10:00) Antarctica/DumontDUrville (Dumont-d'Urville Time)</option>
+				<option symbol="text:asia_sakhalin" value="Asia/Sakhalin">(GMT+10:00) Asia/Sakhalin (Sakhalin Time)</option>
+				<option symbol="text:asia_vladivostok" value="Asia/Vladivostok">(GMT+10:00) Asia/Vladivostok (Vladivostok Time)</option>
+				<option symbol="text:australia_act" value="Australia/ACT">(GMT+10:00) Australia/ACT (Eastern Standard Time (New South Wales))</option>
+				<option symbol="text:australia_brisbane" value="Australia/Brisbane">(GMT+10:00) Australia/Brisbane (Eastern Standard Time (Queensland))</option>
+				<option symbol="text:australia_canberra" value="Australia/Canberra">(GMT+10:00) Australia/Canberra (Eastern Standard Time (New South Wales))</option>
+				<option symbol="text:australia_currie" value="Australia/Currie">(GMT+10:00) Australia/Currie (Eastern Standard Time (New South Wales))</option>
+				<option symbol="text:australia_hobart" value="Australia/Hobart">(GMT+10:00) Australia/Hobart (Eastern Standard Time (Tasmania))</option>
+				<option symbol="text:australia_lindeman" value="Australia/Lindeman">(GMT+10:00) Australia/Lindeman (Eastern Standard Time (Queensland))</option>
+				<option symbol="text:australia_melbourne" value="Australia/Melbourne">(GMT+10:00) Australia/Melbourne (Eastern Standard Time (Victoria))</option>
+				<option symbol="text:australia_nsw" value="Australia/NSW">(GMT+10:00) Australia/NSW (Eastern Standard Time (New South Wales))</option>
+				<option symbol="text:australia_queensland" value="Australia/Queensland">(GMT+10:00) Australia/Queensland (Eastern Standard Time (Queensland))</option>
+				<option symbol="text:australia_sydney" value="Australia/Sydney">(GMT+10:00) Australia/Sydney (Eastern Standard Time (New South Wales))</option>
+				<option symbol="text:australia_tasmania" value="Australia/Tasmania">(GMT+10:00) Australia/Tasmania (Eastern Standard Time (Tasmania))</option>
+				<option symbol="text:australia_victoria" value="Australia/Victoria">(GMT+10:00) Australia/Victoria (Eastern Standard Time (Victoria))</option>
+				<option symbol="text:australia_lhi" value="Australia/LHI">(GMT+10:30) Australia/LHI (Lord Howe Standard Time)</option>
+				<option symbol="text:australia_lord_howe" value="Australia/Lord_Howe">(GMT+10:30) Australia/Lord_Howe (Lord Howe Standard Time)</option>
+				<option symbol="text:asia_magadan" value="Asia/Magadan">(GMT+11:00) Asia/Magadan (Magadan Time)</option>
+				<option symbol="text:antarctica_mcmurdo" value="Antarctica/McMurdo">(GMT+12:00) Antarctica/McMurdo (New Zealand Standard Time)</option>
+				<option symbol="text:antarctica_south_pole" value="Antarctica/South_Pole">(GMT+12:00) Antarctica/South_Pole (New Zealand Standard Time)</option>
+				<option symbol="text:asia_anadyr" value="Asia/Anadyr">(GMT+12:00) Asia/Anadyr (Anadyr Time)</option>
+				<option symbol="text:asia_kamchatka" value="Asia/Kamchatka">(GMT+12:00) Asia/Kamchatka (Petropavlovsk-Kamchatski Time)</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend symbol="text:date_time"></legend>
+			<div>
+				<input type="radio" name="type" value="nochange" id="nochange" />
+				<label for="keep" symbol="text:keep_current_date_and_time"></label>
+			</div>
+			<div>
+				<input type="radio" id="auto" name="type" value="auto" />
+				<label for="auto" symbol="text:sync_with_computer_time">Set the server time the same as your computer time.</label>
+			</div>
+			<div>
+				<input type="radio" name="type" value="manual" id="manual" />
+				<label for="manual" symbol="text:manual">Custom time</label>
+				<input type="text" id="date" name="date" value="" size="11" maxlength="11" readonly="readonly" />
+				<span class="internal">&nbsp;</span>
+				<select id="hour" name="hour"  size="3" maxlength="3">
+					<option value=0>00</option>
+					<option value=1>01</option>
+					<option value=2>02</option>
+					<option value=3>03</option>
+					<option value=4>04</option>
+					<option value=5>05</option>
+					<option value=6>06</option>
+					<option value=7>07</option>
+					<option value=8>08</option>
+					<option value=9>09</option>
+					<option value=10>10</option>
+					<option value=11>11</option>
+					<option value=12>12</option>
+					<option value=13>13</option>
+					<option value=14>14</option>
+					<option value=15>15</option>
+					<option value=16>16</option>
+					<option value=17>17</option>
+					<option value=18>18</option>
+					<option value=19>19</option>
+					<option value=20>20</option>
+					<option value=21>21</option>
+					<option value=22>22</option>
+					<option value=23>23</option>
+				</select>
+				<span class="internal">:</span>
+				<select id="minute" name="minute" size="3" maxlength="3">
+					<option value=0>00</option>
+					<option value=1>01</option>
+					<option value=2>02</option>
+					<option value=3>03</option>
+					<option value=4>04</option>
+					<option value=5>05</option>
+					<option value=6>06</option>
+					<option value=7>07</option>
+					<option value=8>08</option>
+					<option value=9>09</option>
+					<option value=10>10</option>
+					<option value=11>11</option>
+					<option value=12>12</option>
+					<option value=13>13</option>
+					<option value=14>14</option>
+					<option value=15>15</option>
+					<option value=16>16</option>
+					<option value=17>17</option>
+					<option value=18>18</option>
+					<option value=19>19</option>
+					<option value=20>20</option>
+					<option value=21>21</option>
+					<option value=22>22</option>
+					<option value=23>23</option>
+					<option value=24>24</option>
+					<option value=25>25</option>
+					<option value=26>26</option>
+					<option value=27>27</option>
+					<option value=28>28</option>
+					<option value=29>29</option>
+					<option value=30>30</option>
+					<option value=31>31</option>
+					<option value=32>32</option>
+					<option value=33>33</option>
+					<option value=34>34</option>
+					<option value=35>35</option>
+					<option value=36>36</option>
+					<option value=37>37</option>
+					<option value=38>38</option>
+					<option value=39>39</option>
+					<option value=40>40</option>
+					<option value=41>41</option>
+					<option value=42>42</option>
+					<option value=43>43</option>
+					<option value=44>44</option>
+					<option value=45>45</option>
+					<option value=46>46</option>
+					<option value=47>47</option>
+					<option value=48>48</option>
+					<option value=49>49</option>
+					<option value=50>50</option>
+					<option value=51>51</option>
+					<option value=52>52</option>
+					<option value=53>53</option>
+					<option value=54>54</option>
+					<option value=55>55</option>
+					<option value=56>56</option>
+					<option value=57>57</option>
+					<option value=58>58</option>
+					<option value=59>59</option>
+				</select>
+				<span class="internal">:</span>
+				<select id="second" name="second"  size="3" maxlength="3">
+					<option value=0>00</option>
+					<option value=1>01</option>
+					<option value=2>02</option>
+					<option value=3>03</option>
+					<option value=4>04</option>
+					<option value=5>05</option>
+					<option value=6>06</option>
+					<option value=7>07</option>
+					<option value=8>08</option>
+					<option value=9>09</option>
+					<option value=10>10</option>
+					<option value=11>11</option>
+					<option value=12>12</option>
+					<option value=13>13</option>
+					<option value=14>14</option>
+					<option value=15>15</option>
+					<option value=16>16</option>
+					<option value=17>17</option>
+					<option value=18>18</option>
+					<option value=19>19</option>
+					<option value=20>20</option>
+					<option value=21>21</option>
+					<option value=22>22</option>
+					<option value=23>23</option>
+					<option value=24>24</option>
+					<option value=25>25</option>
+					<option value=26>26</option>
+					<option value=27>27</option>
+					<option value=28>28</option>
+					<option value=29>29</option>
+					<option value=30>30</option>
+					<option value=31>31</option>
+					<option value=32>32</option>
+					<option value=33>33</option>
+					<option value=34>34</option>
+					<option value=35>35</option>
+					<option value=36>36</option>
+					<option value=37>37</option>
+					<option value=38>38</option>
+					<option value=39>39</option>
+					<option value=40>40</option>
+					<option value=41>41</option>
+					<option value=42>42</option>
+					<option value=43>43</option>
+					<option value=44>44</option>
+					<option value=45>45</option>
+					<option value=46>46</option>
+					<option value=47>47</option>
+					<option value=48>48</option>
+					<option value=49>49</option>
+					<option value=50>50</option>
+					<option value=51>51</option>
+					<option value=52>52</option>
+					<option value=53>53</option>
+					<option value=54>54</option>
+					<option value=55>55</option>
+					<option value=56>56</option>
+					<option value=57>57</option>
+					<option value=58>58</option>
+					<option value=59>59</option>
+				</select>
+			</div>
+			<div>
+				<input type="radio" id="ntp" name="type" value="ntp" />
+				<label for="ntp" symbol="text:ntp_enabled">Synchronize with an Internet time server automatically</label>
+				<div>
+					<label symbol="text:ntp_server" for="ntp_server">Server:</label>
+					<select id="ntp_server">
+						<option value="pool.ntp.org" selected>Worldwide(pool.ntp.org)</option>
+						<option value="asia.pool.ntp.org">Asia(asia.pool.ntp.org)</option>
+						<option value="europe.pool.ntp.org">Europe(europe.pool.ntp.org)</option>
+						<option value="north-america.pool.ntp.org">North America(north-america.pool.ntp.org)</option>
+						<option value="oceania.pool.ntp.org">Oceania(oceania.pool.ntp.org)</option>
+						<option value="south-america.pool.ntp.org">South America(south-america.pool.ntp.org)</option>
+					</select>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>

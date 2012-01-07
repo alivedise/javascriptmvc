@@ -1,0 +1,80 @@
+<div class="widget-head">
+	<h3 symbol="text:recording_settings">Recording Settings</h3>
+</div>
+<div class="tablePanel">
+	<table class="camera grid view" id="viewGrid" path="/apps/meteor/encoder">
+	</table>
+</div>
+<div class="statusPanel">
+	<ul>
+		<li><a href="#div_general"><span symbol="text:general"></span></a></li>
+		<li><a href="#div_view"><span symbol="text:video_settings_of_liveview"></span></a></li>
+		<li><a href="#div_recording"><span symbol="text:video_settings_of_recording"></span></a></li>
+	</ul>
+	<div id="div_general">
+		<form>
+			<fieldset>
+				<div>
+					<label for="enable_audio_recording" symbol="text:audio_recording">Enable audio recording on this camera</label>
+					<input type="checkbox" id="enable_audio_recording" name="enable_audio_recording" />
+				</div>
+				<div>
+					<label for="enable_manual_recording" symbol="text:recording_manual">Enable manual recording</label>
+					<input type="checkbox" id="enable_manual_recording" name="enable_manual_recording" />
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<div id="div_view">
+		<form>
+			<fieldset>
+				<div>
+					<label for="1.encode_type" symbol="text:video_compression">Video compression</label>
+					<select id="1.encode_type" name="1.encode_type">
+					</select>
+				</div>
+				<div>
+					<label for="1.resolution" symbol="text:video_resolution">Resolution</label>
+					<select id="1.resolution" name="1.resolution">
+					</select>						
+				</div>
+				<div>
+					<label for="1.frame_rate" symbol="text:frame_rate">Frame rate</label>
+					<select id="1.frame_rate" name="1.frame_rate">
+					</select>
+				</div>
+				<div>
+					<label for="1.quality" symbol="text:quality">Quality</label>
+					<select id="1.quality" name="1.quality">
+					</select>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<div id="div_recording">
+		<form>
+			<fieldset>
+				<div>
+					<label for="0.encode_type" symbol="text:video_compression">Video compression</label>
+					<select id="0.encode_type" name="0.encode_type">
+					</select>
+				</div>
+				<div>
+					<label for="0.resolution" symbol="text:video_resolution">Resolution</label>
+					<select id="0.resolution" name="0.resolution">
+					</select>						
+				</div>
+				<div>
+					<label for="0.frame_rate" symbol="text:frame_rate">Frame rate</label>
+					<select id="0.frame_rate" name="0.frame_rate">
+					</select>
+				</div>
+				<div>
+					<label for="0.quality" symbol="text:quality">Quality</label>
+					<select id="0.quality" name="0.quality">
+					</select>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>

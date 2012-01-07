@@ -1,0 +1,81 @@
+.pf-group input.ui-button {
+	font-size:0.92em !important;
+	margin-bottom:3px;
+	padding:2px !important;
+}
+.ui-pnotify .ui-widget {                                                                                                                       
+	font-size:75% !important;
+	text-align:left;
+}
+.ui-pnotify-container.ui-state-highlight {
+	border-color: #0186d1;
+}
+
+.ui-pnotify.custom {
+	font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
+	font-weight:bold;
+	text-shadow:1px 1px 0.5px black;
+}
+.ui-pnotify.custom .ui-pnotify-container {
+	-moz-border-radius:10px 10px 10px 10px;
+	background-color:#666666;
+	background-image:none;
+	border:medium none;
+}
+.picon.picon-recording {background-image:url("images/recording2.gif")}
+.picon.picon-vivologo {background-image:url("images/vivologo.png")}
+.picon.picon-vivoicon {background-image:url("images/vivoicon.jpg")}
+.ui-pnotify.custom2 {
+	border:1px solid #0186D1;
+}
+.ui-pnotify.custom .ui-pnotify-title {
+	color:#FFFFFF;
+	font-size:15pt;
+}
+.ui-pnotify.custom .ui-pnotify-text {
+	color:#FFFFFF;
+	font-size:11pt;
+}
+.ui-pnotify.custom .ui-pnotify-closer {
+	bottom:5px;
+	position:absolute;
+	right:5px;
+}
+.ui-pnotify.custom .ui-pnotify-icon {
+	float:right;
+}
+.ui-pnotify.custom .picon {
+	height:33px;
+	margin:3px;
+	width:33px;
+}
+.ui-pnotify.stack-topleft {
+	left:15px;
+	right:auto;
+	top:15px;
+}
+.ui-pnotify.stack-bottomleft {
+	bottom:15px;
+	left:15px;
+	right:auto;
+	top:auto;
+}
+.ui-pnotify.stack-bottomright {
+	right: 28px;
+	top: auto;
+	bottom: 18px;
+}
+.ui-pnotify.stack-custom {
+	left:20%;
+	right:auto;
+	top:20%;
+}
+.ui-pnotify.stack-custom2 {
+	bottom:20%;
+	left:auto;
+	right:20%;
+	top:auto;
+}
+.ui-pnotify .ui-icon {
+	display: block;
+}

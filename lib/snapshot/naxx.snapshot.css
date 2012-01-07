@@ -1,0 +1,42 @@
+body {
+	font-size: .8em;
+}
+DIV#loader, div.encoder_container {
+  width: 100%;
+  height: 1000px;
+}
+
+div.container {
+	border: solid 1px #055298;
+	width: 320px;
+	height: 240px;
+	float: left;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+
+div.container  span.offset {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #0186d1;
+	color:white;
+}
+
+div#loader div.container img {
+	width: 100%;
+	height: 100%;
+}
+
+/** 
+ * While we're having the loading class set.
+ * Removig it, will remove the loading message
+ */
+div.loading {
+  background: url(../images/stream-loader.gif) no-repeat center center;
+}
+
+div.encoder_container.ui-tabs-panel.ui-widget-content {
+	background: black;
+}

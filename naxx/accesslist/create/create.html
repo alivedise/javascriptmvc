@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Naxx.Accesslist.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Naxx.Accesslist.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='accesslists'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('naxx/accesslist/create','naxx/fixtures',function(){
+				
+				$('#create').naxx_accesslist_create();
+				Naxx.Models.Accesslist.bind('created', function(ev, accesslist){
+					$('<div>').html("<h3>"+accesslist.name+"</h3><p>"+accesslist.description+"</p>")
+					        .appendTo( $('#accesslists') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>

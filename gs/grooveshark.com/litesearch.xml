@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Grooveshark</ShortName>
+    <Description>Search Grooveshark</Description>
+    <Image width="16" height="16" type="image/x-icon">
+        http://grooveshark.com/webincludes/images/favicon.ico?1
+    </Image>
+    <Contact>support@grooveshark.com</Contact>
+    <Developer>Jay Paroline</Developer>
+    <Url type="text/html" method="get" template="http://grooveshark.com/#/search?query={searchTerms}"/>
+    <LongName>Grooveshark.com</LongName>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+    <AdultContent>false</AdultContent>
+    <Attribution>
+        Search data Copyright Escape Media Group, All Rights Reserved
+    </Attribution>
+
+</OpenSearchDescription>

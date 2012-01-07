@@ -1,0 +1,8 @@
+.ip_container {
+}
+.ip_octet {
+  text-align: center;
+}
+.ip_cidr {
+  width: 1.5em;
+}

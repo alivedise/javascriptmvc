@@ -1,0 +1,194 @@
+<div class="widget-head">
+	<h3 symbol="text:sata_settings">Sata HD Setting</h3>
+</div>
+<div class="tablePanel">
+	<table class="hdd grid">
+	</table>
+</div>
+<div class="statusPanel">
+	<ul>
+		<li><a href="#overview"><span symbol="text:overview">Overview</span></a></li>
+		<li><a href="#diskinfo"><span symbol="text:disk_info">Disk info</span></a></li>
+		<li><a href="#smartinfo"><span symbol="text:smart">S.M.A.R.T. info</span></a></li>
+		<li><a href="#manual_test"><span symbol="text:manual_test">Manual test</span></a></li>
+		<!--li><a href="#schedule">Test schedule</a></li-->
+	</ul>
+	<div id="overview">
+		<form>
+			<fieldset>
+				<span class="smart_status" name="disk_health"></span>
+				<hr/>
+				<div>
+					<label for="device_model" symbol="text:device_model">Device model</label>
+					<span name="device_model"></span>
+				</div>
+				<div>
+					<label for="user_capacity" symbol="text:user_capacity">User capacity</label>
+					<span name="user_capacity"></span>
+				</div>
+				<div>
+					<label for="disk_health" symbol="text:disk_health">Disk health</label>
+					<span name="disk_health"></span>
+				</div>
+				<div>
+					<label for="disk_temperature" symbol="text:disk_temperature">Disk temp.</label>
+					<span name="disk_temperature"></span>
+				</div>
+				<div>
+					<label for="test_time" symbol="text:disk_last_test_time">Last test time</label>
+					<span name="test_time"></span>
+				</div>
+				<div>
+					<label for="test_result" symbol="text:disk_last_test_result">Last test result</label>
+					<span name="test_result"></span>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<div id="diskinfo">
+		<form>
+			<fieldset>
+				<div>
+					<label for="model_family" symbol="text:model_family">Model family</label>
+					<span name="model_family"></span>
+				</div>
+				<div>
+					<label for="device_model" symbol="text:device_model">Device model</label>
+					<span name="device_model"></span>
+				</div>
+				<div>
+					<label for="serial_number" symbol="text:serial_number">Serial number</label>
+					<span name="serial_number"></span>
+				</div>
+				<div>
+					<label for="firmware_version" symbol="text:firmware_version">Firmware version</label>
+					<span name="firmware_version"></span>
+				</div>
+				<div>
+					<label for="user_capacity" symbol="text:user_capacity">User capacity</label>
+					<span name="user_capacity"></span>
+				</div>
+				<div>
+					<label for="ata_version" symbol="text:ata_version">ATA version</label>
+					<span name="ata_version"></span>
+				</div>
+				<div>
+					<label for="ata_standard" symbol="text:ata_standard">ATA standard</label>
+					<span name="ata_standard"></span>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<div id="smartinfo">
+		<table class="smart"></table>
+	</div>
+	<div id="manual_test">
+		<form onsubmit="return false;">
+			<fieldset>
+				<div style="text-align:left">
+					<button id="short_test" symbol="text:short_test">Short test</button>
+					<button id="long_test" symbol="text:long_test">Long test</button>
+				</div>
+				<div>
+					<label for="manaul_test_result" symbol="text:disk_short_test_result">Test result</label>
+					<span name="manual_test_result"></span>
+				</div>
+				<div>
+					<label for="manaul_test_result_long" symbol="text:disk_long_test_result">Test result</label>
+					<span name="manual_test_result_long"></span>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<!--div id="schedule">
+		<form>
+			<fieldset>
+				<legend></legend>
+				<div>
+					<input type="checkbox" name="enable_short_test" value="enable_short_test"/>
+					<label for="enable_short_test">Enable short test in a week, at </label>
+					<div class="weekdiv">
+						<input type="checkbox" name="short_week" value=1 id=1 /><label for=1>Mon.</label>
+						<input type="checkbox" name="short_week" value=2 id=2 /><label for=2>Tue.</label>
+						<input type="checkbox" name="short_week" value=3 id=3 /><label for=3>Wed.</label>
+						<input type="checkbox" name="short_week" value=4 id=4 /><label for=4>Thu.</label>
+						<input type="checkbox" name="short_week" value=5 id=5 /><label for=5>Fri.</label>
+						<input type="checkbox" name="short_week" value=6 id=6 /><label for=6>Sat.</label>
+						<input type="checkbox" name="short_week" value=7 id=7 /><label for=7>Sun.</label>
+						<input id="short_hour" name="short_hour" value="" />
+						<div class="hidden" id="short_hour_list">
+							<ul>
+								<li><a href="#">01</a></li>
+								<li><a href="#">02</a></li>
+								<li><a href="#">03</a></li>
+								<li><a href="#">04</a></li>
+								<li><a href="#">05</a></li>
+								<li><a href="#">06</a></li>
+								<li><a href="#">07</a></li>
+								<li><a href="#">08</a></li>
+								<li><a href="#">09</a></li>
+								<li><a href="#">10</a></li>
+								<li><a href="#">11</a></li>
+								<li><a href="#">12</a></li>
+								<li><a href="#">13</a></li>
+								<li><a href="#">14</a></li>
+								<li><a href="#">15</a></li>
+								<li><a href="#">16</a></li>
+								<li><a href="#">17</a></li>
+								<li><a href="#">18</a></li>
+								<li><a href="#">19</a></li>
+								<li><a href="#">20</a></li>
+								<li><a href="#">21</a></li>
+								<li><a href="#">22</a></li>
+								<li><a href="#">23</a></li>
+							</ul>
+						</div>
+						<label for="short_hour">:00</label>
+					</div>
+				</div>
+				<div>
+					<input type="checkbox" name="enable_long_test" value="enable_long_test"/>
+					<label for="enable_long_test">Enable long test in a week, at </label>
+					<div class="weekdiv">
+						<input type="checkbox" name="long_week" value=1 id=1 /><label for=1>Mon.</label>
+						<input type="checkbox" name="long_week" value=2 id=2 /><label for=2>Tue.</label>
+						<input type="checkbox" name="long_week" value=3 id=3 /><label for=3>Wed.</label>
+						<input type="checkbox" name="long_week" value=4 id=4 /><label for=4>Thu.</label>
+						<input type="checkbox" name="long_week" value=5 id=5 /><label for=5>Fri.</label>
+						<input type="checkbox" name="long_week" value=6 id=6 /><label for=6>Sat.</label>
+						<input type="checkbox" name="long_week" value=7 id=7 /><label for=7>Sun.</label>
+						<input id="long_hour" name="long_hour" value="" />
+						<div class="hidden" id="long_hour_list">
+							<ul>
+								<li><a href="#">01</a></li>
+								<li><a href="#">02</a></li>
+								<li><a href="#">03</a></li>
+								<li><a href="#">04</a></li>
+								<li><a href="#">05</a></li>
+								<li><a href="#">06</a></li>
+								<li><a href="#">07</a></li>
+								<li><a href="#">08</a></li>
+								<li><a href="#">09</a></li>
+								<li><a href="#">10</a></li>
+								<li><a href="#">11</a></li>
+								<li><a href="#">12</a></li>
+								<li><a href="#">13</a></li>
+								<li><a href="#">14</a></li>
+								<li><a href="#">15</a></li>
+								<li><a href="#">16</a></li>
+								<li><a href="#">17</a></li>
+								<li><a href="#">18</a></li>
+								<li><a href="#">19</a></li>
+								<li><a href="#">20</a></li>
+								<li><a href="#">21</a></li>
+								<li><a href="#">22</a></li>
+								<li><a href="#">23</a></li>
+							</ul>
+						</div>
+						<label for="long_hour">:00</label>
+					</div>
+				</div-->
+			</fieldset>
+		</form>
+	</div>
+</div>

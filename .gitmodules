@@ -22,3 +22,9 @@
 [submodule "funcit"]
 	path = funcit
 	url = git://github.com/jupiterjs/funcit.git
+[submodule "steal2"]
+	path = steal2
+	url = git@github.com:alivedise/steal.git
+[submodule "jquerymx"]
+	path = jquerymx
+	url = git@github.com:alivedise/jquerymx.git

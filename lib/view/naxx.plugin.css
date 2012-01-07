@@ -1,0 +1,343 @@
+/* # 
+ * Copyright (c) 2011 Vivotek Inc. All rights reserved.
+ *
+ * +-----------------------------------------------------------------+
+ * | THIS SOFTWARE IS FURNISHED UNDER A LICENSE AND MAY ONLY BE USED |
+ * | AND COPIED IN ACCORDANCE WITH THE TERMS AND CONDITIONS OF SUCH  |
+ * | A LICENSE AND WITH THE INCLUSION OF THE THIS COPY RIGHT NOTICE. |
+ * | THIS SOFTWARE OR ANY OTHER COPIES OF THIS SOFTWARE MAY NOT BE   |
+ * | PROVIDED OR OTHERWISE MADE AVAILABLE TO ANY OTHER PERSON. THE   |
+ * | OWNERSHIP AND TITLE OF THIS SOFTWARE IS NOT TRANSFERRED.        |
+ * |                                                                 |
+ * | THE INFORMATION IN THIS SOFTWARE IS SUBJECT TO CHANGE WITHOUT   |
+ * | ANY PRIOR NOTICE AND SHOULD NOT BE CONSTRUED AS A COMMITMENT BY |
+ * | VIVOTEK INC.                                                    |
+ * +-----------------------------------------------------------------+
+ *
+ * Date: 2011-04-15 15:06:48
+ * Author: Alive Kuo (alive.kuo at vivotek.com)
+ */
+
+div.plugin {
+	position: relative;
+	z-index: 0;
+}
+
+div.cover.loading {
+	background: url(../images/gif/stream-loader-0.gif) no-repeat center center;
+}
+div.cover.loading_blue {
+	background: white url(../images/gif/stream-loader-3.gif) no-repeat center center;
+}
+
+div.cover, div.plugin.free {
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+
+div.plugin.free span {
+	height:100%;
+	display:inline-block;
+	color: white;
+	line-height:100%;
+}
+
+div.leftside {
+	width: auto;
+	height: 100%;
+	position: absolute;
+	left: 5px;
+	top: 4px;
+}
+
+div.leftside * {
+	vertical-align: center;
+	display: inline-block;
+}
+
+div.leftside div {
+	display: inline-block;
+	float: left;
+}
+
+div.rightside {
+	width: auto;
+	height: 100%;
+	position: absolute;
+	right: 5px;
+	top: 4px;
+}
+
+div.top_rightside {
+	z-index:10;
+	width: auto;
+	height: 25px;
+	position: absolute;
+	right: 5px;
+	top: 4px;
+}
+
+
+div.view>div.encoder_name {
+	z-index: 9;
+	font-size: 90%;
+	background: none;
+	width: auto;
+	position: absolute;
+	top: 1px;
+	left: 23px;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	color: black;
+}
+div.view.playback>div.encoder_name {
+	left: 1px;
+}
+
+div.view.emap>div.encoder_name {
+	left: 1px;
+}
+
+div.encoder_name span.channel_id {
+	background: white;
+	min-width: 1.5em;
+	text-align: center;
+}
+
+div.view>span.streaming_status {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	z-index: 9;
+}
+
+div.view.active>span.streaming_status {
+	top: 6px;
+	left: 6px;
+}
+
+div.view.active>div.encoder_name {
+	top: 6px;
+	left: 28px;
+}
+
+div.view.active.playback>div.encoder_name {
+	top: 6px;
+	left: 6px;
+}
+
+div.view.active.emap>div.encoder_name {
+	top: 6px;
+	left: 6px;
+}
+div.volume {
+	width: 62px;
+	float: left;
+}
+
+div.timeline_back {
+	width: 100%;
+	height: 100%;
+}
+
+div.timeline {
+	margin-left: 160px;
+	margin-right: 180px;
+	margin-top: 5px;
+	height: 21px;
+	background: url('../images/widget/viewcell/instant_timeline_back.png');
+	border:none;
+	padding: 0;
+}
+.timeline .ui-slider-handle.ui-state-default.ui-corner-all {
+	color: #0186d1;
+	width: 20px;
+	height: 19px;
+	background: url('../images/playback_pointer.png');
+	border: 0;
+	padding: 0;
+	margin-left: -10px;
+	margin-top: 6px;
+}
+
+.timeline .ui-slider-range.ui-slider-range-min.ui-widget-header {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	height: 19px;
+}
+
+span.time_indicator {
+	border: solid 2px #fff;
+	line-height: 25px;
+	height: 25px;
+	color: white;
+	margin-top: -4px;
+}
+span.start_time_indicator
+{
+	border: solid 2px #fff;
+	line-height: 25px;
+	height: 25px;
+	min-width: 60px;
+	color: white;
+	margin-top: -4px;
+}
+span.end_time_indicator
+{
+	border: solid 2px #fff;
+	line-height: 25px;
+	height: 25px;
+	min-width: 60px;
+	color: white;
+	margin-top: -4px;
+}
+
+div.leftside input {
+	height: 28px;
+	width: 80px;
+}
+
+div.encoder_name * {
+	display: inline-block;
+	float: left;
+	vertical-align: center;
+	height: auto;
+	line-height: 18px;
+	width: auto;
+}
+
+div.encoder_name .timestamp {
+	text-align: center;
+	padding-left: .2em;
+	padding-right: .2em;
+	height: 18px;
+	line-height: 18px;
+	background: grey;
+	color: white;
+	min-width: 123px;
+}
+
+div.encoder_name span.camera.status {
+	margin-right: 3px;
+	width: 20px;
+	height: 20px;
+}
+
+div.view div.cover div.pip {
+	position: absolute;
+	right: 5px;
+	bottom: 40px;
+	z-index: 100;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+}
+
+div.pip.actived {
+	border: solid black 1px;
+}
+div.pip.actived object {
+	border: solid white 1px;
+}
+
+div.pip span.viewcellBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+div.bookmark_tip {
+	position: absolute;
+	z-index: 10000;
+	width: 100px;
+	height: 25px;
+	top: -30px;
+	left: 40px;
+	background: url('../images/widget/viewcell/BookmarkInput.png') no-repeat left top;
+	color: white;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+div.bookmark_tip input {
+	width: 96px;
+	margin: 1px;
+	height: 23px;
+	line-height: 23px;
+	font-size: .9em;
+	background: transparent;
+	color: white;
+	border: none;
+}
+
+div.bookmark_tip button {
+	position: absolute;
+	right: -23px;
+	width: 22px;
+	height: 22px;
+	top: 2px;
+	min-width: 22px;
+}
+
+span.bookmark_content {
+	min-width: 1em;
+}
+
+/*volume slider rounder*/
+div.volume.ui-slider > img.left{
+	position: absolute;
+	left: -5px;
+	top: 0;
+}
+div.volume.ui-slider > img.right{
+	position: absolute;
+	right: -5px;
+	top: 0;
+}
+.volume .ui-slider-handle.ui-state-default.ui-corner-all {
+	color: #0186d1;
+	width: 17px;
+	height: 17px;
+	background: url('../images/widget/viewcell/thumb.png');
+	border: 0;
+	padding: 0;
+	margin-left: -8px;
+	margin-top: 0;
+}
+
+.volume .ui-slider-range.ui-slider-range-min.ui-widget-header {
+	background: #0d8ada;
+}
+div.volume {
+	height: 8px;
+	float:left;
+	display:inline-block;
+	margin-top: 9px;
+	margin-left: 12px;
+	border: none;
+}
+
+div.viewcell_tip {
+	background: white;
+	color: black;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: auto;
+	min-width: 100px;
+	display: none;
+	z-index: 10000;
+}
+div.viewcell_tip div{
+	height: 25px;
+	line-height: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	vertical-align: middle;
+	text-overflow:ellipsis; 
+	white-space: nowrap;
+}
+
+/*右鍵選單*/

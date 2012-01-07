@@ -1,0 +1,20 @@
+steal('jquery/view/ejs').then(function( $ ) {
+	$.View.preload('naxx_login_views_init_ejs', jQuery.EJS(function( _CONTEXT, _VIEW ) {
+		try {
+			with( _VIEW ) {
+				with( _CONTEXT ) {
+					var ___v1ew = [];
+					___v1ew.push("<div id=\"desktop\">\n");
+					___v1ew.push("\t<div id=\"login_form\"></div>\n");
+					___v1ew.push("</div>\n");
+					___v1ew.push("<div id=\"taskbar\"></div>\n");
+					___v1ew.push("\n");;
+					return ___v1ew.join('');
+				}
+			}
+		} catch (e) {
+			e.lineNumber = null;
+			throw e;
+		}
+	}));
+})

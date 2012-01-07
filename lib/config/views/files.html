@@ -1,0 +1,42 @@
+<div class="widget-head">
+	<h3>File Service</h3>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset>
+			<legend>Microsoft SMB/CIFS File Service</legend>
+			<div>
+				<label for="enable_smb">Enable SMB/CIFS File Service</label>
+				<input type="checkbox" name="enable_smb" id="enable_smb" />
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Web File Manager</legend>
+			<div>
+				<label for="enable_web_filem">Enable Web File Manager</label>
+				<input type="checkbox" name="enable_web_filem" id="enable_web_filem" />
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>FTP Service</legend>
+			<div>
+				<input type="checkbox" name="enable_ftp" id="enable_ftp" />
+				<label for="enable_ftp">Enable FTP Service</label>
+				<div>
+					<input type="checkbox" id="ftp_port" name="ftp_port" />Map the FTP port of NVR to the virtual server as <input type="text" />Passive FTP Port Range 
+					<div>
+						<input type="radio" name="ftp_default">Use the default port range (55536 - 56559)</li>
+						<input type="radio" name="ftp_define">Define port range: <input type="text" name="ftp_start_port" id="ftp_start_port" /> - <input type="text" name="ftp_end_port" id="ftp_end_port "/></li>
+					</div>
+				</div>
+			</div>
+			<div>
+				<input type="checkbox" id="ftp_external" name="ftp_external" >Respond with external IP address for passive FTP connection request
+				<div>
+					<label for="ftp_external_address">External IP address: </label>
+					<input type="text" id="ftp_external_address" name="ftp_external_address" />
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>

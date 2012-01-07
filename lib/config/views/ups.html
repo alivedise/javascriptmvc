@@ -1,0 +1,38 @@
+<div class="widget-head">
+	<h3 symbol="text:ups_settings">Ups Settings</h3>
+</div>
+<div class="statusPanel">
+	<form>
+		<fieldset class="right">
+			<legend symbol="text:ups_configuration">UPS Config</legend>
+			<div>
+				<label for="enable" symbol="text:ups_enable">Enable UPS Support</label>
+				<input type="checkbox" />
+			</div>
+			<div>
+				<label symbol="text:ac_fail_1">
+					After the AC power fails for  </label><input type="text" value="5" /><label symbol="text:ac_fail_2"> minute(s), turn off the server. </label>
+				</label>
+				<input type="radio" name="turnoff" />
+			</div>
+			<div>
+				<label symbol="text:ac_fail_1">After the AC power fails for  </span><input type="text" value="5" /><span symbol="text:ac_fail_3"> minute(s), the server should enter standby mode. When the power resumes, the system resumes to the operation status.</label>
+				<input type="radio" name="standby" />
+			</div>
+			<div>
+				<label symbol="text:ups_model">UPS Model</label>
+				<select name="UPS_Type" onClick="check_test_enabled();" onChange="OnSelectUPS(this);">
+					<option value=3_UPS_TYPE symbol="text:usb_ups">USB UPS(auto detect)</option>
+					<option value=4_UPS_TYPE symbol="text:snmp_ups">APC UPS with SNMP Management</option>
+				</select>
+			</div>
+			<div>
+				<label symbol="text:ups_address">IP Address of UPS</label>
+				<input type="text" />
+			</div>
+		</fieldset>
+		<fieldset class="left">
+			<legend symbol="text:ups_status">UPS Status</legend>
+		</fieldset>
+	</form>
+</div>

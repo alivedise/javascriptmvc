@@ -1,0 +1,206 @@
+/* # 
+ * Copyright (c) 2011 Vivotek Inc. All rights reserved.
+ *
+ * +-----------------------------------------------------------------+
+ * | THIS SOFTWARE IS FURNISHED UNDER A LICENSE AND MAY ONLY BE USED |
+ * | AND COPIED IN ACCORDANCE WITH THE TERMS AND CONDITIONS OF SUCH  |
+ * | A LICENSE AND WITH THE INCLUSION OF THE THIS COPY RIGHT NOTICE. |
+ * | THIS SOFTWARE OR ANY OTHER COPIES OF THIS SOFTWARE MAY NOT BE   |
+ * | PROVIDED OR OTHERWISE MADE AVAILABLE TO ANY OTHER PERSON. THE   |
+ * | OWNERSHIP AND TITLE OF THIS SOFTWARE IS NOT TRANSFERRED.        |
+ * |                                                                 |
+ * | THE INFORMATION IN THIS SOFTWARE IS SUBJECT TO CHANGE WITHOUT   |
+ * | ANY PRIOR NOTICE AND SHOULD NOT BE CONSTRUED AS A COMMITMENT BY |
+ * | VIVOTEK INC.                                                    |
+ * +-----------------------------------------------------------------+
+ *
+ * Date: 2011-04-18 11:50:30
+ * Author: Alive Kuo (alive.kuo at vivotek.com)
+ */
+
+.emap {
+	z-index: 9;
+}
+
+.emapback {
+	background-color:white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.emapback img.emap{
+	width: 100%;
+	height: 100%;
+}
+
+.moving {
+	cursor: move;
+}
+
+.processing {
+	cursor: progress;
+}
+
+div.emapback div.view {
+	z-index: 10000;
+}
+
+div.emapback div.view.max {
+	z-index: 10002;
+}
+
+.emapcamera {
+	position: absolute;
+	top: -18px;
+	left: -18px;
+	z-index: 1000;
+}
+
+div.emap.matrix {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 200px;
+}
+
+span.cameraid {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+span.cid {
+	font-size: 12px;
+	color: #18549d;
+	font-family: impact;
+	z-index: 2;
+	position:absolute;
+	top:10px;
+	left:5px;
+	background: white;
+}
+
+span.vid {
+	background: white;
+	font-size: 15px;
+	color: #0186DA;
+	z-index: 2;
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+}
+div.emap div.minimap {
+	border: 2px #222 solid;
+	right: 0;
+	bottom: 0;
+	background: white;
+	position: absolute;
+	width: 210px;
+	height: 180px;
+}
+
+div.minimap img{
+	width: 100%;
+	height: 100%;
+}
+
+div.minimap span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+div.emap button.btn25D {
+	position: absolute;
+	z-index: 9999;
+	top: 10px;
+	right: 10px;
+}
+
+div.miniscreen {
+	border: 2px #0186D1 inset;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*background: #0186DA;*/
+	width: 100%;
+	height: 100%;
+	opacity:.75;
+	filter: alpha( opacity=75 );
+	-moz-opacity: 0.75;
+	z-index: 11;
+	padding-right: auto;
+	padding-left: auto;
+	overflow: visible;
+}
+
+div#emaplist {
+	display: none;
+	text-align: left;
+	padding: 50px;
+}
+
+div#emaplist * {
+	vertical-align: middle;
+}
+
+
+div#emapshots .emapshots {
+	width: 150px;
+	border: solid 3px #525252;
+	margin: 20px;
+}
+
+div#emapshots img.emapshots:hover {
+	border-color: white;
+}
+
+div#emapupload, div.blockform {
+	z-index: -1;
+	position: absolute;
+	background: #2a2a2a;
+	width: 100%;
+	height: 100%;
+	border: solid 2px white;
+	padding: 20px;
+	display: none;
+}
+
+div#emapupload label {
+	width: 100px;
+	font-size: 11px;
+}
+
+div#emapupload input[type=text], div#emapupload select {
+	height: 30px;
+	width: 225px;
+	font-size: 11px;
+	border-style: inset;
+}
+
+/*align with select*/
+div#emapupload input[type=text] {
+	padding-left: 3px;
+	height: 26px;
+	width: 221px;
+}
+
+div#emapupload p {
+	height: 50px;
+}
+
+div#emapupload p.button {
+	text-align: center;
+}
+
+div#emapupload img.targetshot {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	width: 150px;
+}

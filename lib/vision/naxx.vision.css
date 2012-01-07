@@ -1,0 +1,230 @@
+/* # 
+ * Copyright (c) 2011 Vivotek Inc. All rights reserved.
+ *
+ * +-----------------------------------------------------------------+
+ * | THIS SOFTWARE IS FURNISHED UNDER A LICENSE AND MAY ONLY BE USED |
+ * | AND COPIED IN ACCORDANCE WITH THE TERMS AND CONDITIONS OF SUCH  |
+ * | A LICENSE AND WITH THE INCLUSION OF THE THIS COPY RIGHT NOTICE. |
+ * | THIS SOFTWARE OR ANY OTHER COPIES OF THIS SOFTWARE MAY NOT BE   |
+ * | PROVIDED OR OTHERWISE MADE AVAILABLE TO ANY OTHER PERSON. THE   |
+ * | OWNERSHIP AND TITLE OF THIS SOFTWARE IS NOT TRANSFERRED.        |
+ * |                                                                 |
+ * | THE INFORMATION IN THIS SOFTWARE IS SUBJECT TO CHANGE WITHOUT   |
+ * | ANY PRIOR NOTICE AND SHOULD NOT BE CONSTRUED AS A COMMITMENT BY |
+ * | VIVOTEK INC.                                                    |
+ * +-----------------------------------------------------------------+
+ *
+ * Date: 2011-04-15 14:57:35:call SearchCompleteStop()
+ *
+ * Author: Alive Kuo (alive.kuo at vivotek.com)
+ */
+
+div.vision {
+	overflow: hidden;
+}
+
+div.vision.liveview, div.vision.playback {
+	background-color: #222;
+}
+
+.ui-icon-z {
+	width: 16px; height: 16px; background-image: url(images/12[1].jpg);
+}
+
+/*class for basic view-cell*/
+div.view {
+	position: absolute;
+	border: none;
+	z-index: 1;
+	background: none;
+	width: auto;
+	height: auto;
+}
+
+div.view.active {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 40px;
+	background: url('../images/widget/viewcell/semitransparent.png');
+	border: grey 1px solid;
+	z-index: 9998;
+}
+
+div.view.overview {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+
+div.view.hover {
+	border-color: #96ac26;
+	z-index: 9997;
+}
+
+div.view.max {
+	padding-top: 25px;
+	z-index: 10001;
+}
+
+div.cover{
+	z-index: 8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('../images/blank.png') repeat-x repeat-y;
+}
+
+/*style for window-less plugin control button panels*/
+
+div.controlbtn {
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	height: 40px;
+	min-height: 24px;
+	max-height: 33px;
+	width: 100%;
+	z-index: 9;
+	overflow: visible;
+}
+
+div.view div.controlbtn {
+	display: none;
+}
+
+div.view.active div.controlbtn {
+	display: block;
+}
+
+div.view .fisheye_controller {
+	display: none;
+}
+
+div.view.max .fisheye_controller {
+	display: inline-block;
+}
+
+div.controlptz {
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	text-align: center;
+	z-index: 7;
+	display: none;
+}
+
+div.micSlider {
+	height: 90%;
+	top: 5%;
+	right: 20px;
+	position: absolute;
+}
+
+div.contextMenu {
+	display: none;
+}
+
+div.contextMenu img {
+	height: 15px;
+}
+
+
+div.pipview {
+	height: 120px;
+	width: 160px;
+	position: absolute;
+	top:20px;
+	right:0;
+	background: #222222;
+	z-index: 9;
+}
+
+.pipplugin,.pipmask {
+	width: 160px;
+	height: 120px;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	top: 0;
+}
+
+.pipmask {
+	z-index: 2;
+	background: black;
+}
+
+.drag-window {
+	border-style:ridge;
+	border-width:2px;
+	width:156px;
+	height:116px;
+	position:absolute;
+	z-index:3;
+	right:0;
+	background-color:#fff;
+	opacity:0.5;
+}
+
+
+/*let the empty image fit the view size*/
+div.plugin {
+	vertical-align: middle; 
+	height: 100%;
+	width: 100%;
+	background: #333333 url(../images/widget/viewcell/ViewCellBg.jpg) repeat-x;
+	line-height: 100%;
+	text-align : center;
+	border: solid 1px #222;
+}
+
+div.plugin.Playback {
+	height: 95%;
+}
+
+
+img.empty {
+	vertical-align: middle;
+}
+
+
+/*by channel lcd*/
+span.playscreen {
+	margin-top: 10px;
+	font-size: 10px;
+	width: 250px;
+	height: 35px;
+	padding: 5px;
+	display: inline-block;
+	color: white;
+	position: relative;
+}
+
+span.playscreen img {
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+span.playscreen span{
+	z-index: auto;
+}
+
+
+
+div.view div.border {
+	position: absolute;
+	top: 22px;
+	left: 0px;
+	width: 100%;
+	border-top: solid 1px white;
+	height: 1px;
+}
+
